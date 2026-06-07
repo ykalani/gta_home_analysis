@@ -109,7 +109,12 @@
     }
  
     .search-input-wrapper input::placeholder {
-      color: #383532;
+      color: #827c76;
+      transition: color 0.2s ease;
+    }
+
+    .search-input-wrapper input:focus::placeholder {
+      color: #4a4540;
     }
  
     .search-input-wrapper button {
@@ -123,10 +128,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: color 0.2s ease;
+      transition: color 0.25s ease, transform 0.25s ease;
     }
  
     .search-input-wrapper button:hover { 
+      color: var(--accent);
+      transform: translateX(3px);
+    }
+
+    .search-input-wrapper button:focus-visible {
+      outline: none;
       color: var(--accent);
     }
 
@@ -163,7 +174,19 @@
       font-size: 0.9rem;
       padding: 0.4rem 0.6rem;
       outline: none;
-      transition: border-color 0.25s ease;
+      transition: border-color 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+    }
+
+    .setting-item select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding-right: 2.2rem;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4af37' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      background-size: 14px;
+      cursor: pointer;
     }
 
     .setting-item select:focus,
@@ -317,28 +340,45 @@
     .school-rating {
       font-family: 'Lora', serif;
       font-weight: 700;
-      font-size: 1.25rem;
-      width: 42px;
+      font-size: 1.05rem;
+      width: 44px;
+      height: 44px;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: center;
+      border-radius: 2px;
       font-variant-numeric: oldstyle-nums;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
     }
 
     .school-rating.high {
       color: #10b981;
+      border-color: rgba(16, 185, 129, 0.25);
+      background: rgba(16, 185, 129, 0.04);
     }
 
     .school-rating.mid {
       color: #f59e0b;
+      border-color: rgba(245, 158, 11, 0.25);
+      background: rgba(245, 158, 11, 0.04);
     }
 
     .school-rating.low {
       color: #ef4444;
+      border-color: rgba(239, 68, 68, 0.25);
+      background: rgba(239, 68, 68, 0.04);
     }
 
     .school-rating.none {
       color: var(--text-muted);
+      border-color: var(--border);
+    }
+
+    .school-item:hover .school-rating {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.04);
     }
 
     .school-details {
@@ -386,12 +426,18 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background: rgba(12, 11, 10, 0.9);
-      backdrop-filter: blur(4px);
+      background: rgba(12, 11, 10, 0.92);
+      backdrop-filter: blur(8px);
       z-index: 9999;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      opacity: 0;
+      transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    .loader-overlay.active {
+      opacity: 1;
     }
     
     .spinner {
@@ -516,6 +562,124 @@
       to { transform: rotate(360deg); }
     }
  
+    /* Mobile adapt pass */
+    @media (max-width: 1024px) { 
+      .results-layout { 
+        grid-template-columns: 1fr; 
+        gap: 2.5rem;
+        padding-top: 2rem;
+      }
+      .vertical-divider {
+        height: 1px;
+        width: 100%;
+        background-color: var(--border);
+      }
+    }
+
+    @media (max-width: 576px) {
+      body {
+        padding: 2.5rem 1.25rem;
+      }
+      .commute-settings {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+      }
+      .setting-item {
+        width: 100%;
+      }
+      .setting-item select,
+      .setting-item input[type="time"] {
+        width: 100%;
+      }
+    }
+
+    /* Suggestions box styling */
+    .suggestions-box {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      text-align: center;
+      opacity: 0;
+      animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    .suggestions-title {
+      font-family: 'Lora', serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    .suggestions-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    .suggestion-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'Lora', serif;
+      font-size: 0.85rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: border-color 0.25s ease, color 0.25s ease, background-color 0.25s ease;
+    }
+    .suggestion-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(212, 175, 55, 0.02);
+    }
+    .suggestion-btn:focus-visible {
+      outline: none;
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    
+    /* Transit details and badges */
+    .transit-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.15rem 0.45rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-radius: 2px;
+      color: #0c0b0a;
+      line-height: 1;
+      margin-right: 0.4rem;
+      vertical-align: middle;
+    }
+    .transit-subway {
+      background-color: var(--subway);
+    }
+    .transit-gotrain {
+      background-color: var(--gotrain);
+      color: #ffffff;
+    }
+    .transit-bus {
+      background-color: var(--bus);
+      color: #ffffff;
+    }
+    .line-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.15rem 0.45rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      color: var(--text);
+      line-height: 1;
+      background: rgba(255, 255, 255, 0.03);
+      vertical-align: middle;
+    }
+
     @media (prefers-reduced-motion: reduce) {
       .container {
         animation: none;
@@ -523,6 +687,19 @@
       }
       .spinner {
         animation: none;
+      }
+      .search-input-wrapper button:hover {
+        transform: none;
+      }
+      .suggestions-box {
+        animation: none;
+        opacity: 1;
+      }
+      .school-rating {
+        transition: none;
+      }
+      .school-item:hover .school-rating {
+        transform: none;
       }
     }
   </style>
@@ -589,6 +766,18 @@
         </div>
       </div>
       {% endif %}
+      
+      <!-- Suggested locations for empty onboarding state -->
+      {% if not result %}
+      <div class="suggestions-box">
+        <div class="suggestions-title">Analyze a sample location</div>
+        <div class="suggestions-list">
+          <button type="button" class="suggestion-btn" onclick="fillAddress('100 Front St W')">100 Front St W (Downtown)</button>
+          <button type="button" class="suggestion-btn" onclick="fillAddress('245 Eglinton Ave E')">245 Eglinton Ave E (Midtown)</button>
+          <button type="button" class="suggestion-btn" onclick="fillAddress('1 Yonge St')">1 Yonge St (Waterfront)</button>
+        </div>
+      </div>
+      {% endif %}
     </div>
  
     <!-- Error Handling -->
@@ -630,7 +819,10 @@
                       {% if step.type == 'walk' %}
                         Walk
                       {% else %}
-                        {{ step.vehicle }} ({{ step.line }})
+                        <span class="transit-badge transit-{{ step.vehicle|lower|replace(' ', '') }}">{{ step.vehicle }}</span>
+                        {% if step.line %}
+                          <span class="line-badge">{{ step.line }}</span>
+                        {% endif %}
                       {% endif %}
                     </div>
                     <div class="timeline-duration">
@@ -752,9 +944,23 @@
   </div>
  
   <script>
-    // Show spinner overlay when form is submitted
+    // Show spinner overlay when form is submitted with smooth fade-in
     function showLoader() {
-      document.getElementById('loader').style.display = 'flex';
+      const loader = document.getElementById('loader');
+      loader.style.display = 'flex';
+      // force reflow
+      loader.offsetHeight;
+      loader.classList.add('active');
+    }
+
+    // Auto fill address helper for empty-state suggestions
+    function fillAddress(addr) {
+      const input = document.querySelector('input[name="address"]');
+      if (input) {
+        input.value = addr;
+        showLoader();
+        input.form.submit();
+      }
     }
   </script>
 </body>
