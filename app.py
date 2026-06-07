@@ -67,7 +67,7 @@ def _load_ontario_schools():
             
     try:
         df = pd.read_csv(ONTARIO_SCHOOLS_TXT, sep="|")
-        df = df[['School Name', 'Grade Range']].dropna()
+        df = df[['School Name', 'Grade Range', 'School Type', 'Board Type', 'School Language']].dropna(subset=['School Name', 'Grade Range'])
         return df.to_dict(orient="records")
     except Exception as e:
         print(f"Error loading contact list: {e}", flush=True)
@@ -277,20 +277,48 @@ def name_score(a, b):
         return 0.0
     return len(wa & wb) / max(len(wa), len(wb))
 
-def find_grade_range(osm_name):
+def find_school_details(osm_name):
     best_score = 0.0
-    best_range = "JK-8"  # fallback default
+    best_row = None
     
     for row in ONTARIO_SCHOOLS:
         school_name = str(row.get("School Name", ""))
         score = name_score(osm_name, school_name)
         if score > best_score:
             best_score = score
-            best_range = str(row.get("Grade Range", "JK-8"))
+            best_row = row
             
-    if best_score >= 0.4:
-        return best_range
-    return "JK-8"
+    if best_score >= 0.4 and best_row is not None:
+        school_type = str(best_row.get("School Type", ""))
+        board_type = str(best_row.get("Board Type", ""))
+        school_lang = str(best_row.get("School Language", ""))
+        school_name = str(best_row.get("School Name", ""))
+        
+        is_public = (school_type == "Public") and ("Pub" in board_type)
+        
+        name_lower = school_name.lower()
+        is_french_immersion = (school_lang == "French") or \
+                              ("immersion" in name_lower) or \
+                              ("français" in name_lower) or \
+                              ("francais" in name_lower)
+                              
+        return best_row.get("Grade Range", "JK-8"), is_public, is_french_immersion
+
+    # Fallback parsing on OSM school name if not matched in contact list
+    name_lower = osm_name.lower()
+    is_pub = ("catholic" not in name_lower) and \
+             ("separate" not in name_lower) and \
+             ("académie" not in name_lower) and \
+             ("academie" not in name_lower) and \
+             ("collège" not in name_lower) and \
+             ("college" not in name_lower)
+             
+    is_french = ("immersion" in name_lower) or \
+                ("français" in name_lower) or \
+                ("francais" in name_lower) or \
+                ("french" in name_lower)
+                
+    return "JK-8", is_pub, is_french
 
 def covers_5_to_8(grade_range):
     if not isinstance(grade_range, str) or '-' not in grade_range:
@@ -327,13 +355,15 @@ def match_fraser(osm_schools, house_lat, house_lng):
         dist = haversine_km(house_lat, house_lng, s["lat"], s["lng"])
         rating = float(best_rating) if best_score >= 0.3 and best_rating is not None and not pd.isna(best_rating) else None
         
-        grade_range = find_grade_range(s["name"])
+        grade_range, is_public, is_french_immersion = find_school_details(s["name"])
         
         results.append({
             "school": s["name"],
             "rating": rating,
             "dist_km": round(dist, 2),
-            "grade_range": grade_range
+            "grade_range": grade_range,
+            "is_public": is_public,
+            "is_french_immersion": is_french_immersion
         })
 
     return sorted(results, key=lambda x: x["dist_km"])
@@ -374,7 +404,11 @@ def index():
                     schools = sort_by_rating(schools_all)[:8]
                     
                     # Section 3: Public Schools (5-8 Span) Nearby (sorted by rating)
-                    schools_middle_all = [s for s in schools_all if covers_5_to_8(s["grade_range"])]
+                    # Filter: Must be public, must cover 5-8 span, must not be French Immersion
+                    schools_middle_all = [
+                        s for s in schools_all 
+                        if covers_5_to_8(s["grade_range"]) and s["is_public"] and not s["is_french_immersion"]
+                    ]
                     schools_middle = sort_by_rating(schools_middle_all)[:8]
 
                     result = {
