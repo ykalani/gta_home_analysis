@@ -339,6 +339,14 @@ def match_fraser(osm_schools, house_lat, house_lng):
     return sorted(results, key=lambda x: x["dist_km"])
 
 
+def sort_by_rating(schools_list):
+    # Sorts with rated schools first (highest rating to lowest),
+    # and unrated schools last (sorted by distance).
+    rated = sorted([s for s in schools_list if s["rating"] is not None], key=lambda x: -x["rating"])
+    unrated = sorted([s for s in schools_list if s["rating"] is None], key=lambda x: x["dist_km"])
+    return rated + unrated
+
+
 # ── Routes ────────────────────────────────────────────────────────────────────
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -362,12 +370,12 @@ def index():
                     osm_schools = overpass_schools(lat, lng)
                     schools_all = match_fraser(osm_schools, lat, lng)
                     
-                    # Section 2: General Elementary Schools Nearby
-                    schools = schools_all[:8]
+                    # Section 2: Best Schools Nearby (sorted by rating)
+                    schools = sort_by_rating(schools_all)[:8]
                     
-                    # Section 3: Middle & Elementary Schools (5-8 Span) Nearby
-                    schools_middle = [s for s in schools_all if covers_5_to_8(s["grade_range"])]
-                    schools_middle = schools_middle[:8]
+                    # Section 3: Public Schools (5-8 Span) Nearby (sorted by rating)
+                    schools_middle_all = [s for s in schools_all if covers_5_to_8(s["grade_range"])]
+                    schools_middle = sort_by_rating(schools_middle_all)[:8]
 
                     result = {
                         "address": address,

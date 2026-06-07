@@ -601,7 +601,7 @@
  
       <!-- Column Middle: Nearby elementary schools -->
       <div class="column-middle">
-        <h2 class="section-title">Elementary Schools Nearby</h2>
+        <h2 class="section-title">Best Schools</h2>
         
         {% if result.schools %}
           <div class="school-list">
@@ -630,7 +630,7 @@
               </div>
             {% endfor %}
           </div>
-          <p class="note">Showing up to 8 closest schools matched against Fraser Institute ratings database. Ratings range from 0.0 (lowest) to 10.0 (highest).</p>
+          <p class="note">Showing up to 8 schools sorted by Fraser Institute ratings (highest to lowest), followed by unrated schools closest by distance.</p>
         {% else %}
           <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No schools found within 3 km via OpenStreetMap query.</p>
         {% endif %}
@@ -641,7 +641,7 @@
  
       <!-- Column Right: Middle & Elementary (5-8 Span) -->
       <div class="column-right">
-        <h2 class="section-title">Middle &amp; JK-8 Schools Nearby</h2>
+        <h2 class="section-title">Public Schools</h2>
         
         {% if result.schools_middle %}
           <div class="school-list">
@@ -670,7 +670,7 @@
               </div>
             {% endfor %}
           </div>
-          <p class="note">Showing up to 8 closest schools covering the grade 5-8 span (such as 4-8, 5-8, JK-8) matched against Fraser ratings.</p>
+          <p class="note">Showing up to 8 schools covering the grade 5-8 span (such as 4-8, 5-8, JK-8), sorted by Fraser Institute ratings (highest to lowest), followed by unrated schools closest by distance.</p>
         {% else %}
           <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No schools covering the 5-8 span found within 3 km.</p>
         {% endif %}
