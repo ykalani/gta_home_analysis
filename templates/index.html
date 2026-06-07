@@ -30,7 +30,7 @@
     }
 
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: 'Lora', -apple-system, BlinkMacSystemFont, "Segoe UI", serif;
       background-color: var(--bg);
       color: var(--text);
       min-height: 100vh;
@@ -216,7 +216,7 @@
  
     /* Recommended route summary */
     .route-summary {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Lora', serif;
       border: 1px solid var(--border);
       padding: 1.25rem;
       border-radius: 2px;
@@ -259,8 +259,8 @@
     .school-item {
       display: flex;
       align-items: center;
-      gap: 1.5rem;
-      padding: 1.25rem 0;
+      gap: 1rem;
+      padding: 1rem 0;
       border-bottom: 1px solid var(--border);
     }
 
@@ -271,37 +271,27 @@
     .school-rating {
       font-family: 'JetBrains Mono', monospace;
       font-weight: 700;
-      font-size: 1.05rem;
-      width: 48px;
-      height: 32px;
-      border: 1px solid var(--border);
-      border-radius: 2px;
+      font-size: 1.25rem;
+      width: 42px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     .school-rating.high {
       color: #10b981;
-      border-color: rgba(16, 185, 129, 0.3);
-      background: rgba(16, 185, 129, 0.02);
     }
 
     .school-rating.mid {
       color: #f59e0b;
-      border-color: rgba(245, 158, 11, 0.3);
-      background: rgba(245, 158, 11, 0.02);
     }
 
     .school-rating.low {
       color: #ef4444;
-      border-color: rgba(239, 68, 68, 0.3);
-      background: rgba(239, 68, 68, 0.02);
     }
 
     .school-rating.none {
       color: var(--text-muted);
-      border-color: var(--border);
     }
 
     .school-details {
@@ -496,19 +486,14 @@
           </button>
         </div>
       </form>
+      {% if not fraser_loaded %}
       <div class="status-container">
-        {% if fraser_loaded %}
-          <div class="status-label">
-            <span class="status-dot"></span>
-            Fraser 2025 PDF database loaded (3,032 schools)
-          </div>
-        {% else %}
-          <div class="status-label" style="color: #ef4444;">
-            <span class="status-dot" style="background-color: #ef4444;"></span>
-            No Fraser data — run parse_fraser_pdf.py
-          </div>
-        {% endif %}
+        <div class="status-label" style="color: #ef4444;">
+          <span class="status-dot" style="background-color: #ef4444;"></span>
+          No Fraser data — run parse_fraser_pdf.py
+        </div>
       </div>
+      {% endif %}
     </div>
  
     <!-- Error Handling -->
