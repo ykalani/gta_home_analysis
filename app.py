@@ -3,6 +3,8 @@ import json
 import math
 import time
 import re
+import datetime
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
@@ -158,6 +160,15 @@ def google_transit_directions(origin_lat, origin_lng, api_key=None):
     if not api_key:
         print("Google Transit Directions: Skipped (no GOOGLE_MAPS_API_KEY environment variable set)", flush=True)
         return None
+
+    # Calculate next weekday at 8:00 AM America/Toronto time
+    tz = ZoneInfo("America/Toronto")
+    now_tz = datetime.datetime.now(tz)
+    proposed = now_tz + datetime.timedelta(days=(1 if now_tz.hour >= 8 else 0))
+    days = (1 if now_tz.hour >= 8 else 0) + (2 if proposed.weekday() == 5 else 1 if proposed.weekday() == 6 else 0)
+    target_dt = datetime.datetime.combine((now_tz + datetime.timedelta(days=days)).date(), datetime.time(8, 0, 0), tzinfo=tz)
+    dep_time = int(target_dt.timestamp())
+
     url = "https://maps.googleapis.com/maps/api/directions/json"
     params = {
         "origin": f"{origin_lat},{origin_lng}",
@@ -165,7 +176,7 @@ def google_transit_directions(origin_lat, origin_lng, api_key=None):
         "mode": "transit",
         "transit_mode": "train|subway",
         "key": api_key,
-        "departure_time": "now"
+        "departure_time": str(dep_time)
     }
     try:
         r = requests.get(url, params=params, timeout=10)
