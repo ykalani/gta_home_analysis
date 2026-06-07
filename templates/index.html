@@ -129,6 +129,52 @@
     .search-input-wrapper button:hover { 
       color: var(--accent);
     }
+
+    .commute-settings {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .setting-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
+
+    .setting-item label {
+      font-family: 'Lora', serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+
+    .setting-item select,
+    .setting-item input[type="time"] {
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      color: var(--text);
+      font-family: 'Lora', serif;
+      font-size: 0.9rem;
+      padding: 0.4rem 0.6rem;
+      outline: none;
+      transition: border-color 0.25s ease;
+    }
+
+    .setting-item select:focus,
+    .setting-item input[type="time"]:focus {
+      border-color: var(--accent);
+    }
+
+    .setting-item select option {
+      background: var(--bg);
+      color: var(--text);
+    }
  
     .status-container {
       display: flex;
@@ -509,6 +555,31 @@
             <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </button>
         </div>
+
+        <div class="commute-settings">
+          <div class="setting-item">
+            <label for="commute_day">Commute Day</label>
+            <select name="commute_day" id="commute_day">
+              <option value="Monday" {% if commute_day == 'Monday' or not commute_day %}selected{% endif %}>Monday</option>
+              <option value="Tuesday" {% if commute_day == 'Tuesday' %}selected{% endif %}>Tuesday</option>
+              <option value="Wednesday" {% if commute_day == 'Wednesday' %}selected{% endif %}>Wednesday</option>
+              <option value="Thursday" {% if commute_day == 'Thursday' %}selected{% endif %}>Thursday</option>
+              <option value="Friday" {% if commute_day == 'Friday' %}selected{% endif %}>Friday</option>
+              <option value="Saturday" {% if commute_day == 'Saturday' %}selected{% endif %}>Saturday</option>
+              <option value="Sunday" {% if commute_day == 'Sunday' %}selected{% endif %}>Sunday</option>
+            </select>
+          </div>
+          <div class="setting-item">
+            <label for="commute_time">Departure Time</label>
+            <input 
+              type="time" 
+              name="commute_time" 
+              id="commute_time" 
+              value="{{ commute_time or '08:00' }}" 
+              required
+            />
+          </div>
+        </div>
       </form>
       {% if not fraser_loaded %}
       <div class="status-container">
@@ -537,7 +608,7 @@
           <!-- Route summary banner -->
           <div class="route-summary">
             <div>
-              <div style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.2rem;">Recommended Path</div>
+              <div style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.2rem;">Recommended Path &bull; {{ result.commute_day }} at {{ result.commute_time }}</div>
               <div class="route-summary-path">
                 {{ result.google_route.route_summary }}
               </div>

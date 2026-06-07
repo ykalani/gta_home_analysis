@@ -154,20 +154,39 @@ def geocode(address, api_key=None):
 
     return None, None
 
-def google_transit_directions(origin_lat, origin_lng, api_key=None):
+def get_next_day_time_epoch(day_name, time_str):
+    tz = ZoneInfo("America/Toronto")
+    now_tz = datetime.datetime.now(tz)
+    
+    try:
+        hour, minute = map(int, time_str.split(':'))
+    except Exception:
+        hour, minute = 8, 0
+        
+    days_map = {
+        "Monday": 0, "Tuesday": 1, "Wednesday": 2, "Thursday": 3,
+        "Friday": 4, "Saturday": 5, "Sunday": 6
+    }
+    target_weekday = days_map.get(day_name, 0)
+    
+    days_ahead = (target_weekday - now_tz.weekday()) % 7
+    if days_ahead == 0:
+        target_today = datetime.datetime.combine(now_tz.date(), datetime.time(hour, minute), tzinfo=tz)
+        if now_tz >= target_today:
+            days_ahead = 7
+            
+    target_day = now_tz.date() + datetime.timedelta(days=days_ahead)
+    target_dt = datetime.datetime.combine(target_day, datetime.time(hour, minute), tzinfo=tz)
+    return int(target_dt.timestamp())
+
+def google_transit_directions(origin_lat, origin_lng, commute_day="Monday", commute_time="08:00", api_key=None):
     if not api_key:
         api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
     if not api_key:
         print("Google Transit Directions: Skipped (no GOOGLE_MAPS_API_KEY environment variable set)", flush=True)
         return None
 
-    # Calculate next weekday at 8:00 AM America/Toronto time
-    tz = ZoneInfo("America/Toronto")
-    now_tz = datetime.datetime.now(tz)
-    proposed = now_tz + datetime.timedelta(days=(1 if now_tz.hour >= 8 else 0))
-    days = (1 if now_tz.hour >= 8 else 0) + (2 if proposed.weekday() == 5 else 1 if proposed.weekday() == 6 else 0)
-    target_dt = datetime.datetime.combine((now_tz + datetime.timedelta(days=days)).date(), datetime.time(8, 0, 0), tzinfo=tz)
-    dep_time = int(target_dt.timestamp())
+    dep_time = get_next_day_time_epoch(commute_day, commute_time)
 
     url = "https://maps.googleapis.com/maps/api/directions/json"
     params = {
@@ -394,9 +413,14 @@ def index():
     result = None
     error  = None
     address = ""
+    commute_day = "Monday"
+    commute_time = "08:00"
 
     if request.method == "POST":
         address = request.form.get("address", "").strip()
+        commute_day = request.form.get("commute_day", "Monday").strip()
+        commute_time = request.form.get("commute_time", "08:00").strip()
+        
         if address:
             try:
                 lat, lng = geocode(address)
@@ -406,7 +430,7 @@ def index():
                     error = "Address not found. Try adding the city and province, e.g. '123 Main St, Toronto, ON'."
                 else:
                     # Google transit directions (door-to-door, handles multi-leg / transfer routes)
-                    google_route = google_transit_directions(lat, lng)
+                    google_route = google_transit_directions(lat, lng, commute_day=commute_day, commute_time=commute_time)
 
                     osm_schools = overpass_schools(lat, lng)
                     schools_all = match_fraser(osm_schools, lat, lng)
@@ -424,6 +448,8 @@ def index():
 
                     result = {
                         "address": address,
+                        "commute_day": commute_day,
+                        "commute_time": commute_time,
                         "google_route": google_route,
                         "schools": schools,
                         "schools_middle": schools_middle,
@@ -433,6 +459,7 @@ def index():
                 error = f"Error: {e}"
 
     return render_template("index.html", result=result, error=error, address=address,
+                           commute_day=commute_day, commute_time=commute_time,
                            fraser_loaded=FRASER_DF is not None)
 
 
