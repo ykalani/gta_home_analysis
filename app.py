@@ -50,8 +50,32 @@ def _load_fraser():
         return None
     return pd.read_csv(FRASER_CSV)
 
+ONTARIO_SCHOOLS_TXT = os.path.join(DATA_DIR, "public_school_contact_list.txt")
+
+def _load_ontario_schools():
+    if not os.path.exists(ONTARIO_SCHOOLS_TXT):
+        print("Downloading Ontario public school contact list...", flush=True)
+        url = 'https://data.ontario.ca/dataset/fb3a7c18-90af-453e-bc0a-a76ecc471862/resource/f3a8c2a3-09d9-4715-9044-d8a0189f572c/download/public_school_contact_list__may2026_en.txt'
+        try:
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            with open(ONTARIO_SCHOOLS_TXT, "w", encoding="utf-8") as f:
+                f.write(r.text)
+        except Exception as e:
+            print(f"Error downloading contact list: {e}", flush=True)
+            return []
+            
+    try:
+        df = pd.read_csv(ONTARIO_SCHOOLS_TXT, sep="|")
+        df = df[['School Name', 'Grade Range']].dropna()
+        return df.to_dict(orient="records")
+    except Exception as e:
+        print(f"Error loading contact list: {e}", flush=True)
+        return []
+
 STATIONS  = _load_stations()
 FRASER_DF = _load_fraser()
+ONTARIO_SCHOOLS = _load_ontario_schools()
 
 
 # ── Geo helpers ───────────────────────────────────────────────────────────────
@@ -253,30 +277,66 @@ def name_score(a, b):
         return 0.0
     return len(wa & wb) / max(len(wa), len(wb))
 
-def match_fraser(osm_schools, house_lat, house_lng):
-    if FRASER_DF is None:
-        # No Fraser data — just return distance list
-        rows = []
-        for s in osm_schools:
-            dist = haversine_km(house_lat, house_lng, s["lat"], s["lng"])
-            rows.append({"school": s["name"], "rating": None, "dist_km": round(dist, 2)})
-        return sorted(rows, key=lambda x: x["dist_km"])[:MAX_SCHOOLS]
+def find_grade_range(osm_name):
+    best_score = 0.0
+    best_range = "JK-8"  # fallback default
+    
+    for row in ONTARIO_SCHOOLS:
+        school_name = str(row.get("School Name", ""))
+        score = name_score(osm_name, school_name)
+        if score > best_score:
+            best_score = score
+            best_range = str(row.get("Grade Range", "JK-8"))
+            
+    if best_score >= 0.4:
+        return best_range
+    return "JK-8"
 
+def covers_5_to_8(grade_range):
+    if not isinstance(grade_range, str) or '-' not in grade_range:
+        return False
+    parts = grade_range.split('-')
+    start_str, end_str = parts[0].strip(), parts[1].strip()
+    
+    if start_str in ['JK', 'K', 'SK']:
+        start_val = 0
+    else:
+        try:
+            start_val = int(start_str)
+        except ValueError:
+            return False
+            
+    try:
+        end_val = int(end_str)
+    except ValueError:
+        return False
+        
+    return start_val <= 5 and end_val >= 8
+
+def match_fraser(osm_schools, house_lat, house_lng):
     results = []
     for s in osm_schools:
         best_score, best_rating = 0.0, None
-        for _, row in FRASER_DF.iterrows():
-            sc = name_score(s["name"], str(row.get("name", "")))
-            if sc > best_score:
-                best_score = sc
-                best_rating = row.get("rating")
+        if FRASER_DF is not None:
+            for _, row in FRASER_DF.iterrows():
+                sc = name_score(s["name"], str(row.get("name", "")))
+                if sc > best_score:
+                    best_score = sc
+                    best_rating = row.get("rating")
+                    
         dist = haversine_km(house_lat, house_lng, s["lat"], s["lng"])
         rating = float(best_rating) if best_score >= 0.3 and best_rating is not None and not pd.isna(best_rating) else None
-        results.append({"school": s["name"], "rating": rating, "dist_km": round(dist, 2)})
+        
+        grade_range = find_grade_range(s["name"])
+        
+        results.append({
+            "school": s["name"],
+            "rating": rating,
+            "dist_km": round(dist, 2),
+            "grade_range": grade_range
+        })
 
-    rated   = sorted([r for r in results if r["rating"] is not None], key=lambda x: -x["rating"])
-    unrated = sorted([r for r in results if r["rating"] is None],     key=lambda x:  x["dist_km"])
-    return (rated + unrated)[:MAX_SCHOOLS]
+    return sorted(results, key=lambda x: x["dist_km"])
 
 
 # ── Routes ────────────────────────────────────────────────────────────────────
@@ -300,12 +360,20 @@ def index():
                     google_route = google_transit_directions(lat, lng)
 
                     osm_schools = overpass_schools(lat, lng)
-                    schools     = match_fraser(osm_schools, lat, lng)
+                    schools_all = match_fraser(osm_schools, lat, lng)
+                    
+                    # Section 2: General Elementary Schools Nearby
+                    schools = schools_all[:8]
+                    
+                    # Section 3: Middle & Elementary Schools (5-8 Span) Nearby
+                    schools_middle = [s for s in schools_all if covers_5_to_8(s["grade_range"])]
+                    schools_middle = schools_middle[:8]
 
                     result = {
                         "address": address,
                         "google_route": google_route,
                         "schools": schools,
+                        "schools_middle": schools_middle,
                         "fraser_loaded": FRASER_DF is not None,
                     }
             except Exception as e:

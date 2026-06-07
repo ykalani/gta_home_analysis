@@ -38,7 +38,7 @@
     }
  
     .container { 
-      max-width: 1060px; 
+      max-width: 1300px; 
       margin: 0 auto; 
       opacity: 0;
       animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
@@ -174,14 +174,14 @@
     /* Results layout (Asymmetrical architectural split grid) */
     .results-layout {
       display: grid;
-      grid-template-columns: 1fr 1px 1fr;
-      gap: 3rem;
+      grid-template-columns: 1fr 1px 1fr 1px 1fr;
+      gap: 2.5rem;
       margin-top: 2rem;
       border-top: 1px solid var(--border);
       padding-top: 3rem;
     }
     
-    @media (max-width: 850px) { 
+    @media (max-width: 1024px) { 
       .results-layout { 
         grid-template-columns: 1fr; 
         gap: 2.5rem;
@@ -239,6 +239,7 @@
       font-weight: 700;
       text-align: right;
       line-height: 1.1;
+      font-variant-numeric: oldstyle-nums;
     }
 
     .route-summary-distance {
@@ -246,6 +247,7 @@
       font-size: 0.75rem;
       color: var(--text-muted);
       margin-top: 0.25rem;
+      font-variant-numeric: oldstyle-nums;
     }
 
     /* Schools List (Clean editorial style) */
@@ -274,6 +276,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      font-variant-numeric: oldstyle-nums;
     }
 
     .school-rating.high {
@@ -303,10 +306,30 @@
       margin-bottom: 0.15rem;
     }
 
+    .school-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Lora', serif;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-variant-numeric: oldstyle-nums;
+      margin-top: 0.15rem;
+    }
+
+    .school-range {
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .school-bullet {
+      color: var(--border);
+      font-size: 0.6rem;
+    }
+
     .school-distance {
       font-family: 'Lora', serif;
-      font-size: 0.75rem;
-      color: var(--text-muted);
+      font-variant-numeric: oldstyle-nums;
     }
  
     /* Loader (Precise, clean micro-spinner overlay) */
@@ -384,6 +407,7 @@
       justify-content: center;
       color: var(--text-muted);
       z-index: 2;
+      font-variant-numeric: oldstyle-nums;
     }
     
     .timeline-item.active .timeline-number {
@@ -417,6 +441,7 @@
       font-weight: 500;
       color: var(--accent);
       white-space: nowrap;
+      font-variant-numeric: oldstyle-nums;
     }
     
     .timeline-desc {
@@ -432,6 +457,7 @@
       color: var(--text-muted);
       border-left: 2px solid var(--border);
       padding-left: 0.5rem;
+      font-variant-numeric: oldstyle-nums;
     }
  
     /* Keyframes */
@@ -511,7 +537,7 @@
           <!-- Route summary banner -->
           <div class="route-summary">
             <div>
-              <div style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.2rem; font-family: 'JetBrains Mono', monospace;">Recommended Path</div>
+              <div style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.2rem;">Recommended Path</div>
               <div class="route-summary-path">
                 {{ result.google_route.route_summary }}
               </div>
@@ -573,8 +599,8 @@
       <!-- Divider Line -->
       <div class="vertical-divider"></div>
  
-      <!-- Column Right: Nearby elementary schools -->
-      <div class="column-right">
+      <!-- Column Middle: Nearby elementary schools -->
+      <div class="column-middle">
         <h2 class="section-title">Elementary Schools Nearby</h2>
         
         {% if result.schools %}
@@ -595,7 +621,11 @@
                 
                 <div class="school-details">
                   <div class="school-name">{{ s.school }}</div>
-                  <div class="school-distance">{{ s.dist_km }} km</div>
+                  <div class="school-meta">
+                    <span class="school-range">{{ s.grade_range }}</span>
+                    <span class="school-bullet">&bull;</span>
+                    <span class="school-distance">{{ s.dist_km }} km</span>
+                  </div>
                 </div>
               </div>
             {% endfor %}
@@ -603,6 +633,46 @@
           <p class="note">Showing up to 8 closest schools matched against Fraser Institute ratings database. Ratings range from 0.0 (lowest) to 10.0 (highest).</p>
         {% else %}
           <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No schools found within 3 km via OpenStreetMap query.</p>
+        {% endif %}
+      </div>
+ 
+      <!-- Divider Line -->
+      <div class="vertical-divider"></div>
+ 
+      <!-- Column Right: Middle & Elementary (5-8 Span) -->
+      <div class="column-right">
+        <h2 class="section-title">Middle &amp; JK-8 Schools Nearby</h2>
+        
+        {% if result.schools_middle %}
+          <div class="school-list">
+            {% for s in result.schools_middle %}
+              <div class="school-item">
+                {% if s.rating is not none %}
+                  {% if s.rating >= 7.0 %}
+                    <div class="school-rating high">{{ "%.1f"|format(s.rating) }}</div>
+                  {% elif s.rating >= 5.0 %}
+                    <div class="school-rating mid">{{ "%.1f"|format(s.rating) }}</div>
+                  {% else %}
+                    <div class="school-rating low">{{ "%.1f"|format(s.rating) }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="school-rating none">N/A</div>
+                {% endif %}
+                
+                <div class="school-details">
+                  <div class="school-name">{{ s.school }}</div>
+                  <div class="school-meta">
+                    <span class="school-range">{{ s.grade_range }}</span>
+                    <span class="school-bullet">&bull;</span>
+                    <span class="school-distance">{{ s.dist_km }} km</span>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+          <p class="note">Showing up to 8 closest schools covering the grade 5-8 span (such as 4-8, 5-8, JK-8) matched against Fraser ratings.</p>
+        {% else %}
+          <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No schools covering the 5-8 span found within 3 km.</p>
         {% endif %}
       </div>
  
