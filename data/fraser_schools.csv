@@ -1,0 +1,3023 @@
+rank,last_rank,trend,name,city,rating,rating_5yr
+1,1,stable,Avondale Alternative Nor th,York,10.0,10.0
+1,1572,stable,Plymouth,Welland,10.0,5.9
+1,1,stable,Khalsa Malton,Mississauga,10.0,10.0
+1,n/a,n/a,AI-Manarat Heights,Mississauga,10.0,n/a
+1,3,stable,St Justin Mar tyr,Unionville,10.0,10.0
+1,n/a,n/a,Al-Ameen,Brampton,10.0,n/a
+1,4,stable,Northmount,Toronto,10.0,9.9
+1,n/a,n/a,Al-Sadeq Academy,Windsor,10.0,n/a
+1,10,stable,St Sebastian,Toronto,10.0,9.5
+1,n/a,n/a,Alfajrul Bassem,Oakville,10.0,n/a
+1,11,declining,Forest Trail,Oakville,10.0,9.5
+1,n/a,n/a,Corpus Christi Richmond,Hill,10.0,n/a
+1,20,declining,St Davids/Laura Secord St.,Davids,10.0,9.2
+1,n/a,n/a,Cottingham,Toronto,10.0,n/a
+1,31,stable,Iroquois,Scarborough,10.0,9.1
+1,n/a,n/a,Gracefield St.,Catharines,10.0,n/a
+1,44,stable,Corpus Christi,Hamilton,10.0,8.8
+1,n/a,n/a,High Park Alternative,Toronto,10.0,n/a
+1,120,declining,Kate S Durdan Niagara,Falls,10.0,8.3
+1,n/a,n/a,Islamic Institute of Toronto,Scarborough,10.0,n/a
+1,133,stable,Applewood St.,Catharines,10.0,8.3
+1,n/a,n/a,Islamic School of Cambridge,Cambridge,10.0,n/a
+1,209,declining,Heritage Park,Scarborough,10.0,8.0
+1,n/a,n/a,Kenollie,Mississauga,10.0,n/a
+1,231,declining,Poplar Road,Scarborough,10.0,8.0
+1,n/a,n/a,Khalsa Community,Brampton,10.0,n/a
+1,231,declining,St Agnes of Assisi,Woodbridge,10.0,8.0
+1,n/a,n/a,Ontario Muslim Academy,Cambridge,10.0,n/a
+1,532,declining,Red Lake Madsen Red,Lake,10.0,7.3
+1,n/a,n/a,Safa & Mar wa Islamic,Mississauga,10.0,n/a
+1,n/a,n/a,Sathya Sai,Toronto,10.0,n/a
+88,58,declining,Castlemore,Markham,9.2,8.7
+32,29,declining,St Vincent de Paul Niagara,Falls,9.9,9.1
+88,61,stable,A K Wigg,Fonthill,9.2,8.7
+32,47,stable,Colchester Nor th,Essex,9.9,8.8
+88,81,stable,Balmy Beach,Toronto,9.2,8.5
+32,53,declining,St. Gabriel,Kanata,9.9,8.8
+88,115,stable,Pine Grove St.,Catharines,9.2,8.4
+32,76,stable,Bessborough Drive East,York,9.9,8.6
+88,488,declining,Father Henri J M Nouwen Richmond,Hill,9.2,7.4
+32,277,declining,Father Hennepin Niagara,Falls,9.9,7.8
+88,774,stable,Lincoln Centennial St.,Catharines,9.2,7.0
+32,532,declining,Burleigh Hill St.,Catharines,9.9,7.3
+88,n/a,n/a,Our Lady of Mt Carmel,Dashwood,9.2,n/a
+38,93,declining,John Dearness,London,9.8,8.5
+97,15,stable,William Berczy,Unionville,9.1,9.3
+38,156,declining,Orchard Park Niagara,Falls,9.8,8.2
+97,27,stable,Stonebridge,Markham,9.1,9.1
+38,208,stable,Laure-Rièse,Scarborough,9.8,8.0
+97,55,stable,Saint-Guillaume,Vars,9.1,8.8
+38,n/a,n/a,Park Public,Grimsby,9.8,n/a
+97,100,declining,Sir John A. Macdonald,Markham,9.1,8.4
+42,6,stable,Whitney,Toronto,9.7,9.6
+97,115,declining,Ontario,Thorold,9.1,8.4
+42,11,stable,St Rose of Lima,Mississauga,9.7,9.5
+97,163,stable,All Saints,Unionville,9.1,8.2
+42,13,stable,Our Lady of Perpetual Help,Toronto,9.7,9.5
+97,245,declining,St Luke,Nepean,9.1,7.9
+42,14,stable,W. Erskine Johnston,Kanata,9.7,9.4
+97,345,stable,Antonine Maillet,Oshawa,9.1,7.7
+42,25,declining,Bellewood,Windsor,9.7,9.1
+97,436,stable,Smith,Grimsby,9.1,7.5
+42,29,declining,Pilgrim Wood,Oakville,9.7,9.1
+97,502,declining,St George,London,9.1,7.4
+42,40,stable,Courcelette,Scarborough,9.7,8.9
+97,570,stable,St Helen,Mississauga,9.1,7.3
+42,69,declining,Pape Avenue,Toronto,9.7,8.7
+97,921,declining,Pauline Johnson,Burlington,9.1,6.7
+42,189,stable,Arbour Vista,Guelph,9.7,8.1
+97,1743,stable,Vance Chapman Thunder,Bay,9.1,5.6
+51,8,stable,St Michael's Choir,Toronto,9.6,9.5
+110,33,stable,Michael Cranny,Maple,9.0,9.0
+51,32,declining,E J James,Oakville,9.6,9.0
+110,45,stable,Joshua Creek,Oakville,9.0,8.8
+51,50,stable,Oakridge St.,Catharines,9.6,8.8
+110,54,stable,Lincoln Alexander,Markham,9.0,8.8
+51,66,declining,Macville,Caledon,9.6,8.7
+110,65,stable,Prince of Peace,Toronto,9.0,8.7
+51,85,stable,New Central,Oakville,9.6,8.5
+110,66,stable,Central Park,Markham,9.0,8.7
+56,6,stable,Sainte-Marguerite-Bourgeoys,Markham,9.5,9.6
+110,97,stable,Perc y Williams,Toronto,9.0,8.5
+56,9,stable,Bay view Fair ways,Thornhill,9.5,9.5
+110,110,stable,Kanata Highlands,Kanata,9.0,8.4
+56,18,stable,Ossington/Old Orchard,Toronto,9.5,9.2
+110,120,stable,Thomas L Wells,Scarborough,9.0,8.3
+56,23,stable,St John of the Cross,Mississauga,9.5,9.2
+110,203,declining,St Edward,Toronto,9.0,8.0
+56,81,stable,Twenty Valley,Vineland,9.5,8.5
+110,340,stable,Crossroads Niagara- on-the,-Lake,9.0,7.7
+56,105,declining,German Mills,Thornhill,9.5,8.4
+110,561,stable,St Joseph,Grimsby,9.0,7.3
+56,105,stable,Power Glen St.,Catharines,9.5,8.4
+110,591,stable,Charles G Fraser,Toronto,9.0,7.2
+56,113,stable,Earl A Fairman,Whitby,9.5,8.4
+110,1332,stable,Laurelwoods,Orangeville,9.0,6.2
+56,155,stable,E T Crowle,Markham,9.5,8.2
+110,n/a,n/a,Paul-Demers North,York,9.0,n/a
+56,657,stable,Steele Street Por t,Colborne,9.5,7.1
+110,n/a,n/a,Prince Philip Niagara,Falls,9.0,n/a
+56,n/a,n/a,Olive Grove,Mississauga,9.5,n/a
+110,n/a,n/a,St. André,Tecumseh,9.0,n/a
+67,17,stable,Stephen Leacock,Kanata,9.4,9.2
+126,24,stable,John XXIII,Arnprior,8.9,9.1
+67,19,stable,Blythwood,Toronto,9.4,9.2
+126,26,stable,Donald Cousens,Markham,8.9,9.1
+67,66,declining,Nelles,Grimsby,9.4,8.7
+126,36,stable,Christ the King Richmond,Hill,8.9,9.0
+67,100,stable,du Chêne,Oakville,9.4,8.4
+126,42,stable,R L Beattie Sudbur,y,8.9,8.9
+67,177,declining,Ashton Meadows,Markham,9.4,8.1
+126,46,stable,St Joseph River,Canard,8.9,8.8
+67,903,stable,Simcoe Street Niagara,Falls,9.4,6.8
+126,114,stable,Westmount,Thorold,8.9,8.4
+67,n/a,n/a,Dyane-Adam,Milton,9.4,n/a
+126,127,declining,Millen Woods,Waterloo,8.9,8.3
+74,5,improving,Silver Stream Richmond,Hill,9.3,9.6
+126,140,stable,Jeanne -Lajoie Nor th,York,8.9,8.3
+74,21,stable,Munns,Oakville,9.3,9.2
+126,143,stable,Our Lady of Sorrows,Toronto,8.9,8.3
+74,35,stable,Lambton Kingsway,Etobicoke,9.3,9.0
+126,144,declining,St Rose,Windsor,8.9,8.3
+74,42,stable,Bedford Park,Toronto,9.3,8.9
+126,165,stable,St Vincent de Paul,Toronto,8.9,8.2
+74,47,stable,Charles-Sauriol,Toronto,9.3,8.8
+126,197,stable,St Paul,Guelph,8.9,8.1
+74,52,stable,St Charles Garnier Richmond,Hill,9.3,8.8
+126,249,stable,Sandwich West,LaSalle,8.9,7.9
+74,55,declining,New Dundee New,Dundee,9.3,8.8
+126,267,stable,Jacob Beam,Beamsville,8.9,7.9
+74,81,stable,Horizon Jeunesse,Mississauga,9.3,8.5
+126,361,declining,Gabrielle-Roy,Toronto,8.9,7.7
+74,88,stable,St Pius X,Tecumseh,9.3,8.5
+126,390,stable,St Francis Thunder,Bay,8.9,7.6
+74,91,stable,Bay view Glen,Thornhill,9.3,8.5
+126,420,stable,Caistor Central Caistor,Centre,8.9,7.6
+74,200,stable,Westdale St.,Catharines,9.3,8.0
+126,547,stable,Sacred Hear t,Langton,8.9,7.3
+74,259,declining,St Joseph,Fergus,9.3,7.9
+126,703,declining,St Anthony,Toronto,8.9,7.1
+74,670,declining,Heximer Avenue Niagara,Falls,9.3,7.1
+126,889,declining,St Francis de Sales,Ajax,8.9,6.8
+74,n/a,n/a,Viola-Léger,Bowmanville,9.3,n/a
+126,n/a,n/a,Our Lady of Fatima St.,Catharines,8.9,n/a
+88,16,stable,ISNA Islamic,Mississauga,9.2,9.3
+126,n/a,n/a,St Sylvester,Toronto,8.9,n/a
+88,21,stable,St Edmund,Mississauga,9.2,9.2
+126,n/a,n/a,St. Isabel,Kanata,8.9,n/a
+149,37,stable,Jack Chambers,London,8.8,9.0
+199,125,stable,Fairglen,Scarborough,8.5,8.3
+149,69,stable,Sunningdale,Oakville,8.8,8.7
+199,125,stable,Knoxdale,Nepean,8.5,8.3
+149,191,stable,Pineland,Burlington,8.8,8.1
+199,156,declining,Vista Hills,Waterloo,8.5,8.2
+149,220,declining,Patricia-Picknell,Oakville,8.8,8.0
+199,175,declining,St Marguerite d'Youville,Oakville,8.5,8.1
+149,247,stable,La Vérendr ye,Gloucester,8.8,7.9
+199,203,declining,David Suzuki,Markham,8.5,8.0
+149,267,stable,St Paul,Whitby,8.8,7.9
+199,209,stable,Wismer,Markham,8.5,8.0
+149,267,stable,St Timothy,Mississauga,8.8,7.9
+199,231,stable,Our Lady of Mount Carmel,Windsor,8.5,8.0
+149,296,stable,Gainsborough Central St.,Anns,8.8,7.8
+199,296,stable,Chapel Hill,Orleans,8.5,7.8
+149,304,stable,John McCrae,Guelph,8.8,7.8
+199,345,stable,St Dominic,Oakville,8.5,7.7
+149,403,stable,Thornhill Woods,Thornhill,8.8,7.6
+199,361,stable,St Patrick,Markham,8.5,7.7
+149,547,declining,Sir Ar thur Currie,London,8.8,7.3
+199,369,stable,Our Lady of Fatima,Milton,8.5,7.7
+149,1111,declining,Oakwood Por t,Colborne,8.8,6.5
+199,381,declining,Shirley Street,Toronto,8.5,7.6
+161,39,improving,St Mark,Mississauga,8.7,8.9
+199,412,stable,Grapeview St.,Catharines,8.5,7.6
+161,73,stable,Allenby,Toronto,8.7,8.6
+199,571,stable,Connaught St.,Catharines,8.5,7.2
+161,73,stable,John Wanless,Toronto,8.7,8.6
+199,591,declining,Ken Danby,Guelph,8.5,7.2
+161,97,stable,Glynn A Green,Fonthill,8.7,8.5
+199,615,declining,Downie Central St.,Pauls,8.5,7.2
+161,115,stable,Ryerson,London,8.7,8.4
+199,791,stable,Jack Callaghan,Lindsay,8.5,6.9
+161,127,declining,Bridlewood,Scarborough,8.7,8.3
+199,1137,stable,Princess Margaret Niagara,Falls,8.5,6.5
+161,197,stable,St Mar y Immaculate Richmond,Hill,8.7,8.1
+199,1191,stable,St Peter's & St Paul's,Durham,8.5,6.4
+161,209,stable,St Anselm,Toronto,8.7,8.0
+199,n/a,n/a,Lynnwood Heights,Toronto,8.5,n/a
+161,231,declining,Hewitt's Creek,Barrie,8.7,8.0
+199,n/a,n/a,Sacred Hear t Catholic Por t,Lambton,8.5,n/a
+161,285,declining,Parnall St.,Catharines,8.7,7.8
+199,n/a,n/a,St Anthony Catholic S,Thornhill,8.5,n/a
+161,285,stable,Westminster Woods,Guelph,8.7,7.8
+199,n/a,n/a,St Joseph Island Central Richards,Landing,8.5,n/a
+161,310,stable,Pape-François,Stouffville,8.7,7.8
+231,27,stable,Masonville,London,8.4,9.1
+161,424,stable,The Queen Elizabeth Per,th,8.7,7.6
+231,71,stable,L'Étoile-de-l'Est,Orléans,8.4,8.6
+161,427,stable,St Joan of Arc,Oakville,8.7,7.5
+231,76,stable,William Dunbar,Pickering,8.4,8.6
+161,436,stable,Ferndale St.,Catharines,8.7,7.5
+231,81,stable,St. James,Mississauga,8.4,8.5
+161,456,stable,Lockview St.,Catharines,8.7,7.5
+231,88,stable,Prince Philip St.,Catharines,8.4,8.5
+161,670,stable,Nor'wester View Thunder,Bay,8.7,7.1
+231,103,stable,Pope John Paul II Richmond,Hill,8.4,8.4
+161,1329,stable,Maison Montessori Nor th,York,8.7,6.3
+231,120,stable,Josyf Cardinal Slipyj,Toronto,8.4,8.3
+161,n/a,n/a,Bishop Macdonell,Toronto,8.7,n/a
+231,147,stable,Coledale,Markham,8.4,8.2
+161,n/a,n/a,Hastings,Hastings,8.7,n/a
+231,164,stable,Black Walnut,Markham,8.4,8.2
+161,n/a,n/a,La Fontaine,Kleinburg,8.7,n/a
+231,180,stable,First Avenue,Ottawa,8.4,8.1
+182,62,stable,Roy H Crosby,Markham,8.6,8.7
+231,218,stable,Herber t H Carnegie,Maple,8.4,8.0
+182,72,stable,St Matthew's,Oakville,8.6,8.6
+231,285,stable,Roch Carrier,Kanata,8.4,7.8
+182,78,stable,Holy Rosar y,Toronto,8.6,8.6
+231,293,stable,St Bernadette,Dundas,8.4,7.8
+182,79,stable,St Benedict,Unionville,8.6,8.5
+231,296,stable,Kateri Tekakwitha,Markham,8.4,7.8
+182,86,stable,Chine Drive,Scarborough,8.6,8.5
+231,324,stable,Colonel J E Farewell,Whitby,8.4,7.7
+182,91,stable,Bond Lake Richmond,Hill,8.6,8.5
+231,355,stable,Our Lady of Sorrows,Petawawa,8.4,7.7
+182,156,stable,Immaculate Conception,Formosa,8.6,8.2
+231,390,declining,Sacred Hear t of Jesus,Burlington,8.4,7.6
+182,162,declining,Alton Village,Burlington,8.6,8.2
+231,547,stable,des Voyageurs,Orléans,8.4,7.3
+182,172,stable,Father Serra,Toronto,8.6,8.1
+231,604,stable,St Elizabeth Seton,Burlington,8.4,7.2
+182,231,stable,Holy Cross,LaSalle,8.6,8.0
+231,647,stable,Nor wood Park,Hamilton,8.4,7.1
+182,285,stable,Bogart,Newmarket,8.6,7.8
+231,844,declining,Grandview New,Hamburg,8.4,6.9
+182,324,declining,St Timothy,Burlington,8.6,7.7
+231,879,declining,Gorham and Ware,Gorham,8.4,6.8
+182,361,stable,Our Lady of Lourdes,Brampton,8.6,7.7
+231,1167,stable,Five Mile Thunder,Bay,8.4,6.4
+182,532,stable,Saint-Jean-Baptiste,L'Orignal,8.6,7.3
+231,1499,stable,South Branch,Kemptville,8.4,6.0
+182,604,declining,John Brant,Ridgeway,8.6,7.2
+231,n/a,n/a,Agincourt Road,Ottawa,8.4,n/a
+182,n/a,n/a,West Oaks FI,London,8.6,n/a
+231,n/a,n/a,Lasalle,Sudbury,8.4,n/a
+199,38,stable,John Ross Rober tson,Toronto,8.5,8.9
+231,n/a,n/a,South Shore Education,Nipissing,8.4,n/a
+199,51,stable,Laurelwood,Waterloo,8.5,8.8
+231,n/a,n/a,St Mar y Catholic,Nobleton,8.4,n/a
+199,59,stable,San Lorenzo Ruiz,Markham,8.5,8.7
+260,64,stable,St Clement,Etobicoke,8.3,8.7
+199,86,stable,John T Tuck,Burlington,8.5,8.5
+260,103,stable,Forest Hill,Toronto,8.3,8.4
+199,94,stable,Hopewell Avenue,Ottawa,8.5,8.5
+260,120,stable,St. Cecilia,Nepean,8.3,8.3
+199,100,stable,La Source,Orléans,8.5,8.4
+260,170,stable,St Michael,Thornhill,8.3,8.1
+199,105,stable,St Anne,Kanata,8.5,8.4
+260,180,declining,Doncrest Richmond,Hill,8.3,8.1
+199,109,stable,W H Morden,Oakville,8.5,8.4
+260,180,stable,St Andrew,Woodbridge,8.3,8.1
+199,120,stable,St Paul Thunder,Bay,8.5,8.3
+260,191,stable,St Pius X,Toronto,8.3,8.1
+260,241,stable,Dr Rober ta Bondar,Maple,8.3,7.9
+313,254,stable,Aurora,Aurora,8.1,7.9
+260,267,declining,St Barbara,Mississauga,8.3,7.9
+313,273,stable,Norseman,Etobicoke,8.1,7.9
+260,285,stable,Stevensville,Stevensville,8.3,7.8
+313,277,declining,Lambeth,London,8.1,7.8
+260,304,stable,Mar y Johnston,Waterloo,8.3,7.8
+313,277,stable,Thornhill,Thornhill,8.1,7.8
+260,315,stable,Our Lady of Merc y,Mississauga,8.3,7.8
+313,302,stable,Niagara Street,Toronto,8.1,7.8
+260,315,stable,Plum Tree Park,Mississauga,8.3,7.8
+313,302,stable,St John Bosco Barr y's,Bay,8.1,7.8
+260,369,declining,St Matthew,Waterloo,8.3,7.7
+313,304,stable,Por t Royal,Scarborough,8.1,7.8
+260,478,declining,Aberfoyle,Puslinch,8.3,7.4
+313,312,stable,St Cecilia,Toronto,8.1,7.8
+260,478,stable,The Holy Trinity,Toronto,8.3,7.4
+313,345,stable,Our Lady of the Assumption,Hannon,8.1,7.7
+260,488,stable,Divine Merc y,Maple,8.3,7.4
+313,361,declining,St John,Toronto,8.1,7.7
+260,507,declining,Sainte-Jeanne-d'Arc,Brampton,8.3,7.4
+313,424,stable,Our Lady of Lourdes,Pembroke,8.1,7.6
+260,507,stable,St Isaac Jogues,Toronto,8.3,7.4
+313,436,stable,La Mosaïque East,York,8.1,7.5
+260,514,stable,St. Mar y,Oakville,8.3,7.4
+313,495,stable,Seneca Trail,Oshawa,8.1,7.4
+260,532,stable,St Stephen,Stittsville,8.3,7.3
+313,525,declining,Sacred Hear t,LaSalle,8.1,7.3
+260,647,stable,Hawthorne II Bilingual,Toronto,8.3,7.1
+313,561,stable,Fitch Street,Welland,8.1,7.3
+260,957,declining,Fenelon,Cameron,8.3,6.7
+313,571,stable,St Mar y,Elora,8.1,7.2
+260,1572,stable,Our Lady of Merc y,Bancroft,8.3,5.9
+313,604,stable,Edith Cavell St.,Catharines,8.1,7.2
+260,n/a,n/a,Aberarder Central,Camlachie,8.3,n/a
+313,628,stable,Glendale,Welland,8.1,7.2
+260,n/a,n/a,Catholique Curé-Labrosse,St.-Eugène,8.3,n/a
+313,670,declining,St Mar y Niagara,Falls,8.1,7.1
+260,n/a,n/a,St Louis,Mississauga,8.3,n/a
+313,706,stable,Sacred Hear t,Brampton,8.1,7.0
+287,57,stable,Elmdale,Ottawa,8.2,8.7
+313,846,stable,Crestview,Murillo,8.1,6.8
+287,60,stable,Summit Heights Nor th,York,8.2,8.7
+313,1031,stable,Frontenac,Burlington,8.1,6.6
+287,133,stable,Johnsview Village,Thornhill,8.2,8.3
+313,1054,declining,J R Wilcox,York,8.1,6.6
+287,156,stable,Renaissance,Burlington,8.2,8.2
+313,n/a,n/a,An-Noor,Windsor,8.1,n/a
+287,180,stable,St Jerome,Gloucester,8.2,8.1
+313,n/a,n/a,London Islamic,London,8.1,n/a
+287,203,stable,McMaster,Ottawa,8.2,8.0
+351,47,stable,St Henr y,Toronto,8.0,8.8
+287,245,declining,Captain R Wilson,Oakville,8.2,7.9
+351,88,improving,Humber Valley Village,Etobicoke,8.0,8.5
+287,249,stable,Pierre Ber ton,Vaughan,8.2,7.9
+351,94,stable,Bay view Hill Richmond,Hill,8.0,8.5
+287,249,stable,St Mar y's Sault Ste.,Marie,8.2,7.9
+351,115,stable,St Bernard of Clair vaux,Mississauga,8.0,8.4
+287,315,stable,Elizabeth Simcoe,Scarborough,8.2,7.8
+351,149,stable,Codrington,Barrie,8.0,8.2
+287,333,stable,Forestview Niagara,Falls,8.2,7.7
+351,152,stable,Sacré-Coeur,Bourget,8.0,8.2
+287,369,declining,Nor thlake Woods,Waterloo,8.2,7.7
+351,161,stable,John XXIII,Mississauga,8.0,8.2
+287,369,stable,St Mar y of the Angels,Woodbridge,8.2,7.7
+351,170,stable,St Raphaels,Burlington,8.0,8.1
+287,390,declining,Kew Beach,Toronto,8.2,7.6
+351,175,stable,Georges-Étienne-Cartier,Ottawa,8.0,8.1
+287,399,stable,Chris Hadfield,Milton,8.2,7.6
+351,191,stable,Sister Catherine Donnelly,Barrie,8.0,8.1
+287,404,stable,Churchill Heights,Scarborough,8.2,7.6
+351,200,stable,St James,Kanata,8.0,8.0
+287,412,stable,Moraine Hills Richmond,Hill,8.2,7.6
+351,209,stable,Charlton,Thornhill,8.0,8.0
+287,412,stable,St Bernadette,Oakville,8.2,7.6
+351,209,stable,St Thomas More,Mississauga,8.0,8.0
+287,507,stable,Jean-Rober t Gauthier,Ottawa,8.2,7.4
+351,285,stable,Jackman Avenue,Toronto,8.0,7.8
+287,532,declining,Mar y Ward Niagara,Falls,8.2,7.3
+351,381,stable,Redstone Richmond,Hill,8.0,7.6
+287,547,stable,R Gordon Sinclair,Kingston,8.2,7.3
+351,390,stable,Captain Michael VandenBos,Whitby,8.0,7.6
+287,820,stable,René-Lamoureux,Mississauga,8.2,6.9
+351,399,stable,Por t Rowan Por t,Rowan,8.0,7.6
+287,879,stable,Queen of Heaven,Mississauga,8.2,6.8
+351,456,stable,Legacy,Markham,8.0,7.5
+287,n/a,n/a,Dr. David R. Williams,Oakville,8.2,n/a
+351,547,stable,Jean-Paul II,Stittsville,8.0,7.3
+287,n/a,n/a,Northern Dancer,Oshawa,8.2,n/a
+351,571,stable,Immaculate Conception,Ancaster,8.0,7.2
+287,n/a,n/a,Rouge Park,Markham,8.2,n/a
+351,604,declining,Schomberg,Schomberg,8.0,7.2
+313,115,stable,Beckett Farm,Markham,8.1,8.4
+351,628,stable,Parkview,Komoka,8.0,7.2
+313,127,stable,Orchard Park,London,8.1,8.3
+351,657,stable,University Heights,London,8.0,7.1
+313,168,stable,Central,Grimsby,8.1,8.2
+351,744,stable,Minesing Central,Minesing,8.0,7.0
+313,174,stable,Grande-Ourse,Kanata,8.1,8.1
+351,774,declining,Florence Meares,Burlington,8.0,7.0
+313,180,stable,Mackenzie Glen,Maple,8.1,8.1
+351,774,stable,King George VI,Sarnia,8.0,7.0
+313,191,stable,Trillium Woods Richmond,Hill,8.1,8.1
+351,832,stable,St Brigid,Brampton,8.0,6.9
+313,203,stable,Blessed Sacrament,Toronto,8.1,8.0
+351,857,declining,Pope John Paul II,Hamilton,8.0,6.8
+313,209,stable,Burrows Hall,Scarborough,8.1,8.0
+351,857,stable,River Heights,Caledonia,8.0,6.8
+313,209,stable,St Matthew,Mississauga,8.1,8.0
+351,903,declining,Alain-Fortin,Orléans,8.0,6.8
+313,209,stable,St. Benedict,Nepean,8.1,8.0
+351,994,stable,Sainte-Thérèse-d'Avila,Marionville,8.0,6.6
+313,228,stable,Charles R. Beaudoin,Burlington,8.1,8.0
+351,1097,declining,Macaulay,Bracebridge,8.0,6.5
+313,231,stable,St Brendan,Scarborough,8.1,8.0
+351,1685,declining,Glen Orchard/Honey Harbour Por t,Carling,8.0,5.7
+313,243,stable,Heritage Glen,Oakville,8.1,7.9
+351,1876,declining,Pleasant Corners Vankleek,Hill,8.0,5.4
+351,2285,stable,Westwood,Guelph,8.0,4.6
+392,n/a,n/a,St Demetrius,Toronto,7.9,n/a
+351,n/a,n/a,Downtown Alternative,Toronto,8.0,n/a
+392,n/a,n/a,St. Josephine Bakhita,Kitchener,7.9,n/a
+351,n/a,n/a,Ecole Elsie MacGill Thunder,Bay,8.0,n/a
+392,n/a,n/a,Woodland PS St.,Catharines,7.9,n/a
+351,n/a,n/a,Notre Dame Niagara,Falls,8.0,n/a
+447,146,stable,Withrow Avenue,Toronto,7.8,8.3
+351,n/a,n/a,Shanty Bay Shanty,Bay,8.0,n/a
+447,152,stable,Nor thlea East,York,7.8,8.2
+351,n/a,n/a,St Patricks,Sebringville,8.0,n/a
+447,189,stable,St Gregor y the Great,Woodbridge,7.8,8.1
+351,n/a,n/a,des Pins,Gloucester,8.0,n/a
+447,227,stable,Sir Richard W Scott,Markham,7.8,8.0
+392,62,stable,Convent Glen,Orleans,7.9,8.7
+447,231,stable,Franklin Street,Markham,7.8,8.0
+392,97,stable,Kennedy,Scarborough,7.9,8.5
+447,247,stable,Mutchmor,Ottawa,7.8,7.9
+392,127,stable,Richmond Rose Richmond,Hill,7.9,8.3
+447,256,stable,N A MacEachern,Waterloo,7.8,7.9
+392,149,stable,Dalewood St.,Catharines,7.9,8.2
+447,259,stable,Hillcrest,Toronto,7.8,7.9
+392,152,stable,Rick Hansen,Aurora,7.9,8.2
+447,267,stable,Carr ville Mills,Thornhill,7.8,7.9
+392,177,stable,Guardian Angels,Stittsville,7.9,8.1
+447,390,stable,Castor Valley,Greely,7.8,7.6
+392,180,stable,Pine Grove,Oakville,7.9,8.1
+447,390,stable,St Padre Pio,Woodbridge,7.8,7.6
+392,241,stable,Buttonville,Markham,7.9,7.9
+447,409,stable,Hartman,Aurora,7.8,7.6
+392,243,stable,St William Emer y,ville,7.9,7.9
+447,433,stable,Byron Southwood,London,7.8,7.5
+392,259,stable,St Andrews,Scarborough,7.9,7.9
+447,454,stable,St Gregor y,Toronto,7.8,7.5
+392,285,stable,Lyn-Tincap,Lyn,7.9,7.8
+447,461,stable,Markham Gateway,Markham,7.8,7.5
+392,285,stable,Whitchurch Highlands,Stouffville,7.9,7.8
+447,484,stable,St. Gabriel Stoney,Creek,7.8,7.4
+392,296,stable,St Michael Niagara- on-the,-Lake,7.9,7.8
+447,514,stable,Our Lady of Peace,Oakville,7.8,7.4
+392,304,stable,Cedarwood,Markham,7.9,7.8
+447,628,stable,Pickering,Pickering,7.8,7.2
+392,304,stable,Holy Spirit,Aurora,7.9,7.8
+447,638,stable,Garrison Road For t,Erie,7.8,7.2
+392,324,stable,St Francis Xavier,Markham,7.9,7.7
+447,639,stable,Rogers,Newmarket,7.8,7.1
+392,334,stable,Rickson Ridge,Guelph,7.9,7.7
+447,694,declining,Charlotte Lemieux,Ottawa,7.8,7.1
+392,345,stable,Broadview,Ottawa,7.9,7.7
+447,694,stable,Highview,Aurora,7.8,7.1
+392,358,stable,St Gregor y,Mississauga,7.9,7.7
+447,791,declining,Alexander Graham Bell,Ajax,7.8,6.9
+392,361,declining,Sainte-Marie,Oakville,7.9,7.7
+447,824,stable,St Patrick,Guelph,7.8,6.9
+392,369,declining,Mar tha Cullimore Niagara,Falls,7.9,7.7
+447,829,declining,Stirling,Stirling,7.8,6.9
+392,369,declining,Nor th Agincour t,Scarborough,7.9,7.7
+447,846,stable,Carrefour des Jeunes,Brampton,7.8,6.8
+392,381,stable,Greendale Niagara,Falls,7.9,7.6
+447,857,declining,Le Flambeau,Mississauga,7.8,6.8
+392,390,stable,Alton,Caledon,7.9,7.6
+447,890,declining,Monseigneur Rémi-Gaulin,Kingston,7.8,6.8
+392,404,stable,Cathcar t Boulevard,Sarnia,7.9,7.6
+447,977,stable,Loretto Niagara,Falls,7.8,6.7
+392,427,stable,St Gabriel,Windsor,7.9,7.5
+447,1025,stable,Rideau,Kingston,7.8,6.6
+392,433,declining,St Elizabeth Ann Seton,Nepean,7.9,7.5
+447,1439,declining,Séraphin-Marion,Ottawa,7.8,6.1
+392,443,stable,Glen Shields,Concord,7.9,7.5
+447,n/a,n/a,Bialik Hebrew Day,Toronto,7.8,n/a
+392,443,stable,Sts Cosmas and Damian,Toronto,7.9,7.5
+447,n/a,n/a,Victory,Guelph,7.8,n/a
+392,443,stable,Williamson Road,Toronto,7.9,7.5
+480,75,stable,Runnymede,Toronto,7.7,8.6
+392,456,stable,Brookside,Scarborough,7.9,7.5
+480,111,stable,David Lewis,Scarborough,7.7,8.4
+392,469,stable,St. John,London,7.9,7.5
+480,136,improving,Swansea,Toronto,7.7,8.3
+392,525,stable,Lakeview,Nepean,7.9,7.3
+480,141,stable,Our Lady Help of Christians Richmond,Hill,7.7,8.3
+392,532,declining,Grand Avenue,Grimsby,7.9,7.3
+480,147,stable,Elizabeth B Phin,Pickering,7.7,8.2
+392,532,stable,St Ann,Ancaster,7.9,7.3
+480,156,stable,Notre-Dame-de-Grâce,Etobicoke,7.7,8.2
+392,561,stable,St Georges,London,7.9,7.3
+480,197,stable,St George,Ottawa,7.7,8.1
+392,571,stable,Allan A Greenleaf,Waterdown,7.9,7.2
+480,220,stable,Valley Central Slate,River,7.7,8.0
+392,571,stable,Brisbane,Erin,7.9,7.2
+480,239,stable,Indian Road Crescent,Toronto,7.7,8.0
+392,604,stable,St Joseph,Belleville,7.9,7.2
+480,254,stable,Félix-Leclerc,Etobicoke,7.7,7.9
+392,615,stable,College Street,Smithville,7.9,7.2
+480,258,stable,Garden Avenue,Toronto,7.7,7.9
+392,642,stable,St. Brother André,Gloucester,7.9,7.1
+480,259,stable,Roger-Saint-Denis,Kanata,7.7,7.9
+392,670,stable,Queenston Drive,Mississauga,7.9,7.1
+480,264,stable,Alvin Curling,Scarborough,7.7,7.9
+392,670,stable,St Peter,Tecumseh,7.9,7.1
+480,264,stable,Post's Corners,Oakville,7.7,7.9
+392,791,stable,Alexander's,Burlington,7.9,6.9
+480,267,stable,St Andrew,Oakville,7.7,7.9
+392,950,declining,Jean Little,Guelph,7.9,6.7
+480,277,stable,Sainte-Marguerite-d'Youville,Toronto,7.7,7.8
+392,992,stable,Les Rapides,Sarnia,7.9,6.6
+480,282,stable,Rockcliffe Park,Ottawa,7.7,7.8
+392,1129,stable,Holy Name,Welland,7.9,6.5
+480,282,stable,St Denis,Toronto,7.7,7.8
+392,1191,stable,Innisfil Central,Lefroy,7.9,6.4
+480,311,stable,Clinton Street,Toronto,7.7,7.8
+392,1404,stable,Stuar t Scott,Newmarket,7.9,6.1
+480,312,stable,Highgate,Markham,7.7,7.8
+392,1910,declining,St James,Toronto,7.9,5.3
+480,322,stable,Duke of Cambridge,Bowmanville,7.7,7.8
+392,2039,stable,Claude E Gar ton Thunder,Bay,7.9,5.1
+480,324,stable,Stoney Creek,London,7.7,7.7
+392,n/a,n/a,Montrose,Toronto,7.9,n/a
+480,324,stable,Wilkinson,Toronto,7.7,7.7
+480,340,stable,Byron Somerset,London,7.7,7.7
+532,614,stable,Monsignor Uyen,Chatham,7.6,7.2
+480,366,stable,Barbara Reid,Stouffville,7.7,7.7
+532,615,stable,Central,Guelph,7.6,7.2
+480,369,stable,Madeleine-de-Roybon,Kingston,7.7,7.7
+532,628,stable,St Isidore,Kanata,7.6,7.2
+480,381,stable,Our Lady of the Rosar y,Concord,7.7,7.6
+532,647,stable,Ellengale,Mississauga,7.6,7.1
+480,420,stable,Byron Nor thview,London,7.7,7.6
+532,763,stable,St John Vianney,Windsor,7.6,7.0
+480,443,stable,W.O. Mitchell,Kanata,7.7,7.5
+532,772,declining,St Catherine of Siena,Barrie,7.6,7.0
+480,456,stable,King George,Guelph,7.7,7.5
+532,774,stable,Pine Grove,Woodbridge,7.6,7.0
+480,461,stable,Chris Hadfield,Whitby,7.7,7.5
+532,774,declining,Sainte-Marie,Gloucester,7.6,7.0
+480,461,stable,Nativity of Our Lord,Toronto,7.7,7.5
+532,813,stable,St Louis,Toronto,7.6,6.9
+480,478,stable,Georges-Étienne-Cartier,Toronto,7.7,7.4
+532,857,declining,Father Daniel Zanon,Mississauga,7.6,6.8
+480,488,stable,Parkland,Markham,7.7,7.4
+532,857,stable,St. Joseph,Douro,7.6,6.8
+480,488,stable,Roland Michener,Kanata,7.7,7.4
+532,879,stable,Quaker Road,Welland,7.6,6.8
+480,525,declining,J W Ger th,Kitchener,7.7,7.3
+532,921,stable,Norway,Toronto,7.6,6.7
+480,547,stable,Guardian Angels,Vaughan,7.7,7.3
+532,921,stable,St Clare,Mississauga,7.6,6.7
+480,591,declining,Frère André,London,7.7,7.2
+532,921,stable,W R Best Memorial Shanty,Bay,7.6,6.7
+480,591,declining,Gladys Speers,Oakville,7.7,7.2
+532,949,stable,Woodbridge,Woodbridge,7.6,6.7
+480,615,stable,Sheridan Park St.,Catharines,7.7,7.2
+532,1049,stable,Dunsford,Dunsford,7.6,6.6
+480,615,stable,St David,Maple,7.7,7.2
+532,1054,stable,St Theresa,London,7.6,6.6
+480,763,stable,Saint-Joseph,Wendover,7.7,7.0
+532,1070,stable,Williamstown,Williamstown,7.6,6.5
+480,804,stable,St Bernard,Whitby,7.7,6.9
+532,1280,stable,W J Baird,Blenheim,7.6,6.3
+480,921,stable,Winston Churchill,Kingston,7.7,6.7
+532,1332,stable,Burkevale,Penetanguishene,7.6,6.2
+480,933,stable,Archbishop O'Sullivan,Kingston,7.7,6.7
+532,1995,stable,Bruce Peninsula Lion s,Head,7.6,5.2
+480,1011,stable,St Eugene,Toronto,7.7,6.6
+532,n/a,n/a,Howard,Toronto,7.6,n/a
+480,1212,stable,River View Niagara,Falls,7.7,6.4
+532,n/a,n/a,Marshview,Bradford,7.6,n/a
+480,1280,stable,St Joseph,Bowmanville,7.7,6.3
+532,n/a,n/a,St. Bernadette,Stittsville,7.6,n/a
+480,1344,stable,Joyce Nor th,York,7.7,6.2
+532,n/a,n/a,St. Peter,Brantford,7.6,n/a
+480,1452,stable,Father C W Sullivan,Brampton,7.7,6.1
+532,n/a,n/a,Victoria Square,Markham,7.6,n/a
+480,n/a,n/a,Humbercrest,York,7.7,n/a
+589,112,stable,Jack Miner,Whitby,7.5,8.4
+480,n/a,n/a,St Jean de Brebeuf,Toronto,7.7,n/a
+589,168,stable,Sts Mar tha & Mar y,Mississauga,7.5,8.2
+532,79,stable,Parkview,Unionville,7.6,8.5
+589,180,stable,Sir Isaac Brock,Guelph,7.5,8.1
+532,139,stable,Mount Joy,Markham,7.6,8.3
+589,239,stable,James W. Hill,Oakville,7.5,8.0
+532,141,stable,Gandatsetiagon,Pickering,7.6,8.3
+589,249,stable,John McCrae,Markham,7.5,7.9
+532,144,stable,St Joseph,Markham,7.6,8.3
+589,340,stable,Milliken Mills,Unionville,7.5,7.7
+532,179,stable,Fred Varley,Markham,7.6,8.1
+589,369,stable,St Augustines,Dundas,7.5,7.7
+532,180,improving,Holy Name of Mar y,Ancaster,7.6,8.1
+589,388,stable,South Per th Centennial St. Mar,ys,7.5,7.6
+532,203,stable,Willowbrook,Thornhill,7.6,8.0
+589,390,stable,St Alexander,Fonthill,7.5,7.6
+532,259,stable,St Cecilia,Maple,7.6,7.9
+589,404,stable,Édouard-Bond,Ottawa,7.5,7.6
+532,275,stable,Valley View,Greenwood,7.6,7.9
+589,409,stable,Milliken,Scarborough,7.5,7.6
+532,295,stable,Williamsburg,Whitby,7.6,7.8
+589,433,stable,Wendat Village,Stouffville,7.5,7.5
+532,315,stable,Whitby Shores,Whitby,7.6,7.8
+589,443,stable,New Prospect Dr,yden,7.5,7.5
+532,324,stable,Rolph Road East,York,7.6,7.7
+589,469,stable,Rosebank Road,Pickering,7.5,7.5
+532,345,stable,St Nicholas,Waterloo,7.6,7.7
+589,493,stable,Orchard Park,Burlington,7.5,7.4
+532,366,stable,St Teresa,Kitchener,7.6,7.7
+589,514,stable,St Julia Billiar t,Markham,7.5,7.4
+532,381,stable,Connaught,Ottawa,7.6,7.6
+589,519,stable,St. Benedict,Milton,7.5,7.4
+532,390,stable,Charles Howitt Richmond,Hill,7.6,7.6
+589,571,stable,St Emily,Nepean,7.5,7.2
+532,399,stable,Pope John Paul II,Kitchener,7.6,7.6
+589,615,stable,R H Cornish Por t Perr,y,7.5,7.2
+532,409,stable,Jeanne Sauve St.,Catharines,7.6,7.6
+589,628,stable,Sir Samuel Steele,Whitby,7.5,7.2
+532,419,stable,Greensborough,Markham,7.6,7.6
+589,642,stable,Milverton,Milverton,7.5,7.1
+532,436,stable,Pope Francis,Kleinburg,7.6,7.5
+589,670,stable,Maple Ridge,Orleans,7.5,7.1
+532,443,stable,Castlemore,Brampton,7.6,7.5
+589,694,stable,Mountain View,Collingwood,7.5,7.1
+532,443,stable,St Sofia,Mississauga,7.6,7.5
+589,706,stable,Camborne,Cobourg,7.5,7.0
+532,454,stable,Oneida Central,Caledonia,7.6,7.5
+589,706,stable,Mother Teresa,Russell,7.5,7.0
+532,461,stable,Ledbur y Park Nor th,York,7.6,7.5
+589,732,declining,St Philip,Petrolia,7.5,7.0
+532,469,stable,Kettle Lakes Richmond,Hill,7.6,7.5
+589,763,stable,St Emily,Woodbridge,7.5,7.0
+532,495,stable,Northridge,London,7.6,7.4
+589,804,declining,Listowel Eastdale,Listowel,7.5,6.9
+532,512,stable,Brock,Toronto,7.6,7.4
+589,824,declining,St Jude,London,7.5,6.9
+532,547,stable,Prince Andrew,LaSalle,7.6,7.3
+589,832,stable,James Strath,Peterborough,7.5,6.9
+532,561,stable,Clara Brenton,London,7.6,7.3
+589,832,stable,St Peter St.,Catharines,7.5,6.9
+532,604,stable,St Mar y's,Listowel,7.6,7.2
+589,890,stable,Holy Name,Essex,7.5,6.8
+589,921,stable,Riverside,London,7.5,6.7
+643,879,stable,St Raphael the Archangel,Maple,7.4,6.8
+589,962,stable,Drayton Heights,Drayton,7.5,6.7
+643,933,declining,Lakeshore,Burlington,7.4,6.7
+589,994,stable,St Josephine Bakhita,Ajax,7.5,6.6
+643,933,stable,St Luke,Mississauga,7.4,6.7
+589,1031,stable,Mother Theresa,Cambridge,7.5,6.6
+643,994,declining,Gron Morgan Thunder,Bay,7.4,6.6
+589,1031,stable,Sir John A Macdonald,Belleville,7.5,6.6
+643,994,declining,Seigneurie,Casselman,7.4,6.6
+589,1054,stable,Lord Rober ts,Scarborough,7.5,6.6
+643,1051,stable,St Agnes Nor th,York,7.4,6.6
+589,1070,stable,St Leo,Toronto,7.5,6.5
+643,1111,declining,St David,Dorchester,7.4,6.5
+589,1091,stable,Abbey Lane,Oakville,7.5,6.5
+643,1137,stable,Earl Beatty,Toronto,7.4,6.5
+589,1111,stable,Jean Vanier,London,7.5,6.5
+643,1229,declining,Baltimore,Baltimore,7.4,6.3
+589,1180,stable,St John Bosco,Brockville,7.5,6.4
+643,1251,stable,Chicopee Hills,Kitchener,7.4,6.3
+589,1311,stable,Oxbow,Ilderton,7.5,6.3
+643,1332,stable,Grand Bend Grand,Bend,7.4,6.2
+589,1311,stable,Whaley's Corners,Brampton,7.5,6.3
+643,1380,stable,Innerkip Central,Innerkip,7.4,6.2
+589,1380,declining,Jean-Béliveau East Gwillimbur,y,7.5,6.2
+643,1421,stable,Central,Windsor,7.4,6.1
+589,1407,stable,St Thomas More,Toronto,7.5,6.1
+643,1555,declining,June Avenue,Guelph,7.4,6.0
+589,1439,stable,W J Langlois,Windsor,7.5,6.1
+643,1572,declining,R M Moore Sault Ste.,Marie,7.4,5.9
+589,1536,declining,St Bernard,Windsor,7.5,6.0
+643,1809,stable,Warren Park,York,7.4,5.5
+589,1557,declining,Tavistock,Tavistock,7.5,5.9
+643,2262,stable,Central,Renfrew,7.4,4.6
+589,2044,stable,Muskoka Falls,Bracebridge,7.5,5.1
+643,n/a,n/a,Alma Public,Alma,7.4,n/a
+589,n/a,n/a,Centennial '67,Spencerville,7.5,n/a
+643,n/a,n/a,Janet Metcalfe,Kitchener,7.4,n/a
+589,n/a,n/a,Louise-Arbour,Ottawa,7.5,n/a
+643,n/a,n/a,Palmerston Avenue,Toronto,7.4,n/a
+589,n/a,n/a,Micheline-Saint-Cyr,Etobicoke,7.5,n/a
+643,n/a,n/a,St Michael Bright's,Grove,7.4,n/a
+589,n/a,n/a,Willows Walk,Whitby,7.5,n/a
+643,n/a,n/a,St. Jacinta Mar to,Brampton,7.4,n/a
+643,34,stable,Rosedale,Toronto,7.4,9.0
+702,191,stable,St Clement,Woodbridge,7.3,8.1
+643,127,improving,C D Farquharson,Scarborough,7.4,8.3
+702,274,improving,St David of Wales,Mississauga,7.3,7.9
+643,133,stable,King George,York,7.4,8.3
+702,315,stable,St Joseph's,Gananoque,7.3,7.8
+643,137,stable,Our Lady of Mount Carmel,Carlisle,7.4,8.3
+702,324,stable,St John de Brebeuf,Kingsville,7.3,7.7
+643,200,stable,Unionville Meadows,Markham,7.4,8.0
+702,381,stable,St Paul,London,7.3,7.6
+643,230,improving,St. Anne,Burlington,7.4,8.0
+702,412,stable,MacLeod,Sudbury,7.3,7.6
+643,293,improving,Mother Teresa,Oakville,7.4,7.8
+702,412,stable,Oscar Peterson,Stouffville,7.3,7.6
+643,315,stable,St. Ignatius of Loyola,Guelph,7.4,7.8
+702,427,stable,Lakeview,Grimsby,7.3,7.5
+643,338,stable,St Brigid,Ayr,7.4,7.7
+702,436,improving,Our Lady of Fatima,Renfrew,7.3,7.5
+643,345,stable,St Ambrose,Toronto,7.4,7.7
+702,443,stable,St Luke the Evangelist,Whitby,7.3,7.5
+643,345,stable,St Marguerite D'Youville Richmond,Hill,7.4,7.7
+702,461,stable,Lorna Jackson,Woodbridge,7.3,7.5
+643,358,stable,Saint-Noël-Chabanel,Etobicoke,7.4,7.7
+702,502,stable,Maple Grove,Oakville,7.3,7.4
+643,366,stable,St Ann St.,Catharines,7.4,7.7
+702,506,stable,Churchville,Brampton,7.3,7.4
+643,369,stable,Holy Spirit,Stittsville,7.4,7.7
+702,522,stable,Rousseau,Ancaster,7.3,7.4
+643,381,stable,Sir Winston Churchill,Nepean,7.4,7.6
+702,532,stable,Beaver Valley Thornbur,y,7.3,7.3
+643,404,stable,St Rene Goupil-St Luke,Thornhill,7.4,7.6
+702,532,stable,St Simon Stock,Mississauga,7.3,7.3
+643,469,stable,Maplehurst,Burlington,7.4,7.5
+702,547,stable,Saint-Jean,Aurora,7.3,7.3
+643,495,stable,Ascension,Burlington,7.4,7.4
+702,571,stable,Maple Ridge,Pickering,7.3,7.2
+643,495,stable,Immaculate Hear t of Mar y Stoney,Creek,7.4,7.4
+702,591,stable,Brother Andre,Ajax,7.3,7.2
+643,507,stable,St Christopher,Mississauga,7.4,7.4
+702,604,stable,Whole Child,Toronto,7.3,7.2
+643,514,stable,William E Brown,Wainfleet,7.4,7.4
+702,657,stable,Sir Isaac Brock,Brampton,7.3,7.1
+643,571,stable,Park Lawn,Etobicoke,7.4,7.2
+702,694,stable,Giles Campus French,Windsor,7.3,7.1
+643,571,stable,St John the Baptist,Bolton,7.4,7.2
+702,732,stable,St Joachim,Ancaster,7.3,7.0
+643,604,stable,Randall,Markham,7.4,7.2
+702,744,stable,Maryborough,Moorefield,7.3,7.0
+643,639,stable,St John,Beamsville,7.4,7.1
+702,813,stable,St Josephine Bakhita,Brampton,7.3,6.9
+643,654,stable,Bendale,Scarborough,7.4,7.1
+702,832,stable,Our Lady of Grace,Kitchener,7.3,6.9
+643,670,stable,McKay Por t,Colborne,7.4,7.1
+702,846,stable,St John the Apostle,Nepean,7.3,6.8
+643,706,stable,Hélène-Gravel,Sudbury,7.4,7.0
+702,962,stable,Avondale Nor th,York,7.3,6.7
+643,706,stable,Saint-Isidore,St.-Isidore,7.4,7.0
+702,962,stable,Killarney Beach,Lefroy,7.3,6.7
+643,706,declining,St. Alphonsa,Brampton,7.4,7.0
+702,1025,declining,Jesse Ketchum,Toronto,7.3,6.6
+643,744,stable,Eldorado,Brampton,7.4,7.0
+702,1031,stable,Notre Dame,London,7.3,6.6
+643,756,stable,Mar y Phelan,Guelph,7.4,7.0
+702,1070,stable,St Patrick,Lucan,7.3,6.5
+643,774,stable,Kor tright Hills,Guelph,7.4,7.0
+702,1091,stable,St. Jean-Marie Vianney,Brampton,7.3,6.5
+643,791,declining,St Margaret,Toronto,7.4,6.9
+702,1153,stable,St Anne,Sarnia,7.3,6.4
+643,813,stable,St Thomas,Waterdown,7.4,6.9
+702,1178,stable,Rober ta Bondar,Brampton,7.3,6.4
+643,879,stable,Boyne,Milton,7.4,6.8
+702,1251,stable,Coronation,Oshawa,7.3,6.3
+643,879,stable,St Aloysius,Stratford,7.4,6.8
+702,1293,declining,St Theresa,Whitby,7.3,6.3
+702,1329,stable,St Theresa Shrine,Toronto,7.3,6.3
+753,1229,declining,Sacred Hear t,Hamilton,7.2,6.3
+702,1372,declining,Ste Marguerite Bourgeoys,Kenora,7.3,6.2
+753,1229,stable,St Mar tin,London,7.2,6.3
+702,1469,stable,Floradale,Elmira,7.3,6.1
+753,1251,stable,Jack Miner,Kingsville,7.2,6.3
+702,1469,stable,St Philomena For t,Erie,7.3,6.1
+753,1278,stable,St Margaret,Cambridge,7.2,6.3
+702,1532,stable,Terr y Fox,Cobourg,7.3,6.0
+753,1421,stable,Caradoc Nor th,Strathroy,7.2,6.1
+702,1572,stable,St Francis of Assisi,Newcastle,7.3,5.9
+753,1499,declining,Our Lady of Fatima,Toronto,7.2,6.0
+702,1925,declining,St Angela,Windsor,7.3,5.3
+753,1536,stable,Michel-Dupuis,Ottawa,7.2,6.0
+702,1951,stable,Our Lady of Lourdes,Hamilton,7.3,5.2
+753,1536,stable,Welborne Avenue,Kingston,7.2,6.0
+702,n/a,n/a,Jean Lumb,Toronto,7.3,n/a
+753,1853,stable,Diamond Trail,Welland,7.2,5.4
+702,n/a,n/a,Peel Virtual,Mississauga,7.3,n/a
+753,2073,declining,J L Mitchener,Cayuga,7.2,5.0
+702,n/a,n/a,Pte. Buckam Singh,Brampton,7.3,n/a
+753,n/a,n/a,Christ the King,Windsor,7.2,n/a
+702,n/a,n/a,Roch Carrier F.I. PS,Woodstock,7.3,n/a
+753,n/a,n/a,Claremont,Claremont,7.2,n/a
+702,n/a,n/a,St Patrick Catholic Por t,Colborne,7.3,n/a
+753,n/a,n/a,Mer win Greer P S,Cobourg,7.2,n/a
+702,n/a,n/a,St. Scholastica Town of,Milton,7.3,n/a
+811,127,stable,Henderson Avenue,Thornhill,7.1,8.3
+753,94,stable,St Bonaventure,Toronto,7.2,8.5
+811,138,improving,Laggan,Dalkeith,7.1,8.3
+753,222,stable,Le-Petit-Prince,Vaughan,7.2,8.0
+811,165,stable,Hawthorn,Mississauga,7.1,8.2
+753,224,stable,St Monica,Buttonville,7.2,8.0
+811,226,stable,Unionville,Unionville,7.1,8.0
+753,276,stable,Oodenawi,Oakville,7.2,7.9
+811,231,stable,Agnes Macphail,Scarborough,7.1,8.0
+753,304,stable,Wellington Heights,Fenwick,7.2,7.8
+811,277,stable,Blessed Kateri,London,7.1,7.8
+753,324,stable,Langton Fenelon,Falls,7.2,7.7
+811,322,improving,Baythorn,Thornhill,7.1,7.8
+753,324,stable,Por t Weller St.,Catharines,7.2,7.7
+811,334,stable,Humber wood Downs,Etobicoke,7.1,7.7
+753,338,stable,Devonshire,Ottawa,7.2,7.7
+811,336,stable,Agincourt,Toronto,7.1,7.7
+753,358,stable,Lackner Woods,Kitchener,7.2,7.7
+811,336,improving,Arc-en-ciel,Orléans,7.1,7.7
+753,369,stable,St Thomas the Apostle,Renfrew,7.2,7.7
+811,345,stable,St Gregor y,Nepean,7.1,7.7
+753,388,stable,Winger,Wainfleet,7.2,7.6
+811,355,stable,MacLeod's Landing Richmond,Hill,7.1,7.7
+753,420,improving,Chapman Mills,Ottawa,7.2,7.6
+811,369,stable,Williamsburg,Kitchener,7.1,7.7
+753,478,stable,Talbot Trail,Windsor,7.2,7.4
+811,424,stable,Hunter's Glen,Scarborough,7.1,7.6
+753,532,stable,Blessed Kateri,Kitchener,7.2,7.3
+811,484,stable,Our Lady of Hope Richmond,Hill,7.1,7.4
+753,547,stable,Chartland,Scarborough,7.2,7.3
+811,487,stable,Mineola,Mississauga,7.1,7.4
+753,561,stable,Brechin,Brechin,7.2,7.3
+811,502,stable,Emily Carr,Oakville,7.1,7.4
+753,589,stable,Cornell Village,Markham,7.2,7.2
+811,507,stable,Ramer Wood,Markham,7.1,7.4
+753,657,stable,Highbush,Pickering,7.2,7.1
+811,523,stable,John William Boich,Burlington,7.1,7.4
+753,670,stable,St Isaac Jogues,Pickering,7.2,7.1
+811,532,stable,St Michael the Archangel,Vaughan,7.1,7.3
+753,670,stable,West Rouge,Scarborough,7.2,7.1
+811,561,stable,Eagle Ridge,Ajax,7.1,7.3
+753,706,stable,Gordon,Welland,7.2,7.0
+811,561,stable,Notre-Dame-de-la-Jeunesse,Ajax,7.1,7.3
+753,706,stable,St Patrick,Nepean,7.2,7.0
+811,615,stable,Francojeunesse,Ottawa,7.1,7.2
+753,791,stable,Nor th Bridlewood,Scarborough,7.2,6.9
+811,615,stable,St Bridget,Brooklin,7.1,7.2
+753,804,stable,St Clare of Assisi Stoney,Creek,7.2,6.9
+811,615,stable,St Christopher,Burlington,7.1,7.2
+753,813,stable,Our Lady of the Annunciation Richmond,Hill,7.2,6.9
+811,628,stable,A Lorne Cassidy,Stittsville,7.1,7.2
+753,832,stable,Stella Maris,Amherstburg,7.2,6.9
+811,628,stable,St Thérèse of Lisieux,Hamilton,7.1,7.2
+753,846,declining,St Anthony of Padua,Milton,7.2,6.8
+811,647,stable,Tecumseh Vista Academy,Tecumseh,7.1,7.1
+753,857,stable,St Philip,Mississauga,7.2,6.8
+811,706,stable,Linklater,Gananoque,7.1,7.0
+753,890,declining,Father John Kelly,Maple,7.2,6.8
+811,706,stable,Silver Pines Richmond,Hill,7.1,7.0
+753,890,declining,St Stephen,Brampton,7.2,6.8
+811,732,stable,St Frances Cabrini,Delhi,7.1,7.0
+753,903,stable,Caledon East Caledon,East,7.2,6.8
+811,732,stable,St Mark,Stouffville,7.1,7.0
+753,903,stable,Guthrie,Oro-Medonte,7.2,6.8
+811,802,stable,DeWitt Car ter Por t,Colborne,7.1,6.9
+753,903,stable,St Vincent de Paul,Hamilton,7.2,6.8
+811,804,stable,Donald Young,Emo,7.1,6.9
+753,933,stable,Kemptville,Kemptville,7.2,6.7
+811,845,stable,St James the Apostle Stoney,Creek,7.1,6.9
+753,933,stable,St Matthew the Evangelist,Whitby,7.2,6.7
+811,846,stable,Father Frederick McGinn Richmond,Hill,7.1,6.8
+753,933,declining,Tecumseth South Central,Tottenham,7.2,6.7
+811,846,stable,Saint-Jean-Baptiste,Mississauga,7.1,6.8
+753,962,stable,Indian Creek Road,Chatham,7.2,6.7
+811,846,stable,Terr y Fox,Barrie,7.1,6.8
+753,962,stable,Shaw,Brampton,7.2,6.7
+811,857,stable,Cornell,Scarborough,7.1,6.8
+753,977,stable,Our Lady of Fatima,Grimsby,7.2,6.7
+811,890,stable,St Basil,Mississauga,7.1,6.8
+753,994,stable,St Francis of Assisi,Orleans,7.2,6.6
+811,921,declining,Cedar Hollow,London,7.1,6.7
+753,1021,declining,Cardinal Newman Niagara,Falls,7.2,6.6
+811,933,stable,Waverley Drive,Guelph,7.1,6.7
+753,1031,stable,Saint-Antoine,Tecumseh,7.2,6.6
+811,994,stable,St Monica,Pickering,7.1,6.6
+753,1054,declining,St Paschal Baylon,Toronto,7.2,6.6
+811,1051,declining,Anna McCrea Sault Ste.,Marie,7.1,6.6
+753,1070,stable,Corpus Christi,Ottawa,7.2,6.5
+811,1070,stable,Seaforth,Seaforth,7.1,6.5
+753,1097,stable,Phoebe Gilman East Gwillimbur,y,7.2,6.5
+811,1137,stable,Tom Longboat,Scarborough,7.1,6.5
+811,1191,stable,Holy Cross Sudbur,y,7.1,6.4
+873,1499,declining,St Kevin,Welland,7.0,6.0
+811,1191,declining,Parkview,Lindsay,7.1,6.4
+873,1555,stable,Pauline Vanier,Brampton,7.0,6.0
+811,1280,stable,Regal Road,Toronto,7.1,6.3
+873,1569,stable,Sprucedale,Shakespeare,7.0,5.9
+811,1369,stable,Golden,Balmertown,7.1,6.2
+873,1706,declining,Elma Township,Atwood,7.0,5.7
+811,1469,declining,Sandowne,Waterloo,7.1,6.1
+873,1925,declining,Elgin Market,Kincardine,7.0,5.3
+811,1496,stable,Stephen Central,Dashwood,7.1,6.0
+873,n/a,n/a,Lakeroad,Sarnia,7.0,n/a
+811,1513,declining,Minto-Clifford Central,Harriston,7.1,6.0
+873,n/a,n/a,Lord Rober ts FI,London,7.0,n/a
+811,1783,stable,Beachburg,Beachburg,7.1,5.5
+873,n/a,n/a,Louise Arbour FI,London,7.0,n/a
+811,n/a,n/a,Eva Circe-Cote FI St.,Thomas,7.1,n/a
+873,n/a,n/a,McKenzie,Shuniah,7.0,n/a
+811,n/a,n/a,Jonathan-Pitre,Gloucester,7.1,n/a
+873,n/a,n/a,St Monica,Nepean,7.0,n/a
+811,n/a,n/a,M J Hobbs Senior,Hampton,7.1,n/a
+873,n/a,n/a,Viola Desmond-Maple,Maple,7.0,n/a
+811,n/a,n/a,McKellar Park Central Thunder,Bay,7.1,n/a
+927,172,improving,Fallingbrook,Whitby,6.9,8.1
+811,n/a,n/a,Watt PS,Utterson,7.1,n/a
+927,266,improving,Edward Johnson,Guelph,6.9,7.9
+811,n/a,n/a,Yorkhill,Thornhill,7.1,n/a
+927,314,stable,Deer Park,Toronto,6.9,7.8
+811,n/a,n/a,catholique L'Envol,Trenton,7.1,n/a
+927,340,stable,Mother Cabrini,Toronto,6.9,7.7
+811,n/a,n/a,ÉÉC Sainte-Anne,Milton,7.1,n/a
+927,412,stable,Saint-Joseph d'Orléans,Orléans,6.9,7.6
+873,284,improving,Vimy Ridge,Ajax,7.0,7.8
+927,431,stable,Le Prélude,Orléans,6.9,7.5
+873,296,improving,St Therese of the Child Jesus,Mississauga,7.0,7.8
+927,442,stable,Lamoureux,Ottawa,6.9,7.5
+873,369,stable,Centennial Road,Scarborough,7.0,7.7
+927,456,stable,Springbrook,Brampton,6.9,7.5
+873,469,stable,D M Eagle,Tecumseh,7.0,7.5
+927,478,stable,St Mark,Kitchener,6.9,7.4
+873,477,stable,Southwood,Windsor,7.0,7.5
+927,525,stable,St Mar y,Maidstone,6.9,7.3
+873,514,stable,Brown,Toronto,7.0,7.4
+927,532,stable,Wilclay,Markham,6.9,7.3
+873,532,stable,Dr Emily Stowe Cour,tice,7.0,7.3
+927,547,stable,St Richard,Mississauga,6.9,7.3
+873,571,stable,St Patrick,Schomberg,7.0,7.2
+927,571,stable,Brookville,Campbellville,6.9,7.2
+873,591,stable,Notre-Place,Orleans,7.0,7.2
+927,571,stable,Eastview,Oakville,6.9,7.2
+873,591,stable,St Elizabeth Seton,Mississauga,7.0,7.2
+927,591,stable,Ardagh Bluffs,Barrie,6.9,7.2
+873,604,stable,Kanata Nord,Kanata,7.0,7.2
+927,591,improving,Earl Haig,Toronto,6.9,7.2
+873,642,stable,LaSalle,LaSalle,7.0,7.1
+927,615,stable,St. Gregor y the Great,Oakville,6.9,7.2
+873,670,stable,McMurrich,Toronto,7.0,7.1
+927,657,stable,William G Davis,Scarborough,6.9,7.1
+873,670,stable,Pauline,Toronto,7.0,7.1
+927,693,stable,Sts Peter & Paul,Mississauga,6.9,7.1
+873,670,stable,Prince of Wales,Thorold,7.0,7.1
+927,694,stable,Holy Cross,Kemptville,6.9,7.1
+873,670,stable,St Thomas Aquinas,Toronto,7.0,7.1
+927,706,stable,St Ursula,Brampton,6.9,7.0
+873,732,stable,Adam Beck,Toronto,7.0,7.0
+927,744,stable,Lakeside,Ajax,6.9,7.0
+873,756,stable,Carruthers Creek,Ajax,7.0,7.0
+927,744,stable,St Valentine,Mississauga,6.9,7.0
+873,756,stable,St Catherine of Siena,Ajax,7.0,7.0
+927,756,stable,Berrigan,Nepean,6.9,7.0
+873,763,stable,Lincoln Alexander,Ajax,7.0,7.0
+927,756,stable,St Anne's,Cornwall,6.9,7.0
+873,774,stable,Maurice-Lapointe,Kanata,7.0,7.0
+927,756,stable,St Nicholas,Newmarket,6.9,7.0
+873,791,stable,John Darling,Kitchener,7.0,6.9
+927,763,stable,St. Nicholas,London,6.9,7.0
+873,832,stable,Sainte-Madeleine,Toronto,7.0,6.9
+927,774,stable,Irma Coulson,Milton,6.9,7.0
+873,832,stable,St Francis Xavier Stoney,Creek,7.0,6.9
+927,774,stable,St Gabriel,Brantford,6.9,7.0
+873,846,stable,South March,Kanata,7.0,6.8
+927,774,stable,St Theresa,Cumberland,6.9,7.0
+873,903,stable,Algonquin Road/Long Lake Sudbur,y,7.0,6.8
+927,832,stable,Fossil Hill,Woodbridge,6.9,6.9
+873,903,stable,St Boniface Mar,yhill,7.0,6.8
+927,832,stable,St Boniface,Zurich,6.9,6.9
+873,957,stable,Tweed,Tweed,7.0,6.7
+927,857,stable,Half Moon Bay,Nepean,6.9,6.8
+873,960,stable,Reesor Park,Markham,7.0,6.7
+927,857,stable,St Philip,Richmond,6.9,6.8
+873,1011,stable,Alexander Muir,Newmarket,7.0,6.6
+927,950,stable,Johnny Lombardi,Woodbridge,6.9,6.7
+873,1054,stable,St. Luke Nor th,Bay,7.0,6.6
+927,950,stable,St Monica,Toronto,6.9,6.7
+873,1133,stable,Central,Burlington,7.0,6.5
+927,977,stable,John XXIII,Oshawa,6.9,6.7
+873,1162,declining,Trille des bois,Vanier,7.0,6.4
+927,977,stable,Pringle Creek,Whitby,6.9,6.7
+873,1178,stable,Carrefour Jeunesse,Rockland,7.0,6.4
+927,1054,stable,Centennial Central Ar,va,6.9,6.6
+873,1191,declining,Little Falls St. Mar,ys,7.0,6.4
+927,1070,declining,St Bernard Thunder,Bay,6.9,6.5
+873,1251,stable,Mar y Honey well,Nepean,7.0,6.3
+927,1097,declining,St Mark,Beamsville,6.9,6.5
+873,1296,stable,Fay wood Ar ts Nor th,York,7.0,6.3
+927,1153,declining,St Edmund Campion,Toronto,6.9,6.4
+873,1296,stable,Westmount,London,7.0,6.3
+927,1153,stable,St Veronica,Woodbridge,6.9,6.4
+873,1332,stable,St Faustina,Mississauga,7.0,6.2
+927,1191,stable,Sandhills,Kitchener,6.9,6.4
+873,1332,stable,St Joseph Richmond,Hill,7.0,6.2
+927,1212,declining,St Teresa of Avila,Mississauga,6.9,6.4
+873,1499,stable,Michaëlle Jean,Hamilton,7.0,6.0
+927,1251,stable,Blantyre,Scarborough,6.9,6.3
+927,1296,declining,Bruce Trail,Milton,6.9,6.3
+993,1191,stable,St Christopher,Windsor,6.8,6.4
+927,1354,stable,St Timothy,Toronto,6.9,6.2
+993,1251,stable,Sharon,Sharon,6.8,6.3
+927,1464,stable,St Mar tha,Kingston,6.9,6.1
+993,1280,stable,Silver Creek,Georgetown,6.8,6.3
+927,1536,stable,Saint-Denis,Sudbury,6.9,6.0
+993,1311,stable,Blessed Sacrament,Kitchener,6.8,6.3
+927,1597,declining,Salem,Elora,6.9,5.9
+993,1329,declining,Bedford,Stratford,6.8,6.3
+927,1622,stable,St Francis of Assisi,Georgetown,6.9,5.8
+993,1354,stable,St Raphael,Toronto,6.8,6.2
+927,1624,stable,West Lynde,Whitby,6.9,5.8
+993,1481,stable,Metropolitan Andrei,Mississauga,6.8,6.1
+927,1635,declining,J W Walker For t,Frances,6.9,5.8
+993,1499,declining,Saint-Jean/Pavillon La Croisée,Embrun,6.8,6.0
+927,1743,stable,Barrhaven,Nepean,6.9,5.6
+993,1572,stable,Beavercrest,Markdale,6.8,5.9
+927,1780,stable,St Ambrose,Stratford,6.9,5.6
+993,1572,stable,Parkway,Cambridge,6.8,5.9
+927,1910,stable,St Joseph's Por t,Elgin,6.9,5.3
+993,1585,stable,Admiral Collingwood,Collingwood,6.8,5.9
+927,2498,stable,Assumption,Vanier,6.9,3.9
+993,1609,stable,General Vanier For t,Erie,6.8,5.8
+927,n/a,n/a,Holy Name of Mar y Mar,ysville,6.9,n/a
+993,1624,stable,Hickson Central,Hickson,6.8,5.8
+927,n/a,n/a,Plympton-Wyoming,Wyoming,6.9,n/a
+993,1699,stable,St Andrew,Welland,6.8,5.7
+927,n/a,n/a,Sacred Heart,Mildmay,6.9,n/a
+993,1706,declining,St Anthony,London,6.8,5.7
+927,n/a,n/a,St James,Eganville,6.9,n/a
+993,1740,stable,Credit Meadows,Orangeville,6.8,5.6
+927,n/a,n/a,St Joseph,Stratford,6.9,n/a
+993,1774,stable,Arthur,Arthur,6.8,5.6
+927,n/a,n/a,St Michael Fitzroy,Harbour,6.9,n/a
+993,1960,stable,Mar y Fix,Mississauga,6.8,5.2
+993,191,stable,Ange-Gabriel,Mississauga,6.8,8.1
+993,2044,declining,Adelaide Hoodless,Hamilton,6.8,5.1
+993,228,stable,St Anne Richmond,Hill,6.8,8.0
+993,n/a,n/a,Cathedral,Pembroke,6.8,n/a
+993,296,stable,St Mark's Stoney,Creek,6.8,7.8
+993,n/a,n/a,Greensville,Dundas,6.8,n/a
+993,420,stable,St James Seafor,th,6.8,7.6
+993,n/a,n/a,Madaniyya Academy,Mississauga,6.8,n/a
+993,431,improving,Carleton St.,Catharines,6.8,7.5
+993,n/a,n/a,Mamawi,Nepean,6.8,n/a
+993,469,stable,St James,Maple,6.8,7.5
+993,n/a,n/a,Monsignor Leo Clear y Catholic Cour,tice,6.8,n/a
+993,478,stable,St Catherine of Siena,London,6.8,7.4
+993,n/a,n/a,Ogden,Toronto,6.8,n/a
+993,493,stable,St John the Baptist Belle,River,6.8,7.4
+993,n/a,n/a,Our Lady of Hope,Binbrook,6.8,n/a
+993,495,stable,Tecumseh,Mississauga,6.8,7.4
+993,n/a,n/a,Spring Valley,Ancaster,6.8,n/a
+993,512,stable,St Mar tin of Tours Stoney,Creek,6.8,7.4
+993,n/a,n/a,Tiger Jeet Singh,Milton,6.8,n/a
+993,525,stable,St. Dominic,Cumberland,6.8,7.3
+1062,105,improving,Fleming,Scarborough,6.7,8.4
+993,531,stable,Glad Park,Stouffville,6.8,7.3
+1062,165,stable,Woodroffe Avenue O,ttawa,6.7,8.2
+993,547,stable,Lester B Pearson,Waterloo,6.8,7.3
+1062,218,stable,Adrienne Clarkson,Nepean,6.7,8.0
+993,591,stable,St Peter Canisius,Watford,6.8,7.2
+1062,345,stable,G uardian Angels,Hamilton,6.7,7.7
+993,591,stable,Westwind,Ottawa,6.8,7.2
+1062,443,stable,G lenn G ould,Vaughan,6.7,7.5
+993,628,stable,St Andrew,Nepean,6.8,7.2
+1062,443,stable,St Luke,Waterloo,6.7,7.5
+993,657,stable,Hilson Avenue,Ottawa,6.8,7.1
+1062,547,stable,St Alber t of Jerusalem,Mississauga,6.7,7.3
+993,657,improving,Notre Dame,Newmarket,6.8,7.1
+1062,560,stable,Rose des Vents,Cornwall,6.7,7.3
+993,657,stable,Romeo Dallaire,Ajax,6.8,7.1
+1062,571,stable,Lexington,Waterloo,6.7,7.2
+993,670,stable,Monsignor Paul Baxter,Nepean,6.8,7.1
+1062,628,stable,B ernard- G randmaître O,ttawa,6.7,7.2
+993,732,stable,Ellen Fairclough,Markham,6.8,7.0
+1062,642,stable,Notre Dame,Caledonia,6.7,7.1
+993,743,stable,Mère-Élisabeth-Bruyère,Waterloo,6.8,7.0
+1062,647,improving,St Thomas More,Ottawa,6.7,7.1
+993,744,stable,Algonquin Ridge,Barrie,6.8,7.0
+1062,670,improving,SouthFields Village,Caledon,6.7,7.1
+993,744,stable,St Lawrence,Toronto,6.8,7.0
+1062,670,stable,Taylor Evans G,uelph,6.7,7.1
+993,774,stable,Transfiguration of our Lord,Toronto,6.8,7.0
+1062,706,stable,B rooklin Village B,rooklin,6.7,7.0
+993,791,stable,Bruce T Lindley,Burlington,6.8,6.9
+1062,706,stable,Coppard G len,Markham,6.7,7.0
+993,820,stable,Terre-des-Jeunes,Ottawa,6.8,6.9
+1062,732,stable,St Stephen,Woodbridge,6.7,7.0
+993,857,stable,Ormiston,Whitby,6.8,6.8
+1062,744,stable,Q uaker Village,Uxbridge,6.7,7.0
+993,903,stable,Pierre-Elliott-Trudeau,Toronto,6.8,6.8
+1062,756,stable,Our Lady of Peace,Nepean,6.7,7.0
+993,933,stable,Malden Central,Amherstburg,6.8,6.7
+1062,763,stable,Mountsfield,London,6.7,7.0
+993,950,stable,St Joseph,Clinton,6.8,6.7
+1062,763,stable,l'Ange - G ardien Nor th Lanc,aster,6.7,7.0
+993,962,stable,Bakersfield,Thornhill,6.8,6.7
+1062,774,stable,Holy Rosar y,Waterloo,6.7,7.0
+993,977,stable,Alexander Muir/Gladstone,Toronto,6.8,6.7
+1062,774,stable,Keele Street,Toronto,6.7,7.0
+993,1021,stable,Southwold St.,Thomas,6.8,6.6
+1062,774,stable,St Veronic a M,ississauga,6.7,7.0
+993,1031,stable,Prince of Wales St.,Catharines,6.8,6.6
+1062,804,stable,Anne J. MacAr thur,Milton,6.7,6.9
+993,1051,stable,Regina Mundi,Hamilton,6.8,6.6
+1062,813,stable,Tiffany Hills Anc,aster,6.7,6.9
+993,1070,stable,Edna Staebler,Waterloo,6.8,6.5
+1062,832,stable,St Elizabeth Seton,Pickering,6.7,6.9
+993,1097,stable,Sacred Hear t,Sarnia,6.8,6.5
+1062,857,stable,D iscover y,Maple,6.7,6.8
+993,1111,stable,Cherr y wood Acres Niagara,Falls,6.8,6.5
+1062,890,stable,Our Lady of Lourdes,Delaware,6.7,6.8
+993,1111,stable,St Marguerite d'Youville,Ottawa,6.8,6.5
+1062,903,stable,Holy Family B,olton,6.7,6.8
+993,1137,stable,St Charles Garnier,Mississauga,6.8,6.5
+1062,903,stable,Our Lady of Good Counsel,Sharon,6.7,6.8
+1062,921,stable,Red Maple Richmond,Hill,6.7,6.7
+1137,732,stable,St Joseph The Worker,Thornhill,6.6,7.0
+1062,921,stable,St James,Oakville,6.7,6.7
+1137,824,stable,St Rober t Nor th,York,6.6,6.9
+1062,933,stable,Highland Creek West,Hill,6.7,6.7
+1137,857,stable,S aint-Jean- de -Lalande,Toronto,6.6,6.8
+1062,962,stable,Dr. David Suzuki,Windsor,6.7,6.7
+1137,890,improving,Perc y P McCallum,Windsor,6.6,6.8
+1062,977,stable,Holy Cross Thunder,Bay,6.7,6.7
+1137,903,stable,Vaughan Willard,Pickering,6.6,6.8
+1062,994,stable,Joseph A Gibson,Maple,6.7,6.6
+1137,950,stable,Notre Dame,Windsor,6.6,6.7
+1062,994,stable,Primrose,Mulmur,6.7,6.6
+1137,950,stable,St Marguerite d'Youville,Hamilton,6.6,6.7
+1062,1031,stable,Forest Glen New,Hamburg,6.7,6.6
+1137,977,stable,E J Sand,Thornhill,6.6,6.7
+1062,1070,stable,Mono -Amaranth,Mono,6.7,6.5
+1137,977,stable,Mar tin Street M,ilton,6.6,6.7
+1062,1070,stable,Sir Edgar Bauer,Waterloo,6.7,6.5
+1137,977,stable,S A Cawker Por t Perr,y,6.6,6.7
+1062,1097,stable,Clarksdale B,urlington,6.7,6.5
+1137,977,stable,St B oniface S c,arborough,6.6,6.7
+1062,1111,stable,des Pionniers O,rléans,6.7,6.5
+1137,977,stable,St Catherine of Siena,Woodbridge,6.6,6.7
+1062,1167,stable,Montfor t O,ttawa,6.7,6.4
+1137,994,stable,Annunciation,Toronto,6.6,6.6
+1062,1229,stable,Fallingbrook O,rleans,6.7,6.3
+1137,1031,stable,Duke of Connaught,Toronto,6.6,6.6
+1062,1229,stable,St J ulia M,ississauga,6.7,6.3
+1137,1031,stable,St Gabriel the Archangel,Woodbridge,6.6,6.6
+1062,1249,stable,D rif t wood Park,Kitchener,6.7,6.3
+1137,1070,stable,Alexander S udbur,y,6.6,6.5
+1062,1251,stable,Our Lady of Providence,Brampton,6.7,6.3
+1137,1070,stable,St Paul B,urlington,6.6,6.5
+1062,1251,stable,St Josephs,Hamilton,6.7,6.3
+1137,1097,stable,John B lack,Fergus,6.6,6.5
+1062,1296,stable,Banting and Best,Scarborough,6.7,6.3
+1137,1097,stable,Pope John Paul II,Bolton,6.6,6.5
+1062,1311,stable,Island Lake O,rangeville,6.7,6.3
+1137,1111,stable,St Marks B,urlington,6.6,6.5
+1062,1311,stable,Lakeshore D iscover y Emer y,ville,6.7,6.3
+1137,1137,stable,Chemong B ridgenor,th,6.6,6.5
+1062,1407,stable,Castle Oaks B,rampton,6.7,6.1
+1137,1137,stable,Jean-Paul II,Whitby,6.6,6.5
+1062,1407,stable,Sir Ernest Macmillan,Burlington,6.7,6.1
+1137,1153,stable,H G Bernard Richmond,Hill,6.6,6.4
+1062,1421,stable,St Clement St.,Clements,6.7,6.1
+1137,1162,stable,Pierre Elliott Trudeau,Oshawa,6.6,6.4
+1062,1452,stable,Charles B owman B,owmanville,6.7,6.1
+1137,1162,stable,St Mar tin de Porres,Kanata,6.6,6.4
+1062,1536,stable,Rolling Meadows B,urlington,6.7,6.0
+1137,1180,stable,Charlottetown S c,arborough,6.6,6.4
+1062,1557,stable,Cardinal Leger,Toronto,6.7,5.9
+1137,1211,stable,Charles C McLean Gore,Bay,6.6,6.4
+1062,1569,stable,St Ursula,Toronto,6.7,5.9
+1137,1251,declining,Silverheights,Cambridge,6.6,6.3
+1062,1597,declining,Woodville,Woodville,6.7,5.9
+1137,1280,stable,St Mar tin S,mithville,6.6,6.3
+1062,1607,stable,B lessed Margherita,Toronto,6.7,5.9
+1137,1311,stable,Ellesmere -Statton,Toronto,6.6,6.3
+1062,1676,stable,St M ichaels,Hamilton,6.7,5.7
+1137,1344,declining,Georges Vanier,Brampton,6.6,6.2
+1062,1799,declining,Orono,Orono,6.7,5.5
+1137,1344,stable,St Vincent de Paul,Cambridge,6.6,6.2
+1062,1811,stable,Valleyfield,Etobicoke,6.7,5.5
+1137,1380,stable,Vincent Massey Nor th,Bay,6.6,6.2
+1062,1829,declining,Copper Cliff Copper,Cliff,6.7,5.5
+1137,1439,stable,The Water front,Toronto,6.6,6.1
+1062,1882,stable,Huntsville,Huntsville,6.7,5.3
+1137,1469,declining,St Paul Nor,wood,6.6,6.1
+1062,2196,declining,Dawnview,Hanover,6.7,4.7
+1137,1515,stable,B eckwith Carleton,Place,6.6,6.0
+1062,2241,declining,Lionel-Gauthier,Timmins,6.7,4.6
+1137,1536,stable,River view Central Por t,Lambton,6.6,6.0
+1062,2379,stable,Meadowlane,Kitchener,6.7,4.3
+1137,1572,declining,Saint-Viateur,Limoges,6.6,5.9
+1062,n/a,n/a,Assiginack,Manitowaning,6.7,n/a
+1137,1622,stable,Monck B,racebridge,6.6,5.8
+1062,n/a,n/a,Eramosa,Rockwood,6.7,n/a
+1137,1650,stable,St Bernard of Clair vaux Water,ford,6.6,5.8
+1062,n/a,n/a,St Florence Catholic,Toronto,6.7,n/a
+1137,1662,stable,St Alphonsus,Toronto,6.6,5.8
+1062,n/a,n/a,St Matthew,Unionville,6.7,n/a
+1137,1662,stable,du S acré - Coeur,Toronto,6.6,5.8
+1062,n/a,n/a,St Vincent de Paul Separate,Mississauga,6.7,n/a
+1137,1706,stable,St Mar y's B,arrie,6.6,5.7
+1137,180,improving,Pleasantville Richmond,Hill,6.6,8.1
+1137,1722,stable,St Patrick Niagara,Falls,6.6,5.7
+1137,355,stable,West Oak,Oakville,6.6,7.7
+1137,1743,declining,Viscount Montgomer y,Hamilton,6.6,5.6
+1137,427,stable,D ivine Merc y M,ississauga,6.6,7.5
+1137,1847,stable,S aint-Edmond,Windsor,6.6,5.4
+1137,443,improving,Saint-François-d'Assise,Ottawa,6.6,7.5
+1137,1882,stable,H J Lassaline,Windsor,6.6,5.3
+1137,484,stable,Steve MacLean G,loucester,6.6,7.4
+1137,1900,stable,S acred Hear t,Marmora,6.6,5.3
+1137,519,stable,San Lorenzo Ruiz,Mississauga,6.6,7.4
+1137,2010,declining,Brant Avenue,Guelph,6.6,5.2
+1137,561,stable,G uardian Angels M,ilton,6.6,7.3
+1137,2087,stable,Q ueensdale,Hamilton,6.6,5.0
+1137,571,stable,Kedron,Oshawa,6.6,7.2
+1137,2119,stable,Ekcoe Central G,lencoe,6.6,4.9
+1137,571,stable,S enator G ibson B,eamsville,6.6,7.2
+1137,2196,stable,Stella Maris,Toronto,6.6,4.7
+1137,571,stable,da Vinci,Ajax,6.6,7.2
+1137,2252,stable,Redwood Acres,Hanmer,6.6,4.6
+1137,670,stable,S pencer Avenue O,rangeville,6.6,7.1
+1137,n/a,n/a,Greenbank,Greenbank,6.6,n/a
+1137,694,stable,Bright's Grove Bright's,Grove,6.6,7.1
+1137,n/a,n/a,Holy Rosar y Catholic,Thorold,6.6,n/a
+1137,703,stable,Palermo,Oakville,6.6,7.1
+1137,n/a,n/a,St Charles Sep S,Glencoe,6.6,n/a
+1137,706,stable,Nottingham,Ajax,6.6,7.0
+1137,n/a,n/a,St. Angela Merici,Chatham,6.6,n/a
+1137,706,stable,St John Fisher,Forest,6.6,7.0
+1210,402,stable,St Angela Merici,Woodbridge,6.5,7.6
+1210,404,stable,St Leonard,Manotick,6.5,7.6
+1210,1894,stable,Lynndale Heights S,imcoe,6.5,5.3
+1210,436,stable,Sixteenth Avenue Richmond,Hill,6.5,7.5
+1210,2032,stable,G olf Road S c,arborough,6.5,5.1
+1210,488,improving,E I McCulley St.,Catharines,6.5,7.4
+1210,2054,stable,Vic toria Terrace,Fergus,6.5,5.0
+1210,495,stable,Lanc aster D rive,Kingston,6.5,7.4
+1210,2124,stable,Valley Way Niagara,Falls,6.5,4.9
+1210,525,stable,St Joseph's,Arnprior,6.5,7.3
+1210,2285,stable,Teeter ville Teeter,ville,6.5,4.6
+1210,547,improving,Jack Donohue,Kanata,6.5,7.3
+1210,2421,stable,Tamwor th Tamwor,th,6.5,4.1
+1210,657,stable,St Joseph's S,imcoe,6.5,7.1
+1210,n/a,n/a,Huron Heights,Kincardine,6.5,n/a
+1210,706,stable,Walnut G rove B,rampton,6.5,7.0
+1210,n/a,n/a,MAC Maple Grove,Kitchener,6.5,n/a
+1210,727,stable,B rookdale,Oakville,6.5,7.0
+1210,n/a,n/a,Massassaga-Rednersville,Belleville,6.5,n/a
+1210,732,stable,St John Chr ysostom,Newmarket,6.5,7.0
+1210,n/a,n/a,Pierre Elliott Trudeau FI St.,Thomas,6.5,n/a
+1210,744,stable,St M ichael G,uelph,6.5,7.0
+1210,n/a,n/a,St Paul Catholic,Kingston,6.5,n/a
+1210,755,stable,Nor th B endale S c,arborough,6.5,7.0
+1210,n/a,n/a,Sturgeon Creek,Barwick,6.5,n/a
+1210,791,stable,Holy Rosar y M,ilton,6.5,6.9
+1282,412,improving,St Mar y of the Angels,Toronto,6.4,7.6
+1210,846,stable,Winchester B,rooklin,6.5,6.8
+1282,495,stable,Elgin Street O,ttawa,6.4,7.4
+1210,856,stable,Chris Hadfield B,radford,6.5,6.8
+1282,532,improving,Ingleborough,Brampton,6.4,7.3
+1210,857,stable,B lessed S acrament,Hamilton,6.5,6.8
+1282,615,stable,Our Lady of Peace Stoney,Creek,6.4,7.2
+1210,857,improving,Holy Trinity,Guelph,6.5,6.8
+1282,628,stable,Westcreek,Pickering,6.4,7.2
+1210,890,stable,S ir William Osler D,undas,6.5,6.8
+1282,639,stable,Armour Heights Nor th,York,6.4,7.1
+1210,903,stable,Our Lady of Grace,Aurora,6.5,6.8
+1282,647,stable,Kimberley,Toronto,6.4,7.1
+1210,933,stable,Meadow vale S c,arborough,6.5,6.7
+1282,654,stable,Alexmuir S c,arborough,6.4,7.1
+1210,933,stable,R ichmond Street,Thorold,6.5,6.7
+1282,703,stable,MacKenzie King,Kitchener,6.4,7.1
+1210,977,stable,Anson S Taylor S c,arborough,6.5,6.7
+1282,727,improving,Valley Farm,Pickering,6.4,7.0
+1210,977,stable,Edmison Heights,Peterborough,6.5,6.7
+1282,744,improving,White Haven,Scarborough,6.4,7.0
+1210,992,stable,Queen of Heaven,Milton,6.5,6.6
+1282,820,stable,Nor thern Lights,Aurora,6.4,6.9
+1210,1011,stable,Cedarbrook S c,arborough,6.5,6.6
+1282,824,stable,Fr Fenelon,Pickering,6.4,6.9
+1210,1031,stable,Ange - G abriel B,rockville,6.5,6.6
+1282,846,stable,Rober t Munsch,Whitby,6.4,6.8
+1210,1031,stable,S pringfield M,ississauga,6.5,6.6
+1282,857,stable,Little Rouge,Markham,6.4,6.8
+1210,1054,stable,Hon Earl Rowe,Bradford,6.5,6.6
+1282,879,stable,S aint-Nicolas M,ilton,6.4,6.8
+1210,1054,stable,Mother Teresa B,radford,6.5,6.6
+1282,921,improving,Mountain Ash,Brampton,6.4,6.7
+1210,1070,stable,G ood Shepherd B,rampton,6.5,6.5
+1282,933,stable,Holy Family,Paris,6.4,6.7
+1210,1070,stable,McNab,Arnprior,6.5,6.5
+1282,960,stable,G lenc airn,Kitchener,6.4,6.7
+1210,1070,stable,Mother Teresa Cour,tice,6.5,6.5
+1282,962,stable,R iver Oaks,Oakville,6.4,6.7
+1210,1097,stable,L'Harmonie,Waterloo,6.5,6.5
+1282,977,stable,Naismith Memorial,Almonte,6.4,6.7
+1210,1111,stable,S outh D orchester B,elmont,6.5,6.5
+1282,994,stable,Jeanne S auvé,Stratford,6.4,6.6
+1210,1129,stable,Churchill Alternative O,ttawa,6.5,6.5
+1282,1070,stable,Cataraqui Woods,Kingston,6.4,6.5
+1210,1153,stable,D ublin Heights Nor th,York,6.5,6.4
+1282,1090,stable,S acred Hear t,Toronto,6.4,6.5
+1210,1153,stable,S ainte -K ateri O,ttawa,6.5,6.4
+1282,1091,stable,Exeter,Exeter,6.4,6.5
+1210,1167,stable,B aden B,aden,6.5,6.4
+1282,1180,stable,Corpus Christi M,ississauga,6.4,6.4
+1210,1180,stable,B lue Willow,Woodbridge,6.5,6.4
+1282,1191,stable,James Robinson,Markham,6.4,6.4
+1210,1212,stable,Wellesley,Wellesley,6.5,6.4
+1282,1191,stable,Trillium Woods B,arrie,6.4,6.4
+1210,1229,stable,Jeanne -S auvé O,rléans,6.5,6.3
+1282,1212,stable,The Good Shepherd,Barrie,6.4,6.4
+1210,1296,stable,Our Lady of Lourdes,Toronto,6.5,6.3
+1282,1229,stable,Horizon-Jeunesse,Vanier,6.4,6.3
+1210,1354,stable,St Anne,Kitchener,6.5,6.2
+1282,1229,stable,St Hilar y M,ississauga,6.4,6.3
+1210,1354,stable,St B rigid,Stouffville,6.5,6.2
+1282,1249,stable,West vale,Waterloo,6.4,6.3
+1210,1421,stable,St S imon Nor th,York,6.5,6.1
+1282,1251,stable,G ulfstream Nor th,York,6.4,6.3
+1210,1451,stable,Ross,Welland,6.5,6.1
+1282,1280,stable,B ishop S c alabrini M,ississauga,6.4,6.3
+1210,1482,declining,Dolson,Brampton,6.5,6.0
+1282,1280,stable,Herb Campbell,Inglewood,6.4,6.3
+1210,1506,stable,Jeanne -Lajoie,Pembroke,6.5,6.0
+1282,1311,stable,La Pommeraie,London,6.4,6.3
+1210,1515,stable,St Marguerite d'Youville,London,6.5,6.0
+1282,1332,stable,B lessed K ateri Tek akwitha O,rleans,6.4,6.2
+1210,1515,stable,Victoria Cross Mount,Forest,6.5,6.0
+1282,1332,stable,St B rendan,Stouffville,6.4,6.2
+1210,1532,stable,Holy Cross O,ttawa,6.5,6.0
+1282,1452,stable,D onwood Park S c,arborough,6.4,6.1
+1210,1569,stable,Holy Redeemer K,anata,6.5,5.9
+1282,1515,stable,S ainte -B ernadette G,loucester,6.4,6.0
+1210,1609,stable,Mother Teresa Walker,ton,6.5,5.8
+1282,1524,stable,St B ernadette,Ajax,6.4,6.0
+1210,1695,stable,Per th Avenue,Toronto,6.5,5.7
+1282,1557,stable,St Monic a B,rampton,6.4,5.9
+1210,1755,stable,Rosedale S,arnia,6.5,5.6
+1282,1565,stable,Sts Peter & Paul,Hamilton,6.4,5.9
+1210,1780,declining,Paris Central,Paris,6.5,5.6
+1282,1597,stable,Kars on the Rideau,Kars,6.4,5.9
+1210,1811,stable,Our Lady of Perpetual Help,Windsor,6.5,5.5
+1282,1597,stable,Princess Anne,Ingersoll,6.4,5.9
+1210,1826,stable,Holy Family Sault Ste.,Marie,6.5,5.5
+1282,1609,stable,Woodland Park,Cambridge,6.4,5.8
+1210,1871,stable,St Therese Por t,Colborne,6.5,5.4
+1282,1624,stable,Applecrof t,Ajax,6.4,5.8
+1282,1676,stable,St Josephs D r,yden,6.4,5.7
+1348,1354,stable,Blessed Teresa of Calcutta,Mississauga,6.3,6.2
+1282,1686,stable,Herman Street,Petawawa,6.4,5.7
+1348,1354,stable,St G abriel B,urlington,6.3,6.2
+1282,1731,stable,Regina Mundi,Toronto,6.4,5.6
+1348,1371,stable,S acred Hear t G,uelph,6.3,6.2
+1282,1783,stable,Hillcrest,Petrolia,6.4,5.5
+1348,1380,stable,Dr G J MacGillivray Cour,tice,6.3,6.2
+1282,1811,stable,St Augustine,Toronto,6.4,5.5
+1348,1380,stable,St Anthony St.,Catharines,6.3,6.2
+1282,1831,stable,Caldwell Street Carleton,Place,6.4,5.5
+1348,1407,stable,Countr yside Village B,rampton,6.3,6.1
+1282,1951,stable,St Mar y's G,oderich,6.4,5.2
+1348,1407,stable,James Morden Niagara,Falls,6.3,6.1
+1282,1962,stable,St Mar y,Campbellford,6.4,5.2
+1348,1407,stable,l'O dyssée O,rléans,6.3,6.1
+1282,1983,stable,Tec umseh,London,6.4,5.2
+1348,1439,stable,Hepwor th Central Hepwor,th,6.3,6.1
+1282,2176,stable,Polson Park,Kingston,6.4,4.8
+1348,1452,stable,Precious B lood,Toronto,6.3,6.1
+1282,2176,stable,St James,Ajax,6.4,4.8
+1348,1463,stable,Hugh B eaton,Windsor,6.3,6.1
+1282,2196,stable,Heritage,Navan,6.4,4.7
+1348,1469,stable,Woburn S c,arborough,6.3,6.1
+1282,2379,stable,Englehar t Englehar,t,6.4,4.3
+1348,1482,stable,James R Henderson,Kingston,6.3,6.0
+1282,n/a,n/a,Harvest Hills,Bradford,6.4,n/a
+1348,1506,stable,St Eugenes,Hamilton,6.3,6.0
+1282,n/a,n/a,Jeanne-Sauvé PS,London,6.4,n/a
+1348,1529,stable,St Cecilia B,rampton,6.3,6.0
+1282,n/a,n/a,Macklin,Scarborough,6.4,n/a
+1348,1566,stable,S aint-Vic tor,Alfred,6.3,5.9
+1282,n/a,n/a,Our Lady of Peace,Toronto,6.4,n/a
+1348,1597,stable,Immac ulate Conception,Woodbridge,6.3,5.9
+1282,n/a,n/a,St John the Evangelist,Whitby,6.4,n/a
+1348,1635,stable,Little Current Little,Current,6.3,5.8
+1282,n/a,n/a,Viola Desmond,Milton,6.4,n/a
+1348,1650,stable,Sir John A Macdonald,Pickering,6.3,5.8
+1348,149,stable,Cedar vale,York,6.3,8.2
+1348,1650,stable,S pruce G len,Huntsville,6.3,5.8
+1348,249,stable,Iona,Williamstown,6.3,7.9
+1348,1676,stable,Humphrey Central S,eguin,6.3,5.7
+1348,345,stable,Frankland,Toronto,6.3,7.7
+1348,1706,stable,Cour tice Nor th Cour,tice,6.3,5.7
+1348,604,improving,St Paul Stoney,Creek,6.3,7.2
+1348,1731,stable,James Culnan,Toronto,6.3,5.6
+1348,615,stable,C H Nor ton,Burlington,6.3,7.2
+1348,1755,stable,Immac ulée - Conception St.,Catharines,6.3,5.6
+1348,670,improving,All Saints,Etobicoke,6.3,7.1
+1348,1809,declining,St Helen,Toronto,6.3,5.5
+1348,694,stable,M ichaëlle -Jean B,arrhaven,6.3,7.1
+1348,1995,stable,John G alt G,uelph,6.3,5.2
+1348,694,improving,Nor th Preparator y,Toronto,6.3,7.1
+1348,2012,stable,Notre Dame B,rantford,6.3,5.1
+1348,727,stable,B rigadoon,Kitchener,6.3,7.0
+1348,2209,stable,G raf ton G raf,ton,6.3,4.7
+1348,774,stable,Fred A Hamilton,Guelph,6.3,7.0
+1348,2209,stable,Holbrook,Hamilton,6.3,4.7
+1348,791,improving,Great Lakes,Brampton,6.3,6.9
+1348,2489,stable,Storrington B,attersea,6.3,3.9
+1348,804,stable,Hyde Park B,arrie,6.3,6.9
+1348,2583,stable,Lord Strathcona,Kingston,6.3,3.5
+1348,820,stable,G ivins/Shaw,Toronto,6.3,6.9
+1348,n/a,n/a,Guelph Lake,Guelph,6.3,n/a
+1348,857,improving,Empire,Waterloo,6.3,6.8
+1348,n/a,n/a,Kensal Park PS,London,6.3,n/a
+1348,890,stable,Princess Elizabeth,Welland,6.3,6.8
+1348,n/a,n/a,McGillivray Central Ailsa,Craig,6.3,n/a
+1348,903,stable,Our Lady of Fatima,Woodbridge,6.3,6.8
+1348,n/a,n/a,St Mary,Welland,6.3,n/a
+1348,962,stable,Cité -Jeunesse,Trenton,6.3,6.7
+1348,n/a,n/a,St. Evan,Caledon,6.3,n/a
+1348,994,stable,Blessed Pope John Paull II,Brooklin,6.3,6.6
+1348,n/a,n/a,The Grove Community S,Toronto,6.3,n/a
+1348,994,improving,Harriet Tubman St.,Catharines,6.3,6.6
+1426,224,improving,Brookmill Boulevard,Scarborough,6.2,8.0
+1348,1011,stable,Mother Teresa,Hamilton,6.3,6.6
+1426,315,improving,Nor th Cavan,Cavan,6.2,7.8
+1348,1011,stable,St Francis of Assisi,Petawawa,6.3,6.6
+1426,461,stable,Davisville,Toronto,6.2,7.5
+1348,1025,stable,B lair R idge,Whitby,6.3,6.6
+1426,469,improving,Orde Street,Toronto,6.2,7.5
+1348,1054,stable,Tom Thomson B,urlington,6.3,6.6
+1426,469,stable,West Preparator y,Toronto,6.2,7.5
+1348,1097,stable,Elizabeth Z iegler,Waterloo,6.3,6.5
+1426,524,stable,Paul A Fisher,Burlington,6.2,7.3
+1348,1097,stable,St Teresa of Avila,Elmira,6.3,6.5
+1426,647,stable,St Augustine,Cambridge,6.2,7.1
+1348,1111,stable,Elora,Elora,6.3,6.5
+1426,706,stable,St. Joseph,Toledo,6.2,7.0
+1348,1111,stable,Lester B Pearson,Ajax,6.3,6.5
+1426,732,improving,Our Lady of Providence,Brantford,6.2,7.0
+1348,1129,stable,Elisabeth-B ruyère K,anata,6.3,6.5
+1426,774,improving,Mount Royal,Brampton,6.2,7.0
+1348,1137,stable,St Matthew B,inbrook,6.3,6.5
+1426,804,stable,Mother Teresa,Ajax,6.2,6.9
+1348,1212,stable,G roh,Kitchener,6.3,6.4
+1426,857,stable,Vradenburg S c,arborough,6.2,6.8
+1348,1229,stable,Fair view B,rantford,6.3,6.3
+1426,879,improving,Nor thpor t Por t,Elgin,6.2,6.8
+1348,1229,stable,Valley view Central Ilder,ton,6.3,6.3
+1426,890,improving,Maple Creek,Maple,6.2,6.8
+1348,1251,stable,Monseigneur Augustin Caron,LaSalle,6.3,6.3
+1426,890,stable,Shaughnessy Nor th,York,6.2,6.8
+1348,1251,stable,Our Lady of Mount Carmel Niagara,Falls,6.3,6.3
+1426,962,stable,P. L. Rober tson,Milton,6.2,6.7
+1348,1251,stable,St Mar y G,loucester,6.3,6.3
+1426,994,stable,St Catherine of Alexandria,Georgetown,6.2,6.6
+1348,1296,stable,St Herber t M,ississauga,6.3,6.3
+1426,1031,stable,Notre -Dame - des- Champs O,ttawa,6.2,6.6
+1348,1311,stable,St R aphael M,ississauga,6.3,6.3
+1426,1031,improving,Ross Drive,Brampton,6.2,6.6
+1348,1344,stable,Confederation Central S,arnia,6.3,6.2
+1426,1111,improving,Crossland,Newmarket,6.2,6.5
+1348,1354,stable,Armitage Village,Newmarket,6.3,6.2
+1426,1111,stable,K leinburg K,leinburg,6.2,6.5
+1426,1153,stable,St Paul's,Peterborough,6.2,6.4
+1495,857,stable,Rosedale Heights,Thornhill,6.1,6.8
+1426,1180,improving,South River South,River,6.2,6.4
+1495,903,improving,Glenview,Burlington,6.1,6.8
+1426,1212,stable,D over wood Por t D,over,6.2,6.4
+1495,903,stable,St G erald,Toronto,6.1,6.8
+1426,1212,stable,St Vic tor,Toronto,6.2,6.4
+1495,933,improving,Hespeler,Cambridge,6.1,6.7
+1426,1251,stable,Annette Street,Toronto,6.2,6.3
+1495,933,stable,S acred Hear t,Paris,6.1,6.7
+1426,1251,stable,Saint Gabriel the Archangel,Barrie,6.2,6.3
+1495,957,stable,St Mar y-St Cecilia,Morrisburg,6.1,6.7
+1426,1280,stable,St Matthias,Toronto,6.2,6.3
+1495,962,stable,Jean-Paul II Val,Caron,6.1,6.7
+1426,1280,stable,W.T. Townshend,Kitchener,6.2,6.3
+1495,962,stable,Stonehaven,Newmarket,6.1,6.7
+1426,1344,stable,G ood Shepherd Cour,tice,6.2,6.2
+1495,977,stable,B ellmere S c,arborough,6.1,6.7
+1426,1372,stable,Harrowsmith,Harrowsmith,6.2,6.2
+1495,994,stable,McClure B,rampton,6.1,6.6
+1426,1372,stable,St Margaret of Scotland,Mississauga,6.2,6.2
+1495,1011,improving,Holy Cross Halton,Hills,6.1,6.6
+1426,1372,stable,St. B asil B,rantford,6.2,6.2
+1495,1025,improving,Nellie McClung,Vaughan,6.1,6.6
+1426,1380,stable,Annunciation of Our Lord,Hamilton,6.2,6.2
+1495,1031,stable,S aginaw,Cambridge,6.1,6.6
+1426,1380,stable,Jean Steckle,Kitchener,6.2,6.2
+1495,1054,stable,B ridlewood K,anata,6.1,6.6
+1426,1439,stable,Alta Vista O,ttawa,6.2,6.1
+1495,1054,stable,Fieldcrest B,radford,6.1,6.6
+1426,1439,stable,St Kevin S c,arborough,6.2,6.1
+1495,1054,improving,St. Teresa of Calcutta,Kingston,6.1,6.6
+1426,1464,stable,Cookstown Central,Cookstown,6.2,6.1
+1495,1129,improving,Oak Ridges Richmond,Hill,6.1,6.5
+1426,1482,stable,All S aints M,ississauga,6.2,6.0
+1495,1137,improving,Cadarackque,Ajax,6.1,6.5
+1426,1482,stable,Foxboro,Foxboro,6.2,6.0
+1495,1137,stable,John Sweeney,Kitchener,6.1,6.5
+1426,1482,stable,Keppel-S arawak O wen S,ound,6.2,6.0
+1495,1191,stable,G len D hu,Whitby,6.1,6.4
+1426,1515,stable,Valley View Val,Caron,6.2,6.0
+1495,1191,stable,S am Sherratt M,ilton,6.1,6.4
+1426,1532,stable,Our Lady of Victor y,Milton,6.2,6.0
+1495,1191,stable,St Peter's M,ilton,6.1,6.4
+1426,1532,stable,R Tait McKenzie,Almonte,6.2,6.0
+1495,1277,stable,Nor th Easthope,Stratford,6.1,6.3
+1426,1567,declining,Saint-Philippe,Burlington,6.2,5.9
+1495,1296,stable,Lydia Trull Cour,tice,6.1,6.3
+1426,1635,stable,Westminster B,rockville,6.2,5.8
+1495,1296,stable,St Conrad Nor th,York,6.1,6.3
+1426,1683,declining,Wor tley Road,London,6.2,5.7
+1495,1332,stable,Holy S pirit B,rampton,6.1,6.2
+1426,1706,stable,H W B urgess,Wallaceburg,6.2,5.7
+1495,1354,stable,Father Francis McSpiritt,Brampton,6.1,6.2
+1426,1731,stable,Tottenham,Tottenham,6.2,5.6
+1495,1354,stable,Montgomer y Village O,rangeville,6.1,6.2
+1426,1740,stable,Harr y J Clarke,Belleville,6.2,5.6
+1495,1403,stable,Mariposa,Oakwood,6.1,6.2
+1426,1853,stable,Highc astle S c,arborough,6.2,5.4
+1495,1439,stable,St G erard M,ississauga,6.1,6.1
+1426,1861,declining,Lockes St.,Thomas,6.2,5.4
+1495,1469,stable,Notre Dame O,rillia,6.1,6.1
+1426,1910,declining,Holy Family,Hanover,6.2,5.3
+1495,1469,stable,Park Avenue Holland,Landing,6.1,6.1
+1426,1922,stable,Loughborough,Sydenham,6.2,5.3
+1495,1482,stable,G lenwood,Windsor,6.1,6.0
+1426,1925,stable,Mount Hope Mount,Hope,6.2,5.3
+1495,1536,stable,Holland Landing Holland,Landing,6.1,6.0
+1426,1965,stable,St Aidan B,rampton,6.2,5.2
+1495,1597,stable,Stockdale,Frankford,6.1,5.9
+1426,2017,stable,Princess Margaret O,rangeville,6.2,5.1
+1495,1609,stable,J Douglas Hogar th,Fergus,6.1,5.8
+1426,2075,declining,Elgin Street,Cambridge,6.2,5.0
+1495,1650,stable,St Aloysius,Kitchener,6.1,5.8
+1426,2147,stable,Muskok a B eechgrove G,ravenhurst,6.2,4.8
+1495,1662,stable,Sir Isaac Brock,London,6.1,5.8
+1426,2172,declining,St Angela,Toronto,6.2,4.8
+1495,1686,stable,Ada B Massecar Water,ford,6.1,5.7
+1426,2285,declining,St John Bosco,Brampton,6.2,4.6
+1495,1686,stable,Winchester,Winchester,6.1,5.7
+1426,2320,declining,Joyceville,Joyceville,6.2,4.4
+1495,1722,stable,Kakabeka Falls District Kakabeka,Falls,6.1,5.7
+1426,2385,declining,Oliver Stephens,Woodstock,6.2,4.3
+1495,1755,stable,Shelter B ay M,ississauga,6.1,5.6
+1426,n/a,n/a,Errol Village,Camlachie,6.2,n/a
+1495,1796,stable,B erner Trail,Toronto,6.1,5.5
+1426,n/a,n/a,Lady Evelyn Alternative,Ottawa,6.2,n/a
+1495,1826,stable,S ainte -Marguerite -B ourgeoys,Woodstock,6.1,5.5
+1426,n/a,n/a,Saint-Michel,Toronto,6.2,n/a
+1495,1826,declining,St. André Bessette,Brampton,6.1,5.5
+1426,n/a,n/a,Terre des Jeunes,Alexandria,6.2,n/a
+1495,1829,stable,Christ the King,Brantford,6.1,5.5
+1426,n/a,n/a,Victoria PS Niagara,Falls,6.2,n/a
+1495,1847,stable,J A McWilliam,Windsor,6.1,5.4
+1495,256,improving,Island Public/Natural Science,Toronto,6.1,7.9
+1495,1862,stable,B ruce,Toronto,6.1,5.4
+1495,468,improving,Georges Vanier,Kanata,6.1,7.5
+1495,1871,stable,St John Bosco,Toronto,6.1,5.4
+1495,502,stable,St Edith Stein,Mississauga,6.1,7.4
+1495,1951,stable,St Mar y's West,Lorne,6.1,5.2
+1495,532,improving,St Francis Sault Ste.,Marie,6.1,7.3
+1495,1960,stable,D elhi D,elhi,6.1,5.2
+1495,591,stable,William Armstrong,Markham,6.1,7.2
+1495,2109,stable,Holy Trinit y S,arnia,6.1,4.9
+1495,706,stable,Huntley Centennial,Carp,6.1,7.0
+1495,2119,stable,Pope John XXIII,Nepean,6.1,4.9
+1495,706,stable,St Elizabeth,Cambridge,6.1,7.0
+1495,2437,stable,Nor thbrae,London,6.1,4.1
+1495,791,stable,St D ominic M,ississauga,6.1,6.9
+1495,2438,stable,Winston Churchill,Chatham,6.1,4.1
+1495,824,stable,D es S entiers O,rléans,6.1,6.9
+1495,2469,stable,St Ann's,Penetanguishene,6.1,4.0
+1495,843,stable,Esc arpment View M,ilton,6.1,6.9
+1495,n/a,n/a,Our Lady of the Annunciation Stoney,Point,6.1,n/a
+1495,857,improving,Lumen Christi,Milton,6.1,6.8
+1495,n/a,n/a,Por t Stanley Por t,Stanley,6.1,n/a
+1495,n/a,n/a,Rattlesnake Point,Burlington,6.1,n/a
+1567,1811,declining,Guardian Angels,Brampton,6.0,5.5
+1495,n/a,n/a,Summerside,London,6.1,n/a
+1567,1811,stable,Valley view,Kenora,6.0,5.5
+1567,591,stable,Sir Samuel B Steele,Scarborough,6.0,7.2
+1567,1865,stable,St Mar y's,Collingwood,6.0,5.4
+1567,654,improving,St Jacobs St.,Jacobs,6.0,7.1
+1567,1871,stable,St Teresa's,Peterborough,6.0,5.4
+1567,657,improving,John English,Toronto,6.0,7.1
+1567,1906,stable,Our Lady of Mount Carmel,Amherstview,6.0,5.3
+1567,670,improving,Harr y Bowes,Stouffville,6.0,7.1
+1567,2039,stable,S acred Hear t,Rockwood,6.0,5.1
+1567,706,stable,Sir Adam Beck,Baden,6.0,7.0
+1567,2054,stable,Huron Park M,idland,6.0,5.0
+1567,727,improving,MacKenzie Community Deep,River,6.0,7.0
+1567,2075,stable,B ur ford D istric t B ur,ford,6.0,5.0
+1567,774,stable,D ufferin B,rantford,6.0,7.0
+1567,2109,stable,East Williams Memorial Ailsa,Craig,6.0,4.9
+1567,813,stable,B lessed Trinit y,Maple,6.0,6.9
+1567,2252,declining,Johnson Street,Barrie,6.0,4.6
+1567,903,improving,Goderich,Goderich,6.0,6.8
+1567,2438,stable,Princess Elizabeth,Windsor,6.0,4.1
+1567,921,stable,Fern Avenue,Toronto,6.0,6.7
+1567,2580,stable,St James Thunder,Bay,6.0,3.5
+1567,933,stable,St B ernard O,ttawa,6.0,6.7
+1567,n/a,n/a,Flamborough Centre,Hamilton,6.0,n/a
+1567,950,improving,Ancaster Meadow,Ancaster,6.0,6.7
+1567,n/a,n/a,K P Manson Severn,Bridge,6.0,n/a
+1567,1011,stable,Holy Name of Mar y,Almonte,6.0,6.6
+1567,n/a,n/a,Viola Desmond,Ajax,6.0,n/a
+1567,1025,stable,B er yl Ford B,rampton,6.0,6.6
+1567,n/a,n/a,É Sép Saint-Joseph Sudbur,y,6.0,n/a
+1567,1031,stable,St Jerome,Aurora,6.0,6.6
+1640,571,stable,C M L Snider,Wellington,5.9,7.2
+1567,1070,improving,St Patrick's,Woodstock,6.0,6.5
+1640,571,stable,St. Rose of Lima,Nepean,5.9,7.2
+1567,1091,improving,St John Bosco,Oshawa,6.0,6.5
+1640,670,stable,St Anne,Windsor,5.9,7.1
+1567,1111,stable,S aint-Pierre S udbur,y,6.0,6.5
+1640,670,improving,Stoneybrook,London,5.9,7.1
+1567,1137,stable,Stephen G Say well,Oshawa,6.0,6.5
+1640,791,stable,Ryerson B,urlington,5.9,6.9
+1567,1167,stable,Reine - des-B ois O,rléans,6.0,6.4
+1640,804,stable,John D r yden,Whitby,5.9,6.9
+1567,1191,stable,St Norber t,Toronto,6.0,6.4
+1640,804,stable,Lake Wilcox R ichmond,Hill,5.9,6.9
+1567,1226,stable,Pleasant Park O,ttawa,6.0,6.4
+1640,903,stable,Nor thwood,Windsor,5.9,6.8
+1567,1278,stable,Terraview-Willowfield S c,arborough,6.0,6.3
+1640,933,stable,Vellore Woods,Woodbridge,5.9,6.7
+1567,1296,stable,Aldergrove,Unionville,6.0,6.3
+1640,1021,stable,Kilbride,Kilbride,5.9,6.6
+1567,1311,stable,St Joseph M,ississauga,6.0,6.3
+1640,1091,stable,St Angela Merici,Bradford,5.9,6.5
+1567,1311,stable,St K ateri Tek akwitha,Oshawa,6.0,6.3
+1640,1137,stable,Holy Name of Mar y St. Mar,ys,5.9,6.5
+1567,1332,stable,Caradoc Central Mount Br,ydges,6.0,6.2
+1640,1167,stable,Holy Family New,Hamburg,5.9,6.4
+1567,1344,stable,Holy Family Thunder,Bay,6.0,6.2
+1640,1180,stable,Pierre -Elliott-Trudeau,Nepean,5.9,6.4
+1567,1354,stable,B irch Cliff S c,arborough,6.0,6.2
+1640,1212,improving,St Johns,Burlington,5.9,6.4
+1567,1380,stable,St R ita,Nepean,6.0,6.2
+1640,1212,improving,St Sebastian,Mississauga,5.9,6.4
+1567,1380,stable,Thorndale B,rampton,6.0,6.2
+1640,1229,stable,Our Lady of Good Counsel,Ingleside,5.9,6.3
+1567,1407,stable,Clearmeadow,Newmarket,6.0,6.1
+1640,1229,stable,St Mar tin,Ennismore,5.9,6.3
+1567,1407,stable,Ste -Jeanne - d'Arc,London,6.0,6.1
+1640,1251,stable,Thomas D'Arc y McGee,Gloucester,5.9,6.3
+1567,1452,stable,Anderdon,Amherstburg,6.0,6.1
+1640,1280,stable,St Patrick B,urlington,5.9,6.3
+1567,1452,stable,La S ource B,arrie,6.0,6.1
+1640,1296,stable,Armadale,Markham,5.9,6.3
+1567,1482,stable,Sir John A. Macdonald,Kingston,6.0,6.0
+1640,1380,stable,Timberbank S c,arborough,5.9,6.2
+1567,1496,stable,Sacred Hear t Niagara,Falls,6.0,6.0
+1640,1421,stable,C R Gummow,Cobourg,5.9,6.1
+1567,1515,stable,Emma King B,arrie,6.0,6.0
+1640,1452,stable,B ridgepor t,Kitchener,5.9,6.1
+1567,1524,stable,St John Vianney B,arrie,6.0,6.0
+1640,1469,stable,Avon,Stratford,5.9,6.1
+1567,1557,stable,D uffin's B ay,Ajax,6.0,5.9
+1640,1482,stable,Immac ulate Conception,Peterborough,5.9,6.0
+1567,1567,stable,Holy Rosar y B,urlington,6.0,5.9
+1640,1496,stable,Leslieville,Toronto,5.9,6.0
+1567,1597,stable,O rangeville O,rangeville,6.0,5.9
+1640,1524,stable,Our Lady of Peace,Brampton,5.9,6.0
+1567,1631,stable,G atestone Stoney,Creek,6.0,5.8
+1640,1536,stable,Thousand Islands,Lansdowne,5.9,6.0
+1567,1650,stable,B ath B,ath,6.0,5.8
+1640,1586,stable,Lambton Central Centennial,Petrolia,5.9,5.9
+1567,1650,stable,St J ude's,Ingersoll,6.0,5.8
+1640,1609,stable,Farley Mowat,Nepean,5.9,5.8
+1567,1675,stable,Marchmont O,rillia,6.0,5.8
+1640,1635,stable,Alliston Union,Alliston,5.9,5.8
+1567,1683,stable,S aint-M ichel New,Liskeard,6.0,5.7
+1640,1650,stable,St Nicholas B,olton,5.9,5.8
+1567,1706,stable,Crest view,Kitchener,6.0,5.7
+1640,1706,stable,Le Coeur du Nord,Kapuskasing,5.9,5.7
+1567,1720,stable,St Rose of Lima,Toronto,6.0,5.7
+1640,1706,stable,Mount Pleasant Village B,rampton,5.9,5.7
+1567,1722,stable,St Marguerite d'Youville,Whitby,6.0,5.7
+1640,1774,stable,Central Manitoulin M,indemoya,5.9,5.6
+1567,1731,stable,St M ichaels,Oakville,6.0,5.6
+1640,1811,stable,Montague S miths,Falls,5.9,5.5
+1567,1743,stable,Maitland R iver,Wingham,6.0,5.6
+1640,1831,stable,S outh Crosby,Elgin,5.9,5.5
+1567,1755,stable,AmherstView Amherst,view,6.0,5.6
+1640,1894,stable,Lincoln Alexander,Hamilton,5.9,5.3
+1567,1772,stable,St Anne,Peterborough,6.0,5.6
+1640,1910,stable,St John Vianney,Toronto,5.9,5.3
+1567,1783,stable,S ainte -Marie,Chatham,6.0,5.5
+1640,1925,stable,John Mahood,Elmira,5.9,5.3
+1567,1783,stable,Westmount Thunder B,ay,6.0,5.5
+1640,1925,declining,Maple Grove,Barrie,5.9,5.3
+1640,1940,stable,Pius XII S udbur,y,5.9,5.3
+1703,1720,stable,Birch Cliff Heights,Toronto,5.8,5.7
+1640,2044,stable,St Mar tin Thunder,Bay,5.9,5.1
+1703,1755,stable,B lake Street,Toronto,5.8,5.6
+1640,2065,stable,Central,Cambridge,5.9,5.0
+1703,1755,stable,Forest View,Oshawa,5.8,5.6
+1640,2087,declining,Queen Elizabeth,Peterborough,5.9,5.0
+1703,1763,stable,St B onaventure B,rampton,5.8,5.6
+1640,2098,declining,David Maxwell,Windsor,5.9,4.9
+1703,1763,stable,St John the Evangelist,Weston,5.8,5.6
+1640,2106,stable,W Sher wood Fox,London,5.9,4.9
+1703,1783,stable,O M MacKillop Richmond,Hill,5.8,5.5
+1640,2119,declining,St Francis of Assisi,Innisfil,5.9,4.9
+1703,1803,declining,Mitchell Woods,Guelph,5.8,5.5
+1640,2165,declining,Rainham Central Fisher,ville,5.9,4.8
+1703,1811,stable,du S acré - Coeur,Welland,5.8,5.5
+1640,2223,stable,Central Hastings,Madoc,5.9,4.7
+1703,1831,stable,St Marguerite Bourgeoys,Brampton,5.8,5.5
+1640,2369,stable,Lawfield,Hamilton,5.9,4.3
+1703,1847,stable,St Paul's,Alliston,5.8,5.4
+1640,2529,stable,G eneral B rock,Windsor,5.9,3.8
+1703,1853,stable,St Mar y G raf,ton,5.8,5.4
+1640,n/a,n/a,Cath. Saint-Albert,St.-Albert,5.9,n/a
+1703,1882,declining,Harriett Todd,Orillia,5.8,5.3
+1640,n/a,n/a,Catholique Notre-Dame,Kemptville,5.9,n/a
+1703,1925,stable,St Elizabeth Thunder,Bay,5.8,5.3
+1640,n/a,n/a,Huttonville,Huttonville,5.9,n/a
+1703,1941,stable,Malvern,Toronto,5.8,5.3
+1640,n/a,n/a,Paisley Central S,Paisley,5.9,n/a
+1703,1973,declining,Boyne River,Alliston,5.8,5.2
+1640,n/a,n/a,Pakenham,Pakenham,5.9,n/a
+1703,1973,declining,Clear view Meadows,Stayner,5.8,5.2
+1640,n/a,n/a,"Rockton ""Rockton,","Ontario""",5.9,n/a
+1703,1982,stable,Caledon Central Caledon,Village,5.8,5.2
+1640,n/a,n/a,St Josaphat Catholic S,Toronto,5.9,n/a
+1703,2001,stable,B ay view M,idland,5.8,5.2
+1640,n/a,n/a,Tribune Drive,Brampton,5.9,n/a
+1703,2012,stable,St Luke,Hamilton,5.8,5.1
+1703,222,improving,Beverly Glen,Scarborough,5.8,8.0
+1703,2029,stable,St Peter O,rangeville,5.8,5.1
+1703,461,improving,Altona Forest,Pickering,5.8,7.5
+1703,2066,stable,Tec umseh B,urlington,5.8,5.0
+1703,670,stable,Our Lady of Wisdom,Orleans,5.8,7.1
+1703,2085,stable,S ilver S prings S c,arborough,5.8,5.0
+1703,670,stable,St Margaret Mar y,Woodbridge,5.8,7.1
+1703,2109,stable,Fred C Cook,Bradford,5.8,4.9
+1703,832,stable,B ox wood,Markham,5.8,6.9
+1703,2320,declining,Kingsway Park Thunder,Bay,5.8,4.4
+1703,890,stable,Huron Street,Toronto,5.8,6.8
+1703,2348,declining,Sir Ar thur Car ty,London,5.8,4.4
+1703,962,stable,St Michael (Corker y),Carp,5.8,6.7
+1703,n/a,n/a,Alexandra,Lindsay,5.8,n/a
+1703,1011,improving,Marius-Barbeau,Ottawa,5.8,6.6
+1703,n/a,n/a,Bluewater Coast,Hensall,5.8,n/a
+1703,1137,stable,Murray Centennial,Trenton,5.8,6.5
+1703,n/a,n/a,Central Perth,Sebringville,5.8,n/a
+1703,1162,improving,Cathedrale,Kingston,5.8,6.4
+1703,n/a,n/a,Our Lady of Fatima Elliot,Lake,5.8,n/a
+1703,1167,improving,St John the Baptist,Hamilton,5.8,6.4
+1703,n/a,n/a,Severn Avenue,Ottawa,5.8,n/a
+1703,1180,stable,Treeline B,rampton,5.8,6.4
+1703,n/a,n/a,St Patrick,Brantford,5.8,n/a
+1703,1191,stable,Humewood,York,5.8,6.4
+1703,n/a,n/a,St Paul,Toronto,5.8,n/a
+1703,1191,improving,Stonecrest,Woodlawn,5.8,6.4
+1703,n/a,n/a,St Theresa St.,Catharines,5.8,n/a
+1703,1212,improving,Sunnybrae,Stroud,5.8,6.4
+1703,n/a,n/a,Whitefish Valley Kakabeka,Falls,5.8,n/a
+1703,1229,stable,St B enedic t,Toronto,5.8,6.3
+1777,732,stable,Conestogo,Conestogo,5.7,7.0
+1703,1251,stable,Dresden Area Central,Dresden,5.8,6.3
+1777,903,improving,Kettleby,Kettleby,5.7,6.8
+1703,1251,improving,Lorenville,Brampton,5.8,6.3
+1777,1025,stable,Wheatley Area,Wheatley,5.7,6.6
+1703,1280,stable,St Patrick's,Caledonia,5.8,6.3
+1777,1031,stable,B alaclava,Freelton,5.7,6.6
+1703,1311,stable,S aint-Jean-B osco,Caledon,5.8,6.3
+1777,1049,stable,Forest Hill M,idhurst,5.7,6.6
+1703,1344,stable,St Pio of Pietrelcina,Mississauga,5.8,6.2
+1777,1091,stable,S outhwood Park,Ajax,5.7,6.5
+1703,1354,stable,Lanor,Etobicoke,5.8,6.2
+1777,1128,stable,St B arnabas,Toronto,5.7,6.5
+1703,1372,stable,Cour tland Cour,tland,5.8,6.2
+1777,1137,stable,Light of Christ,Aurora,5.7,6.5
+1703,1380,stable,Alloa,Caledon,5.8,6.2
+1777,1153,stable,Fairmount S c,arborough,5.7,6.4
+1703,1380,stable,Dr S J Phillips,Oshawa,5.8,6.2
+1777,1167,improving,Walter Zadow,Arnprior,5.7,6.4
+1703,1421,stable,John XXIII,Kingston,5.8,6.1
+1777,1191,stable,St Augustine O,ttawa,5.7,6.4
+1703,1421,stable,Monsignor Castex M,idland,5.8,6.1
+1777,1212,stable,St Wilfrid,Pickering,5.7,6.4
+1703,1421,stable,St Catherine,Peterborough,5.8,6.1
+1777,1229,stable,Holy Name,Toronto,5.7,6.3
+1703,1437,stable,Alpine,Kitchener,5.8,6.1
+1777,1229,stable,Stittsville,Stittsville,5.7,6.3
+1703,1506,stable,D undas Central D,undas,5.8,6.0
+1777,1311,stable,Corpus- Christi,Oshawa,5.7,6.3
+1703,1506,stable,John Young K,anata,5.8,6.0
+1777,1372,stable,Anne Frank,Maple,5.7,6.2
+1703,1536,stable,Alexander Kuska KSG,Welland,5.8,6.0
+1777,1372,improving,Ryerson Heights,Brantford,5.7,6.2
+1703,1609,stable,William C. Winegard G,uelph,5.8,5.8
+1777,1380,stable,R L Graham,Keswick,5.7,6.2
+1703,1631,stable,G eorge Vanier G reater S udbur,y,5.8,5.8
+1777,1380,stable,Sir Alber t Love,Oshawa,5.7,6.2
+1703,1635,stable,B righton B,righton,5.8,5.8
+1777,1402,stable,A V G raham Tec,umseh,5.7,6.2
+1703,1635,stable,Laurier- Carrière,Nepean,5.8,5.8
+1777,1407,stable,Monsignor O'D onoghue,Peterborough,5.7,6.1
+1703,1650,stable,St Antoine Daniel,Toronto,5.8,5.8
+1777,1407,stable,St G abriel,Cambridge,5.7,6.1
+1703,1695,stable,M illbrook/S outh Cavan M,illbrook,5.8,5.7
+1777,1421,stable,Académie de la Tamise,London,5.7,6.1
+1777,1421,improving,Settler's Green,Mississauga,5.7,6.1
+1850,994,stable,S aint-Noël- Chabanel,Cambridge,5.6,6.6
+1777,1437,stable,Errol Road S,arnia,5.7,6.1
+1850,1021,stable,Centennial Central,Comber,5.6,6.6
+1777,1452,stable,Blessed John XXIII,Toronto,5.7,6.1
+1850,1054,improving,Osgoode,Osgoode,5.6,6.6
+1777,1464,stable,Lord Elgin,Ajax,5.7,6.1
+1850,1070,improving,Palgrave,Palgrave,5.6,6.5
+1777,1464,improving,Sunset Heights,Oshawa,5.7,6.1
+1850,1097,stable,A J Baker,Kintore,5.6,6.5
+1777,1536,stable,St Ann Thunder,Bay,5.7,6.0
+1850,1111,improving,Perc y Centennial Warkwor,th,5.6,6.5
+1777,1536,stable,St Theresa B,rantford,5.7,6.0
+1850,1111,stable,Vincent Massey O,ttawa,5.6,6.5
+1777,1536,stable,S ummerside O,ttawa,5.7,6.0
+1850,1133,stable,St R ichard,Toronto,5.6,6.5
+1777,1572,stable,M itchell Hepburn St.,Thomas,5.7,5.9
+1850,1167,stable,Corpus Christi Thunder,Bay,5.6,6.4
+1777,1586,stable,B ellmoore B,inbrook,5.7,5.9
+1850,1180,stable,St Elizabeth Seton,Newmarket,5.6,6.4
+1777,1586,stable,Cardinal-Léger,Kitchener,5.7,5.9
+1850,1189,stable,Holy Angels,Toronto,5.6,6.4
+1777,1597,stable,K awar tha Heights,Peterborough,5.7,5.9
+1850,1191,improving,St Jerome,Toronto,5.6,6.4
+1777,1624,stable,St Pius X Thunder,Bay,5.7,5.8
+1850,1212,stable,St Fidelis,Toronto,5.6,6.4
+1777,1635,stable,Holy J ubilee,Maple,5.7,5.8
+1850,1226,improving,Our Lady of Fatima,Cambridge,5.6,6.4
+1777,1650,stable,St. Daniel Comboni,Brampton,5.7,5.8
+1850,1229,stable,O pen Roads D r,yden,5.6,6.3
+1777,1699,stable,St John G,arson,5.7,5.7
+1850,1251,stable,Sheppard,Kitchener,5.6,6.3
+1777,1699,stable,Westmount,Kitchener,5.7,5.7
+1850,1280,improving,de la Découver te,Cumberland,5.6,6.3
+1777,1740,stable,Emily Carr,London,5.7,5.6
+1850,1296,stable,St Francis of Assisi,Mississauga,5.6,6.3
+1777,1743,stable,Walter G retzky B,rantford,5.7,5.6
+1850,1311,stable,Pope Paul,Toronto,5.6,6.3
+1777,1772,stable,Parkview,Windsor,5.7,5.6
+1850,1344,improving,East Garafraxa Or,ton,5.6,6.2
+1777,1811,stable,Forest G lade,Windsor,5.7,5.5
+1850,1380,stable,S an Marco,Woodbridge,5.6,6.2
+1777,1811,stable,S aint-René - G oupil G,uelph,5.7,5.5
+1850,1407,improving,Marie-Tanguay,Cornwall,5.6,6.1
+1777,1824,stable,Our Lady of Lourdes Sault Ste.,Marie,5.7,5.5
+1850,1421,stable,Vincent Massey,Oshawa,5.6,6.1
+1777,1824,stable,St. Luke,Lindsay,5.7,5.5
+1850,1439,stable,Adjala Central,Loretto,5.6,6.1
+1777,1831,stable,R A Riddell,Hamilton,5.7,5.5
+1850,1439,stable,Christ The King M,ississauga,5.6,6.1
+1777,1843,stable,St Anne B,rampton,5.7,5.4
+1850,1439,stable,G oodwood G,oodwood,5.6,6.1
+1777,1851,stable,Viscount Alexander O,ttawa,5.7,5.4
+1850,1439,improving,Sainte-Lucie Long,Sault,5.6,6.1
+1777,1867,stable,Alliance St-Joseph,Chelmsford,5.7,5.4
+1850,1506,stable,R iverside,Elmira,5.6,6.0
+1777,1882,stable,Heather Heights S c,arborough,5.7,5.3
+1850,1596,stable,Warminster,Warminster,5.6,5.9
+1777,1906,stable,St James,Windsor,5.7,5.3
+1850,1597,stable,Huron Centennial B,rucefield,5.6,5.9
+1777,1922,stable,Nor th Ward,Paris,5.7,5.3
+1850,1607,stable,Cameron Street,Collingwood,5.6,5.9
+1777,1983,declining,Riverside,Huntsville,5.7,5.2
+1850,1624,stable,Prince Alber t Prince Alber,t,5.6,5.8
+1777,2039,stable,Félix-R ic ard S udbur,y,5.7,5.1
+1850,1624,stable,St Aidan,Toronto,5.6,5.8
+1777,2092,stable,John M James,Bowmanville,5.7,5.0
+1850,1686,stable,C E Broughton,Whitby,5.6,5.7
+1777,2106,stable,D r Ross Tilley B,owmanville,5.7,4.9
+1850,1695,stable,B ellwood,Whitby,5.6,5.7
+1777,2109,stable,St-Joseph,Penetanguishene,5.7,4.9
+1850,1722,stable,St J ude,Ajax,5.6,5.7
+1777,2124,declining,Roxmore,Avonmore,5.7,4.9
+1850,1731,stable,Lady Mackenzie,Kirkfield,5.6,5.6
+1777,2167,stable,St Joseph G,uelph,5.7,4.8
+1850,1755,stable,St Wilfrid,Toronto,5.6,5.6
+1777,2183,stable,André - Car y K apusk,asing,5.7,4.8
+1850,1763,stable,St Marcellus,Toronto,5.6,5.6
+1777,2250,declining,Gordon McGregor,Windsor,5.7,4.6
+1850,1783,stable,S outhview,Napanee,5.6,5.5
+1777,2252,declining,Selby,Selby,5.7,4.6
+1850,1803,stable,S aint-Jean- de -B rébeuf,London,5.6,5.5
+1777,2285,stable,Fairpor t B each,Pickering,5.7,4.6
+1850,1831,stable,The Stewar t Per,th,5.6,5.5
+1777,2379,stable,Alexander Stirling S c,arborough,5.7,4.3
+1850,1851,stable,B lair Road,Cambridge,5.6,5.4
+1777,2392,stable,Kinnwood Central,Forest,5.7,4.2
+1850,1900,stable,B racebridge B,racebridge,5.6,5.3
+1777,2532,declining,Algonquin Avenue Thunder,Bay,5.7,3.7
+1850,1983,stable,S pringbank,Woodstock,5.6,5.2
+1777,2532,declining,Connaught,Collingwood,5.7,3.7
+1850,2044,stable,Monsignor Lee O,rillia,5.6,5.1
+1777,n/a,n/a,Abraar,Ottawa,5.7,n/a
+1850,2106,stable,St Roch,Toronto,5.6,4.9
+1777,n/a,n/a,Malala Yousafzai,Brampton,5.7,n/a
+1850,2109,stable,St. Pius X,Brantford,5.6,4.9
+1777,n/a,n/a,Oxford On Rideau PS Oxford,Mills,5.7,n/a
+1850,2124,stable,Prince Charles,Trenton,5.6,4.9
+1850,519,stable,Mount view,Hamilton,5.6,7.4
+1850,2212,stable,St Ann's,Hamilton,5.6,4.7
+1850,763,stable,D ivine Infant O,rleans,5.6,7.0
+1850,2223,stable,S pringfield S,pringfield,5.6,4.7
+1850,763,improving,St James,Tottenham,5.6,7.0
+1850,2252,stable,St Nicholas of Bari,Toronto,5.6,4.6
+1850,772,improving,Glen Morris Central Glen,Morris,5.6,7.0
+1850,2333,stable,St Peter,Cambridge,5.6,4.4
+1850,802,stable,Morrish S c,arborough,5.6,6.9
+1850,2344,declining,St Bernard's,Orillia,5.6,4.4
+1850,813,stable,St Malachy,Toronto,5.6,6.9
+1850,2461,stable,Foyer-Jeunesse,Hanmer,5.6,4.0
+1850,829,stable,V P Carswell,Trenton,5.6,6.9
+1850,2515,declining,Saint-François-d'Assise,Welland,5.6,3.8
+1850,857,stable,George P Mackie,Scarborough,5.6,6.8
+1850,2520,stable,St Joseph B,rampton,5.6,3.8
+1850,890,stable,St Jerome M,ississauga,5.6,6.8
+1850,n/a,n/a,F H Miller Jr PS,York,5.6,n/a
+1850,962,improving,Nor th Shore,Keene,5.6,6.7
+1850,n/a,n/a,Irwin Memorial,Dwight,5.6,n/a
+1850,n/a,n/a,J.S. Buchanan FI PS,Strathroy,5.6,n/a
+1964,1404,stable,St M ichael R,idgetown,5.4,6.1
+1850,n/a,n/a,M T Davidson,Callander,5.6,n/a
+1964,1469,improving,Toniata,Brockville,5.4,6.1
+1921,668,stable,Venerable John Merlini,Toronto,5.5,7.1
+1964,1482,improving,Wilshire,Thornhill,5.4,6.0
+1921,1054,improving,Terr y Fox,Scarborough,5.5,6.6
+1964,1536,stable,Longue Sault Long,Sault,5.4,6.0
+1921,1070,stable,G ardiner G,eorgetown,5.5,6.5
+1964,1536,stable,St B rigid G,eorgetown,5.4,6.0
+1921,1070,improving,St Brigid,Toronto,5.5,6.5
+1964,1609,stable,St David,Hamilton,5.4,5.8
+1921,1133,stable,St Clare,Woodbridge,5.5,6.5
+1964,1631,stable,Westminster,Thornhill,5.4,5.8
+1921,1133,improving,St Dominic Savio,Kitchener,5.5,6.5
+1964,1635,stable,Father Michael McGivney,Brampton,5.4,5.8
+1921,1189,improving,Grand View,Cambridge,5.5,6.4
+1964,1662,stable,B elfountain B,elfountain,5.4,5.8
+1921,1212,improving,Blessed Kateri Tekakwitha,Hamilton,5.5,6.4
+1964,1662,stable,St Margaret Mar y,Hamilton,5.4,5.8
+1921,1229,stable,Crosby Heights Richmond,Hill,5.5,6.3
+1964,1686,stable,St Leo B,rantford,5.4,5.7
+1921,1296,improving,Trillium,Orleans,5.5,6.3
+1964,1722,stable,S aint-Jean-B aptiste,Amherstburg,5.4,5.7
+1921,1311,stable,St Francis Xavier,Brampton,5.5,6.3
+1964,1722,stable,St Dominic Savio,Toronto,5.4,5.7
+1921,1332,stable,St Joseph's Ac,ton,5.5,6.2
+1964,1731,stable,S usanna Moodie B,elleville,5.4,5.6
+1921,1354,stable,St Jean Brebeuf,Brampton,5.5,6.2
+1964,1754,stable,B lenheim D,rumbo,5.4,5.6
+1921,1370,stable,Holy Cross,Toronto,5.5,6.2
+1964,1778,stable,Monsignor Clair B,arrie,5.4,5.6
+1921,1421,improving,St Rita,Brampton,5.5,6.1
+1964,1783,stable,Nottawa,Collingwood,5.4,5.5
+1921,1482,stable,Mar y Shadd S c,arborough,5.5,6.0
+1964,1831,stable,Cedar Creek,Ayr,5.4,5.5
+1921,1515,improving,St Nicholas,Toronto,5.5,6.0
+1964,1871,stable,Memorial Stoney,Creek,5.4,5.4
+1921,1572,stable,Harmony Corby,ville,5.5,5.9
+1964,1871,stable,S uddaby,Kitchener,5.4,5.4
+1921,1631,stable,St George Cr ystal,Beach,5.5,5.8
+1964,1876,stable,St G abriel,Toronto,5.4,5.4
+1921,1635,stable,Westney Heights,Ajax,5.5,5.8
+1964,1882,stable,R ay Lewis,Hamilton,5.4,5.3
+1921,1706,stable,Ardtrea/Cumberland B each O,rillia,5.5,5.7
+1964,1900,stable,Harris Heights,Ingersoll,5.4,5.3
+1921,1763,stable,Holly Meadows B,arrie,5.5,5.6
+1964,1925,stable,Ernest Cumberland,Alliston,5.4,5.3
+1921,1774,stable,B reslau B,reslau,5.5,5.6
+1964,1951,stable,A ssikinack B,arrie,5.4,5.2
+1921,1853,stable,Janet Lee Stoney,Creek,5.5,5.4
+1964,1962,stable,Billy Green Stoney,Creek,5.4,5.2
+1921,1894,stable,Pope John Paul II,Hammond,5.5,5.3
+1964,1965,stable,West Lynn S,imcoe,5.4,5.2
+1921,1894,stable,St John Brebeuf,Erin,5.5,5.3
+1964,1977,stable,St Luc y B,rampton,5.4,5.2
+1921,1900,stable,S cott Central S,andford,5.5,5.3
+1964,2080,declining,Birchview Dunes Wasaga,Beach,5.4,5.0
+1921,1941,stable,St Agnes,Hamilton,5.5,5.3
+1964,2081,stable,St Nicholas B,arrie,5.4,5.0
+1921,1981,stable,Por t Elgin-Saugeen Central Por t,Elgin,5.5,5.2
+1964,2087,stable,Harrow,Harrow,5.4,5.0
+1921,2001,stable,Queen Elizabeth Sault Ste.,Marie,5.5,5.2
+1964,2092,stable,Maynard,Prescott,5.4,5.0
+1921,2029,stable,Wilber force Luc,an,5.5,5.1
+1964,2242,stable,St Jean de Brebeuf,Bradford,5.4,4.6
+1921,2032,stable,G eorges Vanier B,elleville,5.5,5.1
+1964,2251,stable,St Paul,Lakefield,5.4,4.6
+1921,2052,stable,St M ichael,Cambridge,5.5,5.1
+1964,2300,declining,Tyendinaga,Shannonville,5.4,4.5
+1921,2054,stable,R F Downey,Peterborough,5.5,5.0
+1964,2311,declining,East Oxford,Woodstock,5.4,4.5
+1921,2123,declining,St. Anne's St.,Thomas,5.5,4.9
+1964,2408,stable,Queen Elizabeth II Sudbur,y,5.4,4.2
+1921,2147,stable,B eau Valley,Oshawa,5.5,4.8
+1964,2413,declining,Pavillon de la jeunesse,Hamilton,5.4,4.2
+1921,2234,stable,Our Lady Immaculate,Strathroy,5.5,4.6
+1964,2420,stable,G ravenhurst G,ravenhurst,5.4,4.2
+1921,2262,stable,Q ueen Elizabeth,Leamington,5.5,4.6
+1964,2502,stable,Hillcrest,Hamilton,5.4,3.9
+1921,2526,stable,Q ueen Vic toria,Lindsay,5.5,3.8
+1964,2603,stable,Hess Street,Hamilton,5.4,3.3
+1921,n/a,n/a,Our Lady of Lourdes S,Manitouwadge,5.5,n/a
+1964,n/a,n/a,Echo Place PS,Brantford,5.4,n/a
+1921,n/a,n/a,St Mar y Catholic,Shannonville,5.5,n/a
+1964,n/a,n/a,Markstay/Warren,Markstay,5.4,n/a
+1921,n/a,n/a,ÉÉC Saint-Joseph Por t,Colborne,5.5,n/a
+1964,n/a,n/a,Princess Anne FI,London,5.4,n/a
+1964,590,stable,St James St.,Catharines,5.4,7.2
+1964,n/a,n/a,Saint-Ambroise St.,Joachim,5.4,n/a
+1964,744,improving,St Clare,Orleans,5.4,7.0
+1964,n/a,n/a,Shingwàkons,Stittsville,5.4,n/a
+1964,1097,improving,Ray Lawson,Brampton,5.4,6.5
+1964,n/a,n/a,Smithfield,Brighton,5.4,n/a
+1964,1111,improving,Cobden,Cobden,5.4,6.5
+2026,668,stable,Anson Park S c,arborough,5.3,7.1
+1964,1137,stable,B obc aygeon B obc,aygeon,5.4,6.5
+2026,857,stable,Hillcrest,Cambridge,5.3,6.8
+1964,1167,stable,Clinton,Clinton,5.4,6.4
+2026,921,stable,St Agnes,Waterloo,5.3,6.7
+1964,1191,improving,Islington,Etobicoke,5.4,6.4
+2026,1054,improving,Tarentorus Sault Ste.,Marie,5.3,6.6
+1964,1229,improving,Merrickville,Merrickville,5.4,6.3
+2026,1097,stable,St Clare,Toronto,5.3,6.5
+1964,1251,stable,St Luke,Toronto,5.4,6.3
+2026,1137,stable,St Catherine Metc,alfe,5.3,6.5
+1964,1280,improving,St George-German St.,George,5.4,6.3
+2026,1191,stable,St Agnes B,rampton,5.3,6.4
+1964,1293,stable,Inglewood Heights S c,arborough,5.4,6.3
+2026,1229,stable,St Joseph,Cambridge,5.3,6.3
+1964,1311,stable,St Denis St.,Catharines,5.4,6.3
+2026,1251,stable,S ainte - G eneviève O,ttawa,5.3,6.3
+1964,1311,improving,St Timothy,Kitchener,5.4,6.3
+2026,1251,stable,St Francis of Assisi,Guelph,5.3,6.3
+1964,1354,stable,Good Shepherd East Gwillimbur,y,5.4,6.2
+2026,1311,stable,St Columban D,ublin,5.3,6.3
+2026,1344,stable,St Paul Sault Ste.,Marie,5.3,6.2
+2090,1212,stable,J L Jordan,Brockville,5.2,6.4
+2026,1344,stable,Terr y Fox,Newmarket,5.3,6.2
+2090,1251,improving,McNaughton Ave,Chatham,5.2,6.3
+2026,1372,stable,St Anthony,Harrow,5.3,6.2
+2090,1251,stable,Mount Pleasant Mount,Pleasant,5.2,6.3
+2026,1513,stable,Regenc y Acres,Aurora,5.3,6.0
+2090,1296,stable,Gregor y A Hogan,Sarnia,5.2,6.3
+2026,1536,stable,Gosfield Nor th Central,Cottam,5.3,6.0
+2090,1311,improving,St Catherine of Siena,Mississauga,5.2,6.3
+2026,1557,stable,Casselman - St-Paul/Ste-Euphémie,Casselman,5.3,5.9
+2090,1354,stable,Woodcrest Thunder B,ay,5.2,6.2
+2026,1557,improving,Mapleview Heights,Barrie,5.3,5.9
+2090,1469,improving,Belle River Belle,River,5.2,6.1
+2026,1572,stable,St Charles B,radford,5.3,5.9
+2090,1469,stable,Rober t J Lee,Brampton,5.2,6.1
+2026,1597,stable,B lue Heron,Cambridge,5.3,5.9
+2090,1482,stable,Westmount,Peterborough,5.2,6.0
+2026,1624,stable,B lessed K ateri Tek akwitha,Toronto,5.3,5.8
+2090,1529,improving,James Hillier,Brantford,5.2,6.0
+2026,1676,improving,St Maria Goretti,Toronto,5.3,5.7
+2090,1572,improving,Sunderland,Sunderland,5.2,5.9
+2026,1686,stable,Monsignor J E Ronan,Beeton,5.3,5.7
+2090,1586,stable,Ponsonby G,uelph,5.2,5.9
+2026,1706,stable,St Peter's,Cornwall,5.3,5.7
+2090,1609,stable,Hamlet,Stratford,5.2,5.8
+2026,1763,stable,W H Day,Bradford,5.3,5.6
+2090,1635,improving,James S Bell,Etobicoke,5.2,5.8
+2026,1783,stable,W C Little,Barrie,5.3,5.5
+2090,1662,stable,Ayr,Ayr,5.2,5.8
+2026,1803,stable,G eneral B rock S c,arborough,5.3,5.5
+2090,1686,stable,West Nissouri,Thorndale,5.2,5.7
+2026,1811,stable,Ferndale Woods B,arrie,5.3,5.5
+2090,1743,stable,Adelaide Mclaughlin,Oshawa,5.2,5.6
+2026,1811,stable,Nor th Meadows,Strathroy,5.3,5.5
+2090,1763,stable,B loomsburg Water,ford,5.2,5.6
+2026,1882,stable,Franklin,Kitchener,5.3,5.3
+2090,1783,stable,Valour,Petawawa,5.2,5.5
+2026,1906,stable,Notre -Dame,Cornwall,5.3,5.3
+2090,1843,stable,St B enedic t O,rangeville,5.2,5.4
+2026,1925,stable,Roden,Toronto,5.3,5.3
+2090,1876,stable,Roseland,Windsor,5.2,5.4
+2026,1925,stable,St Francis S udbur,y,5.3,5.3
+2090,1882,stable,St Joseph,Oshawa,5.2,5.3
+2026,1959,stable,St Mar y,Toronto,5.3,5.2
+2090,1924,stable,B urnham,Cobourg,5.2,5.3
+2026,1983,stable,Father F X O'Reilly,Tottenham,5.3,5.2
+2090,1925,stable,M iller's G rove M,ississauga,5.2,5.3
+2026,2001,stable,Vimy R idge O,ttawa,5.3,5.2
+2090,1950,stable,Avalon O,rleans,5.2,5.3
+2026,2032,stable,Essex,Essex,5.3,5.1
+2090,1965,stable,St. Andre,Toronto,5.2,5.2
+2026,2044,stable,Pine View,Pembroke,5.3,5.1
+2090,1983,stable,Egremont,Holstein,5.2,5.2
+2026,2081,stable,St Alfred M,ississauga,5.3,5.0
+2090,2012,stable,S ummers' Corners,Aylmer,5.2,5.1
+2026,2109,stable,Jockvale,Nepean,5.3,4.9
+2090,2019,stable,Eamer's Corners,Cornwall,5.2,5.1
+2026,2159,stable,Margaret D Bennie,Leamington,5.3,4.8
+2090,2019,stable,St Joseph,Corunna,5.2,5.1
+2026,2188,stable,John Paul II,Gloucester,5.3,4.8
+2090,2031,stable,East Mersea,Wheatley,5.2,5.1
+2026,2191,stable,Angus Morrison,Angus,5.3,4.8
+2090,2054,stable,St John G,uelph,5.2,5.0
+2026,2234,stable,Nouvel Horizon Hawkesbur,y,5.3,4.6
+2090,2137,stable,Willow Landing B,arrie,5.2,4.9
+2026,2277,stable,St Margaret Thunder,Bay,5.3,4.6
+2090,2142,stable,St Anne's,London,5.2,4.9
+2026,2293,declining,East Ridge Owen,Sound,5.3,4.5
+2090,2152,stable,Sir John Moore Community,Corunna,5.2,4.8
+2026,2342,stable,S outhside,Woodstock,5.3,4.4
+2090,2152,stable,Walter Perr y S c,arborough,5.2,4.8
+2026,2348,stable,R idgemount,Hamilton,5.3,4.4
+2090,2159,stable,Eagle Heights,London,5.2,4.8
+2026,2362,stable,Ionview S c,arborough,5.3,4.3
+2090,2167,stable,St Mar tha,Toronto,5.2,4.8
+2026,2368,stable,Wilson Avenue,Kitchener,5.3,4.3
+2090,2205,stable,Jar vis Jar,vis,5.2,4.7
+2026,2385,stable,Maple Leaf,Newmarket,5.3,4.3
+2090,2213,stable,B lessed S acrament B ur,ford,5.2,4.7
+2026,2468,stable,Joseph B rant S c,arborough,5.3,4.0
+2090,2228,stable,Rober ta B ondar O,ttawa,5.2,4.7
+2026,2509,stable,W.E . G owling O,ttawa,5.3,3.9
+2090,2252,declining,Knob Hill,Scarborough,5.2,4.6
+2026,2568,stable,LaMarsh Niagara,Falls,5.3,3.6
+2090,2277,stable,Madoc Township,Madoc,5.2,4.6
+2026,n/a,n/a,Athol-South Marysburgh Cherry,Valley,5.3,n/a
+2090,2285,stable,Cedarland B,rantford,5.2,4.6
+2026,n/a,n/a,Dennis Avenue,York,5.3,n/a
+2090,2293,stable,St D ominic,Lindsay,5.2,4.5
+2026,n/a,n/a,Hillsdale,Oshawa,5.3,n/a
+2090,2309,stable,St Elizabeth O,ttawa,5.2,4.5
+2026,n/a,n/a,Holy Name Catholic,Kingston,5.3,n/a
+2090,2324,stable,Coronation,Windsor,5.2,4.4
+2026,n/a,n/a,Keelesdale,York,5.3,n/a
+2090,2369,stable,B oston Water,ford,5.2,4.3
+2026,n/a,n/a,Mary Immaculate,Chepstow,5.3,n/a
+2090,2399,stable,S ullivan Chatswor,th,5.2,4.2
+2026,n/a,n/a,Oak Creek,Kitchener,5.3,n/a
+2090,2417,stable,Langton,Langton,5.2,4.2
+2026,n/a,n/a,Shannen Koostachin,Hamilton,5.3,n/a
+2090,2488,stable,The Prince Charles,Napanee,5.2,3.9
+2026,n/a,n/a,St Anne Iroquois,Falls,5.3,n/a
+2090,2504,stable,Howard Rober tson,Kitchener,5.2,3.9
+2090,879,stable,St Mark,Toronto,5.2,6.8
+2090,2542,stable,G ateway D rive G,uelph,5.2,3.7
+2090,879,stable,S ummit view,Stouffville,5.2,6.8
+2090,2657,stable,Nor th Addington,Cloyne,5.2,2.8
+2090,994,stable,J.-L.- Couroux Carleton,Place,5.2,6.6
+2090,n/a,n/a,Elsie MacGill,Oshawa,5.2,n/a
+2090,1070,stable,St John Per,th,5.2,6.5
+2090,n/a,n/a,Guildwood Junior,Scarborough,5.2,n/a
+2090,1097,improving,Forest Run,Woodbridge,5.2,6.5
+2090,n/a,n/a,McDougall,McDougall,5.2,n/a
+2090,1137,stable,St J ude M,ississauga,5.2,6.5
+2090,n/a,n/a,St Louis,Keewatin,5.2,n/a
+2155,1054,improving,St Cornelius Caledon,East,5.1,6.6
+2211,1229,stable,St Joseph,Uxbridge,5.0,6.3
+2155,1111,stable,Pleasant Nor th,York,5.1,6.5
+2211,1251,stable,Hullett Central,Londesborough,5.0,6.3
+2155,1162,improving,Regent Heights,Scarborough,5.1,6.4
+2211,1296,stable,St Paul,Kitchener,5.0,6.3
+2155,1191,stable,Joseph G ould,Uxbridge,5.1,6.4
+2211,1332,stable,S ainte -Thérèse,Windsor,5.0,6.2
+2155,1380,stable,St Angela Merici,Brampton,5.1,6.2
+2211,1380,stable,Echo Bay Central Echo,Bay,5.0,6.2
+2155,1380,stable,St Elizabeth,Etobicoke,5.1,6.2
+2211,1436,stable,St Mar y's Deep,River,5.0,6.1
+2155,1380,stable,West Humber,Toronto,5.1,6.2
+2211,1469,improving,Beaumonde Heights,Etobicoke,5.0,6.1
+2155,1407,improving,Tony Pontes,Caledon,5.1,6.1
+2211,1524,improving,St Bernadette,Mississauga,5.0,6.0
+2155,1421,stable,St Gabriel Lalemant Niagara,Falls,5.1,6.1
+2211,1572,stable,S mithson,Kitchener,5.0,5.9
+2155,1506,stable,B allantrae,Stouffville,5.1,6.0
+2211,1586,stable,Hawthorne Village M,ilton,5.0,5.9
+2155,1506,improving,Terr y Fox,Ajax,5.1,6.0
+2211,1586,stable,McB ride Avenue M,ississauga,5.0,5.9
+2155,1529,stable,G eorge Peck S c,arborough,5.1,6.0
+2211,1650,stable,A ssumption St.,Catharines,5.0,5.8
+2155,1536,improving,Aurora Heights,Aurora,5.1,6.0
+2211,1662,stable,Marie of the Incarnation,Bradford,5.0,5.8
+2155,1609,stable,B riargreen,Nepean,5.1,5.8
+2211,1686,stable,Holy Family,Alliston,5.0,5.7
+2155,1609,stable,St Andrew O,rangeville,5.1,5.8
+2211,1743,stable,Holy Rosar y G,uelph,5.0,5.6
+2155,1635,stable,Eagle Plains B,rampton,5.1,5.8
+2211,1778,stable,Chippewa,London,5.0,5.6
+2155,1635,improving,Saint-Joseph,Russell,5.1,5.8
+2211,1780,stable,Dr F J McDonald,Ottawa,5.0,5.6
+2155,1662,stable,Mar y vale S c,arborough,5.1,5.8
+2211,1831,stable,St Andrew's St. Andrew's,West,5.0,5.5
+2155,1676,stable,Walsh S,imcoe,5.1,5.7
+2211,1853,stable,Christ the King Catholic,Wallaceburg,5.0,5.4
+2155,1699,stable,Grandview Sault Ste.,Marie,5.1,5.7
+2211,1862,improving,Central,Kingston,5.0,5.4
+2155,1699,stable,Winona Stoney,Creek,5.1,5.7
+2211,1865,stable,Meadow view,Addison,5.0,5.4
+2155,1706,stable,G len Park Nor th,York,5.1,5.7
+2211,1906,stable,Our Lady of Victor y For t,Erie,5.0,5.3
+2155,1722,stable,Pope John Paul II,Barrie,5.1,5.7
+2211,1910,stable,Gordon B Attersley,Oshawa,5.0,5.3
+2155,1755,stable,Cardinal Newman B,rampton,5.1,5.6
+2211,1951,stable,S aint-Paul,Plantagenet,5.0,5.2
+2155,1811,stable,G oodfellow,Innisfil,5.1,5.5
+2211,1965,stable,St Thomas More,Kingston,5.0,5.2
+2155,1867,stable,East O ro,Hawkestone,5.1,5.4
+2211,1983,stable,Cambridge,Embrun,5.0,5.2
+2155,1876,stable,R ipley-Huron R,ipley,5.1,5.4
+2211,2001,improving,Gabrielle-Roy,Gloucester,5.0,5.2
+2155,1882,stable,Westfield,Tillsonburg,5.1,5.3
+2211,2032,stable,St John Fisher,Brampton,5.0,5.1
+2155,1910,stable,St Anthony's Kinc,ardine,5.1,5.3
+2211,2070,stable,D enne,Newmarket,5.0,5.0
+2155,1925,stable,Our Lady of Lourdes,Elmvale,5.1,5.3
+2211,2075,stable,Lincoln Avenue,Ajax,5.0,5.0
+2155,1951,stable,George Webster East,York,5.1,5.2
+2211,2124,stable,Caledonia Centennial,Caledonia,5.0,4.9
+2155,1965,stable,Plattsville,Plattsville,5.1,5.2
+2211,2144,stable,Viscount Alexander,Cornwall,5.0,4.9
+2155,1983,stable,Russell,Russell,5.1,5.2
+2211,2146,stable,Pavillon des Jeunes Belle,Riviere,5.0,4.9
+2155,1995,stable,St Maria Goretti,Brampton,5.1,5.2
+2211,2175,stable,Forest Hill,Kitchener,5.0,4.8
+2155,1995,stable,Tilbur y Area Tilbur,y,5.1,5.2
+2211,2191,stable,Grand Valley Grand,Valley,5.0,4.8
+2155,2008,stable,Har wich-R aleigh B,lenheim,5.1,5.2
+2211,2196,stable,C D Howe Thunder,Bay,5.0,4.7
+2155,2012,stable,B rigden B,rigden,5.1,5.1
+2211,2213,stable,B rookside,Lucknow,5.0,4.7
+2155,2073,stable,Princess Elizabeth,London,5.1,5.0
+2211,2213,stable,Linwood,Linwood,5.0,4.7
+2155,2075,stable,Our Lady of the Assumption,Toronto,5.1,5.0
+2211,2252,stable,Mount Carmel Blytheswood,Leamington,5.0,4.6
+2155,2092,stable,V K Greer Memorial,Utterson,5.1,5.0
+2211,2260,declining,New Liskeard New,Liskeard,5.0,4.6
+2155,2188,stable,Market Lane,Toronto,5.1,4.8
+2211,2260,stable,R idgeview Moravian R,idgetown,5.0,4.6
+2155,2196,stable,Palmerston,Palmerston,5.1,4.7
+2211,2406,stable,Kings Road B,urlington,5.0,4.2
+2155,2262,declining,Dixon Grove,Etobicoke,5.1,4.6
+2211,n/a,n/a,R. H. Murray,Whitefish,5.0,n/a
+2155,2284,stable,St D orothy,Toronto,5.1,4.6
+2211,n/a,n/a,William G Miller,Scarborough,5.0,n/a
+2155,2399,stable,St M ichael B,elleville,5.1,4.2
+2258,561,stable,St Teresa of Avila,Hamilton,4.9,7.3
+2155,2461,declining,St Patrick,Kapuskasing,5.1,4.0
+2258,1011,stable,Our Lady of Grace,Toronto,4.9,6.6
+2155,2472,stable,Macphail Memorial Flesher,ton,5.1,4.0
+2258,1332,improving,St Mark the Evangelist,Whitby,4.9,6.2
+2155,n/a,n/a,Eastdale Stoney,Creek,5.1,n/a
+2258,1380,improving,Our Lady of Lourdes,Kingston,4.9,6.2
+2155,n/a,n/a,Luc y Maud Montgomer y,Scarborough,5.1,n/a
+2258,1464,improving,Elda-Rouleau,Alexandria,4.9,6.1
+2155,n/a,n/a,Maple View North,Bay,5.1,n/a
+2258,1515,stable,Rockwood,Pembroke,4.9,6.0
+2155,n/a,n/a,Northern Lakes,Atikokan,5.1,n/a
+2258,1536,improving,Gregor y Drive,Chatham,4.9,6.0
+2155,n/a,n/a,Oakland-Scotland,Scotland,5.1,n/a
+2258,1609,stable,Q ueen Vic toria,Toronto,4.9,5.8
+2155,n/a,n/a,Our Lady of Sorrows Sturgeon,Falls,5.1,n/a
+2258,1635,stable,K ane,Toronto,4.9,5.8
+2155,n/a,n/a,Sainte-Marguerite-Bourgeoys,Merrickville,5.1,n/a
+2258,1662,stable,Upper Thames M,itchell,4.9,5.8
+2155,n/a,n/a,St John Red,Lake,5.1,n/a
+2258,1800,improving,Plainville Gores,Landing,4.9,5.5
+2155,n/a,n/a,St. Anne,Oshawa,5.1,n/a
+2258,1847,stable,St Joseph,Toronto,4.9,5.4
+2211,829,improving,Monseigneur Jean Noël,Windsor,5.0,6.9
+2258,1853,stable,Kingsville,Kingsville,4.9,5.4
+2211,1031,improving,Our Lady of Lourdes,Waterloo,5.0,6.6
+2258,1876,improving,Bells Corners,Nepean,4.9,5.4
+2211,1031,improving,St Mark,London,5.0,6.6
+2258,1882,stable,Cashmere Avenue M,ississauga,4.9,5.3
+2258,1910,stable,John Campbell,Windsor,4.9,5.3
+2301,2699,declining,Central Avenue Elliot,Lake,4.8,2.3
+2258,1941,stable,D. Roy Kennedy,Ottawa,4.9,5.3
+2301,n/a,n/a,Highpoint,Dundalk,4.8,n/a
+2258,1965,stable,Wyevale Central,Wyevale,4.9,5.2
+2301,n/a,n/a,Hillcrest Central,Teeswater,4.8,n/a
+2258,1973,stable,Nobel,Nobel,4.9,5.2
+2301,n/a,n/a,St Catherine Catholic,Toronto,4.8,n/a
+2258,2001,stable,Jean-Ethier-B lais S udbur,y,4.9,5.2
+2301,n/a,n/a,ÉÉC Samuel-de-Champlain,Orillia,4.8,n/a
+2258,2001,stable,St Jude's Vankleek,Hill,4.9,5.2
+2337,1153,stable,Nouvel Horizon,Welland,4.7,6.4
+2258,2028,stable,Monseigneur- de -Laval,Hamilton,4.9,5.1
+2337,1296,improving,Pope John Paul II,Oakville,4.7,6.3
+2258,2032,stable,c atholique S ainte -Anne O,ttawa,4.9,5.1
+2337,1354,stable,Académie de la Moraine Richmond,Hill,4.7,6.2
+2258,2054,stable,Elmbank,Etobicoke,4.9,5.0
+2337,1452,stable,S econd Street,Etobicoke,4.7,6.1
+2258,2098,stable,Alcona G len,Innisfil,4.9,4.9
+2337,1557,stable,St. M ichael's D,unnville,4.7,5.9
+2258,2098,stable,Holy Cross M,ississauga,4.9,4.9
+2337,1572,stable,B owmore Road,Toronto,4.7,5.9
+2258,2124,stable,Franco -S upérieur Thunder B,ay,4.9,4.9
+2337,1650,improving,Sherwood,Oshawa,4.7,5.8
+2258,2136,stable,McCaskill's M ills,Cannington,4.9,4.9
+2337,1662,stable,Nor thumberland Hills,Castleton,4.7,5.8
+2258,2152,stable,R awlinson,York,4.9,4.8
+2337,1763,stable,St Patrick,Rockland,4.7,5.6
+2258,2272,stable,St Mar y B,rampton,4.9,4.6
+2337,1796,improving,Rockford Nor th,York,4.7,5.5
+2258,2277,stable,Mar y Wright,Strathroy,4.9,4.6
+2337,1811,stable,St Patrick B,rampton,4.7,5.5
+2258,2285,stable,Dr Rober ta Bondar,Ajax,4.9,4.6
+2337,1843,stable,Waverly,Oshawa,4.7,5.4
+2258,2317,declining,Cleardale,London,4.9,4.5
+2337,1853,stable,L'Équinoxe,Pembroke,4.7,5.4
+2258,2374,stable,Mosa Central G,lencoe,4.9,4.3
+2337,1882,stable,Truedell,Kingston,4.7,5.3
+2258,2426,stable,B ranlyn B,rantford,4.9,4.1
+2337,1925,improving,West Bayfield,Barrie,4.7,5.3
+2258,2461,stable,Chester ville Chester,ville,4.9,4.0
+2337,2019,stable,St B ernadette B,arrie,4.7,5.1
+2258,2497,stable,Roger Neilson,Peterborough,4.9,3.9
+2337,2039,stable,Collegiate Avenue Stoney,Creek,4.7,5.1
+2258,2628,stable,Central,Cornwall,4.9,3.1
+2337,2081,stable,St J ude,Toronto,4.7,5.0
+2258,2665,declining,Lansdowne,Sudbury,4.9,2.8
+2337,2124,stable,Park Dale B,elleville,4.7,4.9
+2258,n/a,n/a,Dawn-Euphemia,Dresden,4.9,n/a
+2337,2138,stable,Paisley Road G,uelph,4.7,4.9
+2258,n/a,n/a,Elm Drive,Mississauga,4.9,n/a
+2337,2142,stable,New Lowell Central New,Lowell,4.7,4.9
+2258,n/a,n/a,Saint-Joseph Blind,River,4.9,n/a
+2337,2152,stable,St Alber t,Toronto,4.7,4.8
+2258,n/a,n/a,York Street,Ottawa,4.9,n/a
+2337,2166,stable,Prince Charles,Newmarket,4.7,4.8
+2301,1180,improving,James Grieve,Brampton,4.8,6.4
+2337,2176,stable,J G Workman,Toronto,4.7,4.8
+2301,1407,stable,Amabel-S auble S auble B,each,4.8,6.1
+2337,2183,stable,Mohawk G ardens B,urlington,4.7,4.8
+2301,1452,stable,King Edward,Toronto,4.8,6.1
+2337,2185,stable,Holy Cross,Innisfil,4.7,4.8
+2301,1499,stable,St Joachim B,rampton,4.8,6.0
+2337,2205,stable,Beatrice Strong Por t,Hope,4.7,4.7
+2301,1695,stable,Keatsway,Waterloo,4.8,5.7
+2337,2221,stable,Hanover Heights,Hanover,4.7,4.7
+2301,1706,stable,Church Street,Toronto,4.8,5.7
+2337,2223,stable,Q ueen Vic toria B,elleville,4.7,4.7
+2301,1706,improving,Teston Village,Maple,4.8,5.7
+2337,2227,stable,Meadowbrook,Newmarket,4.7,4.7
+2301,1722,stable,Our Lady of Fatima,Ottawa,4.8,5.7
+2337,2234,stable,St Mar tin de Porres,Toronto,4.7,4.6
+2301,1743,stable,St Anne B,lenheim,4.8,5.6
+2337,2262,stable,O nondaga-B rant B,rantford,4.7,4.6
+2301,1753,stable,St D unstan,Toronto,4.8,5.6
+2337,2311,stable,Frankford,Frankford,4.7,4.5
+2301,1796,stable,St Lawrence's,Hamilton,4.8,5.5
+2337,2335,declining,Marie-Curie,Ottawa,4.7,4.4
+2301,1803,stable,B ayside B,elleville,4.8,5.5
+2337,2369,stable,Andrew Hunter B,arrie,4.7,4.3
+2301,1842,stable,Preston,Cambridge,4.8,5.5
+2337,2369,stable,Our Lady of Victor y,Toronto,4.7,4.3
+2301,1862,stable,English Central New,Liskeard,4.8,5.4
+2337,2448,stable,Har wood,York,4.7,4.0
+2301,1951,improving,Lombardy,Lombardy,4.8,5.2
+2337,2457,stable,Immac ulate Conception,Toronto,4.7,4.0
+2301,1965,stable,St Kevin B,rampton,4.8,5.2
+2337,2457,stable,S ainte -Ursule McG,regor,4.7,4.0
+2301,1983,stable,Albion Heights,Etobicoke,4.8,5.2
+2337,2461,stable,Pine G len,Huntsville,4.7,4.0
+2301,2081,stable,Leslie Frost,Lindsay,4.8,5.0
+2337,2477,stable,Huntington Park,Hamilton,4.7,4.0
+2301,2092,stable,O ttawa Crescent G,uelph,4.8,5.0
+2337,2489,stable,Manchester,Cambridge,4.7,3.9
+2301,2152,stable,D unwich-D utton D,utton,4.8,4.8
+2337,2561,stable,Kinghurst,Chesley,4.7,3.6
+2301,2191,stable,St Peter,Trenton,4.8,4.8
+2337,2583,declining,Adamsdale,Sudbury,4.7,3.5
+2301,2223,stable,Pine R iver,Angus,4.8,4.7
+2337,n/a,n/a,Rivière-Rideau,Kemptville,4.7,n/a
+2301,2242,stable,St Stephen,Toronto,4.8,4.6
+2337,n/a,n/a,Sir William Osler,Bradford,4.7,n/a
+2301,2299,stable,St Margaret's S c,arborough,4.8,4.5
+2337,n/a,n/a,St Anthony,Ottawa,4.7,n/a
+2301,2335,stable,de la Découver te Val,Caron,4.8,4.4
+2337,n/a,n/a,St Cecilia,Alliston,4.7,n/a
+2301,2357,stable,Ar thur Ford,London,4.8,4.3
+2385,615,stable,St Alfred St.,Catharines,4.6,7.2
+2301,2357,stable,Sacred Hear t Sioux,Lookout,4.8,4.3
+2385,1380,improving,Georges P Vanier,Chatham,4.6,6.2
+2301,2399,stable,G ore Hill,Leamington,4.8,4.2
+2385,1421,stable,Notre Dame,Cobourg,4.6,6.1
+2301,2421,stable,Pope John Paul II,Lindsay,4.8,4.1
+2385,1439,stable,Lester B Pearson,Brampton,4.6,6.1
+2301,2461,stable,Warden Avenue S c,arborough,4.8,4.0
+2385,1482,improving,St Daniel,Ottawa,4.6,6.0
+2301,2501,stable,Lisgar,Hamilton,4.8,3.9
+2385,1515,stable,Precious B lood,Exeter,4.6,6.0
+2385,1586,stable,Father Clair Tipping B,rampton,4.6,5.9
+2436,2054,improving,Mount Albion Stoney,Creek,4.5,5.0
+2385,1586,stable,Manor Park O,ttawa,4.6,5.9
+2436,2075,stable,B rooke Central,Alvinston,4.5,5.0
+2385,1635,stable,Nobleton,Nobleton,4.6,5.8
+2436,2109,stable,Ealing,London,4.5,4.9
+2385,1676,stable,Henr y Larsen G,loucester,4.6,5.7
+2436,2159,stable,Uptergrove R,amara,4.5,4.8
+2385,1686,improving,Holy Spirit,Cambridge,4.6,5.7
+2436,2176,stable,St B ernard,Toronto,4.5,4.8
+2385,1731,stable,St Isaac Jogues,Brampton,4.6,5.6
+2436,2249,stable,St Peter G,uelph,4.5,4.6
+2385,1783,stable,Aylesbur y B,rampton,4.6,5.5
+2436,2252,stable,Dr George Hall Little,Britain,4.5,4.6
+2385,1783,stable,Central B,owmanville,4.6,5.5
+2436,2272,stable,Chedoke,Hamilton,4.5,4.6
+2385,1783,stable,S prucecour t,Toronto,4.6,5.5
+2436,2285,stable,St Charles,Toronto,4.5,4.6
+2385,1803,improving,Margaret Twomey,Marathon,4.6,5.5
+2436,2300,stable,Nor th Woods,Ethel,4.5,4.5
+2385,1831,stable,S ir William Stephenson,Whitby,4.6,5.5
+2436,2311,stable,Parr y Sound Parr y,Sound,4.5,4.5
+2385,1843,stable,Tait Street,Cambridge,4.6,5.4
+2436,2335,stable,J J O'Neill,Napanee,4.5,4.4
+2385,1867,stable,Holy Cross Sault Ste.,Marie,4.6,5.4
+2436,2353,declining,D M Sutherland,Woodstock,4.5,4.4
+2385,1867,stable,New S arum St.,Thomas,4.6,5.4
+2436,2426,stable,Hagersville,Hagersville,4.5,4.1
+2385,1941,improving,Dr Rober t Thornton,Whitby,4.6,5.3
+2436,2540,stable,Highview,Hamilton,4.5,3.7
+2385,1941,stable,Jean Vanier B,rantford,4.6,5.3
+2436,2561,stable,Holy Rosar y B,elleville,4.5,3.6
+2385,1941,stable,Monsignor Morrison St.,Thomas,4.6,5.3
+2436,2596,stable,D eseronto D,eseronto,4.5,3.4
+2385,1977,stable,Vincent Massey B,owmanville,4.6,5.2
+2436,2596,stable,Evelyn Harrison,London,4.5,3.4
+2385,2010,stable,Templemead,Hamilton,4.6,5.2
+2436,n/a,n/a,Beaver River,Beaverton,4.5,n/a
+2385,2054,stable,Holy S pirit,Toronto,4.6,5.0
+2436,n/a,n/a,Chelmsford Valley,Chelmsford,4.5,n/a
+2385,2087,stable,Iroquois,Iroquois,4.6,5.0
+2436,n/a,n/a,Highland,Cambridge,4.5,n/a
+2385,2098,stable,G reely G,reely,4.6,4.9
+2436,n/a,n/a,Robert Little,Acton,4.5,n/a
+2385,2172,improving,Holy Family,Ottawa,4.6,4.8
+2436,n/a,n/a,St Mar y's Blind,River,4.5,n/a
+2385,2196,stable,G reenbrier B,rantford,4.6,4.7
+2436,n/a,n/a,W.J. Holsgrove,Westbrook,4.5,n/a
+2385,2221,stable,Plowman's Park M,ississauga,4.6,4.7
+2474,1167,improving,Ste-Marguerite-d'Youville,Tecumseh,4.4,6.4
+2385,2242,stable,R J Lang Nor th,York,4.6,4.6
+2474,1293,stable,St Elizabeth,Wallaceburg,4.4,6.3
+2385,2242,stable,St Matthew,Toronto,4.6,4.6
+2474,1452,improving,Princess Elizabeth,Orangeville,4.4,6.1
+2385,2242,stable,S utton S utton,West,4.6,4.6
+2474,1557,improving,Norman G. Powers,Oshawa,4.4,5.9
+2385,2293,stable,Isabel Fletcher Sault Ste.,Marie,4.6,4.5
+2474,1586,stable,Holy Family,Woodstock,4.4,5.9
+2385,2311,stable,Couchiching Heights O,rillia,4.6,4.5
+2474,1662,stable,Allandale Heights B,arrie,4.4,5.8
+2385,2311,stable,Wilfrid J ur y,London,4.6,4.5
+2474,1853,improving,Danfor th Gardens,Scarborough,4.4,5.4
+2385,2320,stable,Prior y Park G,uelph,4.6,4.4
+2474,1900,stable,McKenzie -S mith B ennett Ac,ton,4.4,5.3
+2385,2335,stable,Lynngate S c,arborough,4.6,4.4
+2474,1941,improving,Elginburg,Elginburg,4.4,5.3
+2385,2362,stable,Vanier B,rockville,4.6,4.3
+2474,1977,improving,Huronia Centennial,Elmvale,4.4,5.2
+2385,2374,stable,Dr H D Taylor,Windsor,4.6,4.3
+2474,1977,stable,St Francis Xavier,Toronto,4.4,5.2
+2385,2399,stable,Amherstburg,Amherstburg,4.6,4.2
+2474,2044,stable,G ood Shepherd G,loucester,4.4,5.1
+2385,2421,stable,B obby O rr,Oshawa,4.6,4.1
+2474,2066,stable,G len R avine S c,arborough,4.4,5.0
+2385,2472,stable,Osprey Central Max,well,4.6,4.0
+2474,2159,stable,St Nicholas St.,Catharines,4.4,4.8
+2385,2489,stable,Centennial,Kingston,4.6,3.9
+2474,2176,stable,St Elizabeth B,owmanville,4.4,4.8
+2385,2534,stable,King G eorge B,rantford,4.6,3.7
+2474,2209,stable,Coronation,Cambridge,4.4,4.7
+2385,2543,declining,Highland Heights,Peterborough,4.6,3.7
+2474,2213,stable,St Daniel,Kitchener,4.4,4.7
+2385,2557,stable,Peninsula Shores Wiar,ton,4.6,3.6
+2474,2213,stable,St Mar y Mount,Forest,4.4,4.7
+2385,2607,stable,Elgin Avenue S,imcoe,4.6,3.3
+2474,2228,improving,Don-Bosco,Timmins,4.4,4.7
+2385,n/a,n/a,Killaloe PS,Killaloe,4.6,n/a
+2474,2272,stable,St Thomas Aquinas,Oshawa,4.4,4.6
+2385,n/a,n/a,Passeport Jeunesse,Hearst,4.6,n/a
+2474,2277,stable,Cor vette S c,arborough,4.4,4.6
+2436,994,stable,D evins D rive,Aurora,4.5,6.6
+2474,2327,stable,Countr y Hills,Kitchener,4.4,4.4
+2436,1407,stable,Floradale M,ississauga,4.5,6.1
+2474,2327,stable,King G eorge VI,Chatham,4.4,4.4
+2436,1482,stable,St Joachim,Toronto,4.5,6.0
+2474,2343,stable,Fairbank,York,4.4,4.4
+2436,1586,stable,Enniskillen,Hampton,4.5,5.9
+2474,2344,stable,Mundy's B ay M,idland,4.4,4.4
+2436,1706,improving,Adelaide - W G MacDonald,Strathroy,4.5,5.7
+2474,2369,stable,B rant Hills B,urlington,4.4,4.3
+2436,1731,improving,Orchard Park,Orillia,4.5,5.6
+2474,2379,stable,Nationview S outh,Mountain,4.4,4.3
+2436,1743,stable,Holy Family B,owmanville,4.5,5.6
+2474,2389,stable,Montclair,Oakville,4.4,4.3
+2436,1763,stable,Our Lady of Fatima Nor th,Bay,4.5,5.6
+2474,2389,stable,Rockland,Rockland,4.4,4.3
+2436,1800,improving,Moffat Creek,Cambridge,4.5,5.5
+2474,2392,stable,S outhridge,Kitchener,4.4,4.2
+2436,1910,stable,G lengrove,Pickering,4.5,5.3
+2474,2479,stable,John Wise St.,Thomas,4.4,3.9
+2436,1995,stable,G eneral Crerar S c,arborough,4.5,5.2
+2474,n/a,n/a,Emily Carr,Scarborough,4.4,n/a
+2436,2027,improving,St Pius X,London,4.5,5.1
+2474,n/a,n/a,Maynooth,Maynooth,4.4,n/a
+2436,2038,stable,John McCrae S c,arborough,4.5,5.1
+2474,n/a,n/a,Prince Edward,Picton,4.4,n/a
+2436,2044,stable,Monsignor Michael O'Lear y,Bracebridge,4.5,5.1
+2474,n/a,n/a,St Augustine,Welland,4.4,n/a
+2509,344,stable,St Luke,Oakville,4.3,7.7
+2556,2228,stable,Pauline Johnson S c,arborough,4.2,4.7
+2509,1536,stable,St R aymond M,ississauga,4.3,6.0
+2556,2252,stable,Nor wood Nor,wood,4.2,4.6
+2509,1662,improving,Brownridge,Thornhill,4.3,5.8
+2556,2277,stable,St John,Peterborough,4.2,4.6
+2509,1705,improving,Glamorgan,Scarborough,4.3,5.7
+2556,2344,stable,East Lambton,Watford,4.2,4.4
+2509,1731,stable,Ferris G len,Corbeil,4.3,5.6
+2556,2389,stable,Lions O val O,rillia,4.2,4.3
+2509,1763,stable,James MacD onald,Hamilton,4.3,5.6
+2556,2399,stable,Alexandra O wen S,ound,4.2,4.2
+2509,1783,stable,St James,Lively,4.3,5.5
+2556,2417,stable,B ridgewood,Cornwall,4.2,4.2
+2509,1831,improving,St Agatha,Toronto,4.3,5.5
+2556,2438,stable,St Anthony B,rampton,4.2,4.1
+2509,1881,stable,Shakespeare,Stratford,4.3,5.4
+2556,2472,stable,Pineview,Athens,4.2,4.0
+2509,1910,stable,Erin,Erin,4.3,5.3
+2556,2479,stable,Centennial O,ttawa,4.2,3.9
+2509,1925,stable,G eorges P Vanier,Windsor,4.3,5.3
+2556,2521,declining,Our Lady of Grace,Angus,4.2,3.8
+2509,1925,stable,St Monic as B,arrie,4.3,5.3
+2556,2526,stable,Morning G lor y,Pefferlaw,4.2,3.8
+2509,2008,stable,St M ichael's,Woodstock,4.3,5.2
+2556,2556,stable,St Noel Chabanel Wasaga,Beach,4.2,3.6
+2509,2054,improving,St Gregor y,Picton,4.3,5.0
+2556,2638,declining,Black River Sutton,West,4.2,3.0
+2509,2109,stable,Immac ulate Conception,Windsor,4.3,4.9
+2556,n/a,n/a,Chief Dan George,Scarborough,4.2,n/a
+2509,2124,improving,Frère-André,Barrie,4.3,4.9
+2556,n/a,n/a,Magnetawan Central PS,Magnetawan,4.2,n/a
+2509,2124,stable,Stewar t Avenue,Cambridge,4.3,4.9
+2556,n/a,n/a,Notre Dame Owen,Sound,4.2,n/a
+2509,2124,stable,Tosorontio Central,Everett,4.3,4.9
+2556,n/a,n/a,Sophiasburgh Central,Picton,4.2,n/a
+2509,2152,stable,D overcour t,Toronto,4.3,4.8
+2556,n/a,n/a,Sweet's Corners E S,Lyndhurst,4.2,n/a
+2509,2152,stable,Holy Trinit y S udbur,y,4.3,4.8
+2556,n/a,n/a,Viola Desmond-Hamilton,Hamilton,4.2,n/a
+2509,2167,stable,St B ernadette's S utton,West,4.3,4.8
+2588,1536,stable,B rimwood B oulevard S c,arborough,4.1,6.0
+2509,2185,improving,Wexford,Scarborough,4.3,4.8
+2588,1722,improving,Fairlawn,Brampton,4.1,5.7
+2509,2213,stable,Pioneer Park,Kitchener,4.3,4.7
+2588,1803,stable,S T Worden Cour,tice,4.1,5.5
+2509,2213,stable,Walpole Nor th,Hagersville,4.3,4.7
+2588,1983,improving,Cundles Heights,Barrie,4.1,5.2
+2509,2272,stable,W Earle Miller,Timmins,4.3,4.6
+2588,1983,improving,Jacques-Cartier,Kapuskasing,4.1,5.2
+2509,2356,stable,Elgin Cour t St.,Thomas,4.3,4.4
+2588,2054,stable,Pope John Paul II,Kenora,4.1,5.0
+2509,2399,stable,Waverley B,owmanville,4.3,4.2
+2588,2054,improving,Queen Elizabeth,Renfrew,4.1,5.0
+2509,2428,stable,St Patrick,Peterborough,4.3,4.1
+2588,2098,improving,St Huber t Nor th,Bay,4.1,4.9
+2509,2438,stable,Walker ton D istric t Walker,ton,4.3,4.1
+2588,2119,improving,Tapleytown Stoney,Creek,4.1,4.9
+2509,2445,stable,Tweedsmuir,London,4.3,4.1
+2588,2188,stable,Clairlea S c,arborough,4.1,4.8
+2509,2454,declining,St Michael,London,4.3,4.0
+2588,2205,stable,St Leonard B,rampton,4.1,4.7
+2509,2456,stable,Franklin,Hamilton,4.3,4.0
+2588,2228,stable,Lakefield D istric t,Lakefield,4.1,4.7
+2509,2478,stable,S acred Hear t,Espanola,4.3,4.0
+2588,2262,stable,Rothwell- Osnabruck,Ingleside,4.1,4.6
+2509,2498,stable,Mapleridge,Powassan,4.3,3.9
+2588,2303,stable,H A Halber t,Scarborough,4.1,4.5
+2509,2540,stable,Princess Anne S udbur,y,4.3,3.7
+2588,2335,stable,St Andrew,Toronto,4.1,4.4
+2509,2557,stable,S aints-Anges Nor th B,ay,4.3,3.6
+2588,2385,stable,J F Carmichael,Kitchener,4.1,4.3
+2509,2566,stable,D eer Park,Keswick,4.3,3.6
+2588,2396,stable,Colonel Cameron,Corunna,4.1,4.2
+2509,2588,stable,O dessa O,dessa,4.3,3.4
+2588,2406,stable,Fair wood,Keswick,4.1,4.2
+2509,2649,stable,Memorial (Cit y),Hamilton,4.3,3.0
+2588,2411,stable,Prince of Wales,Peterborough,4.1,4.2
+2509,2663,stable,Nor thern Heights Sault Ste.,Marie,4.3,2.8
+2588,2411,stable,Ryerson,Toronto,4.1,4.2
+2509,2679,declining,Sir John A Macdonald,London,4.3,2.6
+2588,2421,stable,Marlborough,Windsor,4.1,4.1
+2509,n/a,n/a,Birds Creek,Bancroft,4.3,n/a
+2588,2428,stable,A B Ellis,Espanola,4.1,4.1
+2509,n/a,n/a,George Syme,York,4.3,n/a
+2588,2428,stable,G C Huston,Southampton,4.1,4.1
+2509,n/a,n/a,Mapleview,Dunnville,4.3,n/a
+2588,2522,stable,West Hill S c,arborough,4.1,3.8
+2509,n/a,n/a,Nor th Hope Central,Campbellcroft,4.3,n/a
+2588,2559,declining,Le Trillium,Vanier,4.1,3.6
+2509,n/a,n/a,South Edwardsburg,Johnstown,4.3,n/a
+2588,2568,stable,Lord Nelson,London,4.1,3.6
+2509,n/a,n/a,St Gregor y Sep S,Powassan,4.3,n/a
+2588,2572,stable,St Patrick's,Hamilton,4.1,3.6
+2556,1380,improving,Rivière Castor,Embrun,4.2,6.2
+2588,2588,declining,Nor th Hastings,Bancroft,4.1,3.4
+2556,1650,improving,John G Diefenbaker,Scarborough,4.2,5.8
+2588,2596,stable,Prince Charles B,elleville,4.1,3.4
+2556,1831,improving,Arran Tara,Tara,4.2,5.5
+2588,2599,stable,S ainte -Marguerite -B ourgeoys B,rantford,4.1,3.4
+2556,1894,stable,Algonquin,Woodstock,4.2,5.3
+2588,2642,stable,Hanna Memorial S,arnia,4.1,3.0
+2556,1910,stable,St Thomas Aquinas,Keswick,4.2,5.3
+2588,n/a,n/a,Larchwood PS,Dowling,4.1,n/a
+2556,1941,improving,Clemens Mill,Cambridge,4.2,5.3
+2588,n/a,n/a,Newburgh,Newburgh,4.1,n/a
+2556,1983,stable,Worsley Wasaga B,each,4.2,5.2
+2588,n/a,n/a,Sacré-Coeur,Chapleau,4.1,n/a
+2556,2012,improving,Lake Simcoe,Innisfil,4.2,5.1
+2588,n/a,n/a,St Mar y For t,Frances,4.1,n/a
+2556,2066,stable,Clara Hughes,Oshawa,4.2,5.0
+2588,n/a,n/a,École Franco-Niagara,Welland,4.1,n/a
+2556,2070,stable,St Joseph South,Porcupine,4.2,5.0
+2624,1699,stable,St Patrick,Harrowsmith,4.0,5.7
+2556,2092,stable,Lake S imcoe,Keswick,4.2,5.0
+2624,1800,improving,Holy Family,Wallaceburg,4.0,5.5
+2556,2124,stable,Guy B Brown,Waterdown,4.2,4.9
+2624,1841,stable,S aint-D ominique S udbur,y,4.0,5.5
+2624,1894,stable,Per th Road Per th,Road,4.0,5.3
+2657,2583,stable,Prince of Peace,Ottawa,3.9,3.5
+2624,1925,stable,Hillcrest,Campbellford,4.0,5.3
+2657,2599,stable,Roseneath Centennial,Roseneath,3.9,3.4
+2624,1951,improving,St Mar y's Chester,ville,4.0,5.2
+2657,2614,stable,John P Robar ts,London,3.9,3.3
+2624,1965,improving,College Hill,Oshawa,4.0,5.2
+2657,2632,stable,Prince of Wales,Hamilton,3.9,3.1
+2624,2017,stable,Coldwater,Coldwater,4.0,5.1
+2690,1421,improving,Blessed Pier Giorgio Frassati,Scarborough,3.8,6.1
+2624,2052,improving,Thamesford,Thamesford,4.0,5.1
+2690,1662,stable,Holy Child,Toronto,3.8,5.8
+2624,2098,stable,Prince of Peace,Keswick,4.0,4.9
+2690,1900,improving,Front of Yonge Mallor,ytown,3.8,5.3
+2624,2124,improving,William Tredway,Scarborough,4.0,4.9
+2690,1910,stable,D unning-Fouber t O,rleans,3.8,5.3
+2624,2159,stable,Our Lady of Fatima,Brampton,4.0,4.8
+2690,2044,stable,St Marguerite d'Youville,Barrie,3.8,5.1
+2624,2293,stable,Q ueen Vic toria,Windsor,4.0,4.5
+2690,2085,stable,S ainte -Félicité Clarence,Creek,3.8,5.0
+2624,2293,stable,St Mar y,Trenton,4.0,4.5
+2690,2176,stable,Tam O'Shanter S c,arborough,3.8,4.8
+2624,2306,stable,Q ueen Mar y,Peterborough,4.0,4.5
+2690,2234,stable,Héritage Nor th B,ay,3.8,4.6
+2624,2307,stable,Zorra Highland Park,Embro,4.0,4.5
+2690,2285,stable,St Anne,Cambridge,3.8,4.6
+2624,2310,improving,Bayridge,Kingston,4.0,4.5
+2690,2303,stable,Keith Wightman,Peterborough,3.8,4.5
+2624,2325,stable,S outh R idge,Tillsonburg,4.0,4.4
+2690,2377,improving,St Luke,Ottawa,3.8,4.3
+2624,2348,stable,Hillcrest B,arrie,4.0,4.4
+2690,2379,stable,St Anne,Hanmer,3.8,4.3
+2624,2348,stable,Holy Name of Jesus,Hamilton,4.0,4.4
+2690,2396,stable,G rey O wl S c,arborough,3.8,4.2
+2624,2428,stable,Greenwood Sault Ste.,Marie,4.0,4.1
+2690,2442,stable,Monsignor Philip Coffey,Oshawa,3.8,4.1
+2624,2434,stable,Helen D et wiler,Hamilton,4.0,4.1
+2690,2471,improving,Trillium,Kitchener,3.8,4.0
+2624,2434,stable,Steele Street B,arrie,4.0,4.1
+2690,2483,stable,Highland Heights S c,arborough,3.8,3.9
+2624,2442,stable,Tec umseh,Chatham,4.0,4.1
+2690,2486,stable,White Oaks,London,3.8,3.9
+2624,2455,stable,Emily Stowe Nor,wich,4.0,4.0
+2690,2504,stable,S aint-Thomas-D'Aquin A stor,ville,3.8,3.9
+2624,2504,stable,St Jude Thunder,Bay,4.0,3.9
+2690,2547,stable,Ste -Marguerite - d' Youville,Verner,3.8,3.7
+2624,2547,stable,Chalmers Street,Cambridge,4.0,3.7
+2690,2554,stable,Blind River Blind,River,3.8,3.6
+2624,2631,stable,Parkhill-West Williams,Parkhill,4.0,3.1
+2690,2568,stable,Holy Family,Toronto,3.8,3.6
+2624,2636,stable,Q ueen Elizabeth,Kitchener,4.0,3.1
+2690,2611,stable,Hyland Heights,Shelburne,3.8,3.3
+2624,n/a,n/a,Epiphany of our Lord,Toronto,4.0,n/a
+2690,2621,stable,Village Union,Oshawa,3.8,3.2
+2624,n/a,n/a,St Edward S,Nipigon,4.0,n/a
+2690,2643,stable,B uchanan Park,Hamilton,3.8,3.0
+2624,n/a,n/a,St Mary,Massey,4.0,n/a
+2690,2645,stable,Sir George Etienne Car tier,London,3.8,3.0
+2624,n/a,n/a,St-Jude,Porcupine,4.0,n/a
+2690,2656,stable,Notre -Dame,Hamilton,3.8,2.9
+2657,1167,stable,Forest Avenue M,ississauga,3.9,6.4
+2690,n/a,n/a,Notre-Dame-de-la-Merci,Coniston,3.8,n/a
+2657,1635,improving,Holy Family,Oakville,3.9,5.8
+2690,n/a,n/a,Romeo,Stratford,3.8,n/a
+2657,1676,stable,John A Leslie,Scarborough,3.9,5.7
+2718,1774,stable,St Christopher,Oshawa,3.7,5.6
+2657,1882,improving,Our Lady of Victor y,Ottawa,3.9,5.3
+2718,1983,stable,Bishop Francis Allen,Brampton,3.7,5.2
+2657,1941,stable,Anne Hathaway,Stratford,3.9,5.3
+2718,2147,stable,Q ueen Elizabeth B,elleville,3.7,4.8
+2657,1973,stable,Mother Teresa St.,Catharines,3.9,5.2
+2718,2167,stable,Howick Central G,orrie,3.7,4.8
+2657,1995,improving,Lakewoods,Oshawa,3.9,5.2
+2718,2191,stable,St. Anthony's Por t,Hope,3.7,4.8
+2657,2087,stable,M ildmay- Carrick Central M,ildmay,3.9,5.0
+2718,2204,stable,Churchill S udbur,y,3.7,4.7
+2657,2098,stable,Monsignor Haller,Kitchener,3.9,4.9
+2718,2277,stable,S aint-Mathieu,Hammond,3.7,4.6
+2657,2109,stable,Walter Scott Richmond,Hill,3.9,4.9
+2718,2293,improving,Brier Park,Brantford,3.7,4.5
+2657,2138,stable,Russell Reid B,rantford,3.9,4.9
+2718,2307,improving,Notre-Dame-du-Sault Sault Ste.,Marie,3.7,4.5
+2657,2262,stable,Holy Cross Nor th,Bay,3.9,4.6
+2718,2335,improving,Chimo Smiths,Falls,3.7,4.4
+2657,2262,improving,Saint-Michel,Leamington,3.9,4.6
+2718,2414,improving,Edward Street St.,Thomas,3.7,4.2
+2657,2318,stable,Cobblestone,Paris,3.9,4.5
+2718,2461,stable,B anbur y Heights B,rantford,3.7,4.0
+2657,2362,improving,Gateway Nor th,York,3.9,4.3
+2718,2479,stable,Oakley Park B,arrie,3.7,3.9
+2657,2377,stable,St Vincent de Paul,Strathroy,3.9,4.3
+2718,2489,stable,Centennial,Cambridge,3.7,3.9
+2657,2434,stable,Good Shepherd Por t Perr,y,3.9,4.1
+2718,2495,stable,S aint Mar y's,Huntsville,3.7,3.9
+2657,2460,stable,Holy Family,London,3.9,4.0
+2718,2495,stable,Woodman- Cainsville B,rantford,3.7,3.9
+2657,2461,stable,St Thomas More,London,3.9,4.0
+2718,2549,stable,W H Ballard,Hamilton,3.7,3.7
+2657,2469,stable,St Alphonsus,Peterborough,3.9,4.0
+2718,2604,stable,Por t Bur well Por t Bur,well,3.7,3.3
+2657,2472,stable,St Charles Garnier,Toronto,3.9,4.0
+2718,2654,stable,Jeunesse -Ac tive Sturgeon,Falls,3.7,2.9
+2657,2483,stable,S awmill Creek G,loucester,3.9,3.9
+2718,2707,stable,Cecil B Stirling,Hamilton,3.7,2.1
+2657,2498,stable,St B ernadette,Kitchener,3.9,3.9
+2718,n/a,n/a,Enterprise,Enterprise,3.7,n/a
+2657,2524,stable,Regent Park O,rillia,3.9,3.8
+2718,n/a,n/a,Seneca Central,Haldimand,3.7,n/a
+2657,2531,stable,Q ueen Mar y,Hamilton,3.9,3.8
+2718,n/a,n/a,St-Joseph Sturgeon,Falls,3.7,n/a
+2657,2537,stable,S ir Wilfrid Laurier,Hamilton,3.9,3.7
+2718,n/a,n/a,É P Jeanne-Sauvé Sudbur,y,3.7,n/a
+2657,2544,stable,Laurie Hawkins,Ingersoll,3.9,3.7
+2718,n/a,n/a,É Sép Saint-Antoine,Noëlville,3.7,n/a
+2657,2551,stable,M S Hetherington,Windsor,3.9,3.7
+2743,1962,stable,Roseville,Windsor,3.6,5.2
+2657,2566,stable,Thessalon,Thessalon,3.9,3.6
+2743,2001,stable,Queen Elizabeth II,Petrolia,3.6,5.2
+2743,2032,stable,Harmony Heights,Oshawa,3.6,5.1
+2781,2670,stable,Woodland Heights,London,3.4,2.7
+2743,2124,improving,Maple Leaf Nor th,York,3.6,4.9
+2805,1609,stable,St Maurice,Toronto,3.3,5.8
+2743,2159,improving,St. Mar y's,Hagersville,3.6,4.8
+2805,2205,improving,George B Little,Scarborough,3.3,4.7
+2743,2325,stable,Archie Stouffer M,inden,3.6,4.4
+2805,2228,improving,Rose Avenue,Toronto,3.3,4.7
+2743,2396,improving,Glen Cedar,Newmarket,3.6,4.2
+2805,2242,stable,Tec umseth B eeton B,eeton,3.3,4.6
+2743,2399,improving,Dr C F Cannon,Oshawa,3.6,4.2
+2805,2262,stable,St John,Kitchener,3.3,4.6
+2743,2409,stable,King Edward,Windsor,3.6,4.2
+2805,2300,improving,Meadowlands,Nepean,3.3,4.5
+2743,2448,stable,Lake Avenue Stoney,Creek,3.6,4.0
+2805,2318,improving,St Paul the Apostle,Coniston,3.3,4.5
+2743,2457,improving,Gordon Price,Hamilton,3.6,4.0
+2805,2335,stable,R ama Central,Washago,3.3,4.4
+2743,2504,stable,St Antoine Daniel Victoria,Harbour,3.6,3.9
+2805,2348,stable,Lincoln Heights,Waterloo,3.3,4.4
+2743,2515,stable,The Elms,Etobicoke,3.6,3.8
+2805,2353,stable,A A Wright,Wallaceburg,3.3,4.4
+2743,2534,stable,St. Joseph,Cobourg,3.6,3.7
+2805,2428,stable,Prince Edward,Windsor,3.3,4.1
+2743,2553,stable,D ougall Avenue,Windsor,3.6,3.6
+2805,2446,stable,Hillside M,ississauga,3.3,4.1
+2743,2576,stable,A ssomption,Earlton,3.6,3.5
+2805,2447,stable,Essex,Toronto,3.3,4.1
+2743,2638,stable,Rockway,Kitchener,3.6,3.0
+2805,2534,stable,Lord D ufferin,Toronto,3.3,3.7
+2743,2674,stable,Agnes Hodge B,rantford,3.6,2.6
+2805,2555,stable,Avenue Road,Cambridge,3.3,3.6
+2743,n/a,n/a,Holy Name,Pembroke,3.6,n/a
+2805,2576,stable,Woodland Nor th B,ay,3.3,3.5
+2762,2054,improving,Eganville,Eganville,3.5,5.0
+2805,2592,stable,Victoria Harbour Victoria,Harbour,3.3,3.4
+2762,2070,stable,B uchanan S c,arborough,3.5,5.0
+2805,2593,stable,St John Ar,thur,3.3,3.4
+2762,2138,stable,S pring Valley B,righton,3.5,4.9
+2805,2638,stable,B ennetto,Hamilton,3.3,3.0
+2762,2147,stable,Arklan Community Carleton,Place,3.5,4.8
+2805,2663,stable,R idgewood,Coboconk,3.3,2.8
+2762,2196,improving,Por tage View,Barrie,3.5,4.7
+2805,n/a,n/a,Georgian Bay,Meaford,3.3,n/a
+2762,2196,improving,Rick Hansen,London,3.5,4.7
+2805,n/a,n/a,L'Odyssée,Guelph,3.3,n/a
+2762,2303,stable,Lakeside,Keswick,3.5,4.5
+2805,n/a,n/a,Quinte Mohawk S,Deseronto,3.3,n/a
+2762,2311,stable,St Francis,London,3.5,4.5
+2805,n/a,n/a,Sherbrooke Thunder,Bay,3.3,n/a
+2762,2374,stable,Harold Longwor th B,owmanville,3.5,4.3
+2830,1482,stable,Rouge Valley S c,arborough,3.2,6.0
+2762,2417,stable,William G Davis,Windsor,3.5,4.2
+2830,2019,stable,Kente,Ameliasburgh,3.2,5.1
+2762,2561,stable,B lessed S acrament,London,3.5,3.6
+2830,2185,stable,Bolton C Falby,Ajax,3.2,4.8
+2762,2581,stable,Blessed Trinity Nor th,York,3.5,3.5
+2830,2262,stable,G lenbrook,Shelburne,3.2,4.6
+2762,2588,stable,Charles E Webster,York,3.5,3.4
+2830,2320,stable,Hillcrest O wen S,ound,3.2,4.4
+2762,2611,stable,Ben R McMullin Sault Ste.,Marie,3.5,3.3
+2830,2385,improving,Sunset Park Nor th,Bay,3.2,4.3
+2762,2624,stable,London Road S,arnia,3.5,3.1
+2830,2392,stable,Paul VI Hawkesbur,y,3.2,4.2
+2762,2645,stable,Moosonee,Moosonee,3.5,3.0
+2830,2512,stable,St. Basil Sault Ste.,Marie,3.2,3.8
+2762,n/a,n/a,Esten Park Elliot,Lake,3.5,n/a
+2830,2515,stable,St Francis de Sales,Toronto,3.2,3.8
+2781,1910,stable,Norman Cook S c,arborough,3.4,5.3
+2830,2700,declining,St-Dominique-Savio Owen,Sound,3.2,2.3
+2781,2019,stable,St Theresa,Callander,3.4,5.1
+2830,2701,stable,S ir Winston Churchill B,rampton,3.2,2.3
+2781,2191,stable,Our Lady of Mount Carmel,Ottawa,3.4,4.8
+2830,2705,stable,Cochrane,Cochrane,3.2,2.1
+2781,2234,improving,Centennial Hylands,Shelburne,3.4,4.6
+2830,n/a,n/a,Our Lady of Charity Thunder,Bay,3.2,n/a
+2781,2234,improving,Saint-Thomas-d'Aquin,Sarnia,3.4,4.6
+2830,n/a,n/a,Thamesville Area Central,Thamesville,3.2,n/a
+2781,2242,improving,St Ursula,Chatham,3.4,4.6
+2845,1524,improving,Monseigneur-Jamot,Peterborough,3.1,6.0
+2781,2327,stable,St B rigid O,ttawa,3.4,4.4
+2845,2277,improving,Immaculate Conception Val,Caron,3.1,4.6
+2781,2327,improving,St Charles,Chelmsford,3.4,4.4
+2845,2327,improving,Christ The King,Cambridge,3.1,4.4
+2781,2357,improving,St Jane Frances Nor th,York,3.4,4.3
+2845,2362,improving,Car twright Central,Blackstock,3.1,4.3
+2781,2384,improving,Holland-Chatswor th Central Holland,Centre,3.4,4.3
+2845,2362,improving,Manordale,Nepean,3.1,4.3
+2781,2415,stable,Silver Birches Nor th,Bay,3.4,4.2
+2845,2442,stable,B ayshore,Nepean,3.1,4.1
+2781,2448,stable,B ay view Heights,Pickering,3.4,4.0
+2845,2472,stable,W J Watson,Keswick,3.1,4.0
+2781,2486,stable,La Source Moose,Creek,3.4,3.9
+2845,2512,stable,Nottawasaga and Creemore,Creemore,3.1,3.8
+2781,2511,stable,D'Arc y McG ee,Toronto,3.4,3.9
+2845,2574,stable,Parkinson Centennial O,rangeville,3.1,3.5
+2781,2522,stable,Nor theastern G,arson,3.4,3.8
+2845,2608,stable,Por tage Trail Nor th,York,3.1,3.3
+2781,2524,stable,Carleton Village,Toronto,3.4,3.8
+2845,2617,stable,Mar y Street Community,Oshawa,3.1,3.2
+2781,2568,stable,Thompson Creek D,unnville,3.4,3.6
+2845,2629,stable,B ishop Townshend,London,3.1,3.1
+2781,2579,stable,Commonwealth B,rockville,3.4,3.5
+2845,2643,stable,Annandale,Tillsonburg,3.1,3.0
+2781,2582,stable,Land of Lakes Burk's,Falls,3.4,3.5
+2845,n/a,n/a,Willow Road,Guelph,3.1,n/a
+2781,2599,stable,Lansdowne - Costain B,rantford,3.4,3.4
+2845,n/a,n/a,École catholique St-Gérard,Timmins,3.1,n/a
+2781,2623,stable,Central,Woodstock,3.4,3.2
+2860,2109,improving,St Mark,Prescott,3.0,4.9
+2781,2624,stable,Queen Elizabeth II,Sarnia,3.4,3.1
+2860,2138,improving,Nor th Per th Westfield,Listowel,3.0,4.9
+2781,2662,stable,Frank W B egley,Windsor,3.4,2.8
+2860,2172,stable,Rober t B ateman O,ttawa,3.0,4.8
+2860,2327,improving,Champlain Discover y,Pembroke,3.0,4.4
+2913,n/a,n/a,Featherston Drive,Ottawa,2.6,n/a
+2860,2362,stable,Cedar D rive S c,arborough,3.0,4.3
+2913,n/a,n/a,Oliver M. Smith Kawenni:io,Ohsweken,2.6,n/a
+2860,2448,stable,S aint-Vincent Nor th B,ay,3.0,4.0
+2913,n/a,n/a,Sacred Heart,Midland,2.6,n/a
+2860,2489,stable,St John Bosco Por t,Colborne,3.0,3.9
+2925,2228,improving,Johnson-Tarbutt Central,Desbarats,2.5,4.7
+2860,2519,improving,Morrisburg,Morrisburg,3.0,3.8
+2925,2448,improving,Dorset Park,Scarborough,2.5,4.0
+2860,2528,stable,River View Sault Ste.,Marie,3.0,3.8
+2925,2560,stable,Straffordville,Straffordville,2.5,3.6
+2860,2549,stable,S aint-Philippe G rande,Pointe,3.0,3.7
+2925,2572,stable,King Edward,Kitchener,2.5,3.6
+2860,2561,stable,Hillcrest,London,3.0,3.6
+2925,2611,improving,Militar y Trail,Scarborough,2.5,3.3
+2860,2593,stable,White Woods Sturgeon,Falls,3.0,3.4
+2925,2657,stable,St Columba,Toronto,2.5,2.8
+2860,2608,stable,David B ouchard,Oshawa,3.0,3.3
+2925,2677,stable,Wilton G rove,London,2.5,2.6
+2860,2666,stable,Ar thur Stringer,London,3.0,2.8
+2925,2684,stable,Knollwood Park,London,2.5,2.5
+2860,2708,stable,George L Armstrong,Hamilton,3.0,2.1
+2925,n/a,n/a,C R Judd,Capreol,2.5,n/a
+2860,n/a,n/a,Lambton Park,York,3.0,n/a
+2925,n/a,n/a,La Pinède,Borden,2.5,n/a
+2876,2039,improving,Buckhorn,Buckhorn,2.9,5.1
+2925,n/a,n/a,St. Mary,Lindsay,2.5,n/a
+2876,2105,stable,G reenholme,Etobicoke,2.9,4.9
+2936,2574,stable,S acred Hear t,Cornwall,2.4,3.5
+2876,2147,improving,Nor th Kipling,Etobicoke,2.9,4.8
+2936,2614,stable,Rober t Moore For t,Frances,2.4,3.3
+2876,2262,stable,St B arbara,Toronto,2.9,4.6
+2936,2621,stable,Q ueen Elizabeth O,ttawa,2.4,3.2
+2876,2514,stable,Edgewood S c,arborough,2.9,3.8
+2936,2660,stable,Our Lady of Fatima,Belleville,2.4,2.8
+2876,2546,improving,Queen Elizabeth,Oshawa,2.9,3.7
+2936,2693,stable,Evergreen,Kenora,2.4,2.4
+2876,2551,stable,St David S udbur,y,2.9,3.7
+2936,2708,stable,D unlop O,ttawa,2.4,2.1
+2876,2576,stable,Forest Cit y,London,2.9,3.5
+2942,2234,stable,A ssumption,Aylmer,2.3,4.6
+2876,2629,stable,Parkdale,Toronto,2.9,3.1
+2942,2515,stable,Wellington,Prescott,2.3,3.8
+2876,2641,stable,Evergreen Heights,Emsdale,2.9,3.0
+2942,2626,stable,S undridge Centennial S,undridge,2.3,3.1
+2876,n/a,n/a,King Albert,Lindsay,2.9,n/a
+2942,2645,improving,Mattawa District,Mattawa,2.3,3.0
+2876,n/a,n/a,Saint-Étienne,Dowling,2.9,n/a
+2942,2654,stable,Prince Charles,London,2.3,2.9
+2876,n/a,n/a,St Carthagh,Tweed,2.9,n/a
+2942,2666,stable,Aldborough,Rodney,2.3,2.8
+2876,n/a,n/a,St Francis de Sales Smiths,Falls,2.9,n/a
+2942,2687,stable,St M ichael O,ttawa,2.3,2.5
+2876,n/a,n/a,St Stephen's,Cayuga,2.9,n/a
+2942,2693,stable,Aberdeen,London,2.3,2.4
+2891,2272,improving,L'Envolée,Windsor,2.8,4.6
+2942,2706,stable,High Park S,arnia,2.3,2.1
+2891,2357,stable,S pruce R idge D,urham,2.8,4.3
+2942,n/a,n/a,La Renaissance,Espanola,2.3,n/a
+2891,2392,improving,Bellview,Brantford,2.8,4.2
+2952,2344,improving,Otonabee Valley,Peterborough,2.2,4.4
+2891,2428,improving,Pauline Johnson,Hamilton,2.8,4.1
+2952,2529,stable,Nor thdale,Woodstock,2.2,3.8
+2891,2485,stable,G alloway Road S c,arborough,2.8,3.9
+2952,2588,stable,Pinecrest O,ttawa,2.2,3.4
+2891,2489,improving,Normanby,Ayton,2.8,3.9
+2952,2595,improving,Nouveau Regard - Pavillon,St-Joseph,,2.2
+2891,2509,improving,Highview Pembroke,2.8,3.9,3.4
+2891,2610,stable,Cedarbrae,Waterloo,2.8,3.3
+2952,2626,stable,Prueter,Kitchener,2.2,3.1
+2891,2618,stable,Golden Avenue South,Porcupine,2.8,3.2
+2952,2652,stable,James Keating,Penetanguishene,2.2,2.9
+2891,2651,stable,Charles H. Hulse,Ottawa,2.8,2.9
+2952,2652,improving,Sainte-Catherine Pain Cour,t,2.2,2.9
+2891,2670,stable,Eastdale,Woodstock,2.8,2.7
+2952,2681,stable,H M Robbins Sault Ste.,Marie,2.2,2.6
+2891,2673,stable,Lord Elgin,London,2.8,2.7
+2952,2701,stable,Granite Ridge Sharbot,Lake,2.2,2.3
+2891,2714,stable,Marmora,Marmora,2.8,2.0
+2952,n/a,n/a,Cliffside,Scarborough,2.2,n/a
+2891,n/a,n/a,Delaware Central,Delaware,2.8,n/a
+2952,n/a,n/a,Sacred Heart,Batawa,2.2,n/a
+2891,n/a,n/a,Roland Michener,Ajax,2.8,n/a
+2963,2688,stable,B ishop Macdonell,Cornwall,2.1,2.5
+2891,n/a,n/a,S Geiger,Massey,2.8,n/a
+2963,2701,stable,Cathy Wever,Hamilton,2.1,2.3
+2907,2587,stable,Havelock-B elmont,Havelock,2.7,3.5
+2963,n/a,n/a,I.L. Thomas Odadrihonyanita,Ohsweken,2.1,n/a
+2907,2633,improving,St Christopher St.,Catharines,2.7,3.1
+2963,n/a,n/a,Lloyd S King,Hagersville,2.1,n/a
+2907,2633,stable,Vic tor Lauriston,Chatham,2.7,3.1
+2963,n/a,n/a,École Saint-Raymond Nor th,Bay,2.1,n/a
+2907,2666,stable,Q ueen Vic toria,Hamilton,2.7,2.8
+2963,n/a,n/a,ÉÉC Notre-Dame-de-la-Huronie,Collingwood,2.1,n/a
+2907,2688,stable,B onaventure Meadows,London,2.7,2.5
+2969,2409,stable,Kent,Campbellford,2.0,4.2
+2907,n/a,n/a,Scarborough Village,Scarborough,2.7,n/a
+2969,2561,stable,Nicholas Wilson,London,2.0,3.6
+2913,2144,improving,Baxter Central Egber,t,2.6,4.9
+2969,2583,improving,Sacred Hear t,Wingham,2.0,3.5
+2913,2616,stable,P.E . McG ibbon S,arnia,2.6,3.3
+2969,2650,stable,Mountain View G oulais R,iver,2.0,2.9
+2913,2661,stable,Woodcrest,Oshawa,2.6,2.8
+2969,2670,improving,Carleton Heights,Ottawa,2.0,2.7
+2913,2679,stable,Chester Le S c,arborough,2.6,2.6
+2969,2675,stable,A R Kaufman,Kitchener,2.0,2.6
+2913,2681,stable,Forest Park St.,Thomas,2.6,2.6
+2969,2712,stable,Lansdowne S,arnia,2.0,2.0
+2913,2684,stable,Prince of Wales B,elleville,2.6,2.5
+2969,2731,declining,Major Ballachey,Brantford,2.0,1.1
+2913,2690,stable,Prince Charles,Verona,2.6,2.4
+2969,n/a,n/a,J.C. Hill Elementar y,Ohsweken,2.0,n/a
+2913,2723,stable,Duncan J Schoular Smiths,Falls,2.6,1.5
+2969,n/a,n/a,Maple Grove,Lanark,2.0,n/a
+2981,2421,stable,King G eorge VI,Kenora,1.9,4.1
+3015,n/a,n/a,Holy Rosary,London,1.3,n/a
+2981,2504,improving,Mason Road,Scarborough,1.9,3.9
+3015,n/a,n/a,Notre-Dame-du-Rosaire,Crysler,1.3,n/a
+2981,2637,stable,Queen Elizabeth II,Chatham,1.9,3.1
+3015,n/a,n/a,St Gregor y Catholic,Cambridge,1.3,n/a
+2981,2677,improving,River view Alternative,Ottawa,1.9,2.6
+3021,2698,stable,G len Street,Oshawa,1.2,2.3
+2981,2690,stable,Dr. J. Edgar Davey,Hamilton,1.9,2.4
+3021,2715,stable,Willow Park S c,arborough,1.2,1.8
+2981,2708,stable,Mornington Central,Newton,1.9,2.1
+3021,n/a,n/a,Keewatin,Keewatin,1.2,n/a
+2981,2723,stable,Pinecrest,Timmins,1.9,1.5
+3024,2645,stable,Prince Charles B,rantford,1.1,3.0
+2988,2537,stable,Regina Street O,ttawa,1.8,3.7
+3024,2676,improving,Glen Cairn,London,1.1,2.6
+2988,2544,improving,Jersey,Keswick,1.8,3.7
+3024,2693,stable,Parkland Sault Ste.,Marie,1.1,2.4
+2988,2635,improving,Grenoble,Toronto,1.8,3.1
+3024,2711,improving,Eastview,Scarborough,1.1,2.0
+2988,2728,stable,Queen Mar y Street,Ottawa,1.8,1.2
+3024,2720,stable,Kiwedin Sault Ste.,Marie,1.1,1.7
+2988,n/a,n/a,Levack PS,Levack,1.8,n/a
+3024,2729,stable,Hawthorne O,ttawa,1.1,1.2
+2993,2502,stable,B osanquet Central,Thedford,1.7,3.9
+3024,2732,stable,Houghton,Langton,1.1,0.8
+2993,2604,improving,Ashley Oaks,London,1.7,3.3
+3031,2684,improving,Grandview,Brantford,0.9,2.5
+2993,2715,stable,Molly B rant,Kingston,1.7,1.8
+3031,2697,stable,St. Francis of Assisi,Kingston,0.9,2.3
+2993,2719,stable,St Peter's Parr y,Sound,1.7,1.7
+3031,n/a,n/a,Mother St Bride Nor th,Bay,0.9,n/a
+2993,n/a,n/a,Armstrong,Armstrong,1.7,n/a
+3031,n/a,n/a,St Hedwig,Oshawa,0.9,n/a
+2993,n/a,n/a,Central,Brantford,1.7,n/a
+3031,n/a,n/a,Trafalgar Public,London,0.9,n/a
+2999,2176,improving,Marguerite-Bourgeois,Borden,1.6,4.8
+3036,2681,stable,Rober t E Wilson,Vanier,0.8,2.6
+2999,2415,improving,Roselands,York,1.6,4.2
+3036,n/a,n/a,Emily C. General S,Ohsweken,0.8,n/a
+2999,2539,stable,Nelson Mandela Park,Toronto,1.6,3.7
+3036,n/a,n/a,Iroquois Falls Iroquois,Falls,0.8,n/a
+2999,n/a,n/a,St Bernadette,London,1.6,n/a
+3039,2713,stable,Trent R iver,Trenton,0.7,2.0
+3003,2066,stable,St Peter,Woodbridge,1.5,5.0
+3039,n/a,n/a,Aileen Wright English,Cochrane,0.7,n/a
+3003,2618,stable,Metc alfe Metc,alfe,1.5,3.2
+3039,n/a,n/a,École Sép Sainte-Anne,Mattawa,0.7,n/a
+3003,2690,stable,G eneral Mercer,Toronto,1.5,2.4
+3042,2730,stable,G raham B ell-Vic toria B,rantford,0.6,1.1
+3003,2696,stable,Sioux Mountain Sioux,Lookout,1.5,2.4
+3043,2725,stable,S chumacher S,chumacher,0.5,1.4
+3003,2704,stable,B lossom Park G,loucester,1.5,2.3
+3044,2721,stable,Vic toria,London,0.4,1.5
+3003,2727,stable,A ssomption Kirkland,Lake,1.5,1.3
+3045,2733,stable,John Graves Simcoe,Kingston,0.3,0.5
+3009,2361,improving,Pinewood Sault Ste.,Marie,1.4,4.3
+3046,n/a,n/a,Diamond Jubilee,Kapuskasing,0.1,n/a
+3009,2448,improving,Saint-Joseph,Wawa,1.4,4.0
+3047,2717,stable,Princess Elizabeth B,rantford,0.0,1.8
+3009,2657,stable,S anta Maria,Toronto,1.4,2.8
+3047,2722,stable,Federal Kirkland,Lake,0.0,1.5
+3009,2666,improving,East View Sault Ste.,Marie,1.4,2.8
+3047,2726,stable,R ideau Heights,Kingston,0.0,1.3
+3009,2717,stable,C C Carrothers,London,1.4,1.8
+3047,2734,stable,M inistik Moose Fac tor,y,0.0,0.3
+3009,n/a,n/a,Warsaw,Warsaw,1.4,n/a
+3047,n/a,n/a,Centennial-Grand Woodlands,Brantford,0.0,n/a
+3015,2167,stable,A J Charbonneau,Arnprior,1.3,4.8
+3047,n/a,n/a,Holy Saviour,Marathon,0.0,n/a
+3015,2618,improving,Notre-Dame,Hanmer,1.3,3.2
