@@ -392,6 +392,22 @@
       margin-bottom: 0.15rem;
     }
 
+    .french-immersion-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-radius: 4px;
+      padding: 0.1rem 0.4rem;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
     .school-meta {
       display: flex;
       align-items: center;
@@ -883,7 +899,12 @@
                 {% endif %}
                 
                 <div class="school-details">
-                  <div class="school-name">{{ s.school }}</div>
+                  <div class="school-name">
+                    {{ s.school }}
+                    {% if s.is_french_immersion %}
+                      <span class="french-immersion-badge">French Immersion</span>
+                    {% endif %}
+                  </div>
                   <div class="school-meta">
                     <span class="school-range">{{ s.grade_range }}</span>
                     <span class="school-bullet">&bull;</span>

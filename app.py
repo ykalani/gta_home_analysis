@@ -336,12 +336,18 @@ def find_school_details(osm_name):
         is_public = (school_type == "Public") and ("Pub" in board_type)
         
         name_lower = school_name.lower()
-        is_french_immersion = (school_lang == "French") or \
+        osm_lower = osm_name.lower()
+        is_exclusively_french = (school_lang == "French")
+        is_french_immersion = (school_lang == "English") and (
                                ("immersion" in name_lower) or \
                                ("français" in name_lower) or \
-                               ("francais" in name_lower)
+                               ("francais" in name_lower) or \
+                               ("immersion" in osm_lower) or \
+                               ("français" in osm_lower) or \
+                               ("francais" in osm_lower)
+                              )
                               
-        return best_row.get("Grade Range", "JK-8"), is_public, is_french_immersion, city, school_name
+        return best_row.get("Grade Range", "JK-8"), is_public, is_french_immersion, is_exclusively_french, city, school_name
 
     # Fallback parsing on OSM school name if not matched in contact list
     name_lower = osm_name.lower()
@@ -352,12 +358,10 @@ def find_school_details(osm_name):
         "mennonite", "anglican", "protestant", "academy", "seminary"
     ])
              
-    is_french = ("immersion" in name_lower) or \
-                ("français" in name_lower) or \
-                ("francais" in name_lower) or \
-                ("french" in name_lower)
+    is_exclusively_french = ("école" in name_lower or "ecole" in name_lower or "l'élémentaire" in name_lower or "élémentaire" in name_lower or "elementaire" in name_lower) and not ("immersion" in name_lower)
+    is_french_immersion = ("immersion" in name_lower)
                 
-    return "JK-8", is_pub, is_french, None, osm_name
+    return "JK-8", is_pub, is_french_immersion, is_exclusively_french, None, osm_name
 
 def covers_5_to_8(grade_range):
     if not isinstance(grade_range, str) or '-' not in grade_range:
@@ -383,7 +387,7 @@ def covers_5_to_8(grade_range):
 def match_fraser(osm_schools, house_lat, house_lng):
     results = []
     for s in osm_schools:
-        grade_range, is_public, is_french_immersion, official_city, official_name = find_school_details(s["name"])
+        grade_range, is_public, is_french_immersion, is_exclusively_french, official_city, official_name = find_school_details(s["name"])
         
         best_score, best_rating, best_rating_5yr = 0.0, None, None
         if FRASER_DF is not None:
@@ -437,7 +441,8 @@ def match_fraser(osm_schools, house_lat, house_lng):
             "dist_km": round(dist, 2),
             "grade_range": grade_range,
             "is_public": is_public,
-            "is_french_immersion": is_french_immersion
+            "is_french_immersion": is_french_immersion,
+            "is_exclusively_french": is_exclusively_french
         })
 
     return sorted(results, key=lambda x: x["dist_km"])
@@ -482,7 +487,7 @@ def index():
                     
                     # Section 2: Public Schools Nearby (excluding private/religious)
                     # We only keep standard secular public schools (is_public=True)
-                    schools_public_all = [s for s in schools_all if s["is_public"]]
+                    schools_public_all = [s for s in schools_all if s["is_public"] and not s["is_exclusively_french"]]
                     schools_public = sort_by_rating(schools_public_all)[:8]
 
                     result = {
