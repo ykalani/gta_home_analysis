@@ -69,7 +69,7 @@ def _load_ontario_schools():
             
     try:
         df = pd.read_csv(ONTARIO_SCHOOLS_TXT, sep="|")
-        df = df[['School Name', 'Grade Range', 'School Type', 'Board Type', 'School Language']].dropna(subset=['School Name', 'Grade Range'])
+        df = df[['School Name', 'Grade Range', 'School Type', 'Board Type', 'School Language', 'City']].dropna(subset=['School Name', 'Grade Range'])
         return df.to_dict(orient="records")
     except Exception as e:
         print(f"Error loading contact list: {e}", flush=True)
@@ -295,17 +295,25 @@ out center;
             
     return []
 
-
 # ── Fraser matching ───────────────────────────────────────────────────────────
-STOPWORDS = {"school","public","catholic","elementary","separate","community",
-             "junior","senior","the","of","and","la","de"}
+STOPWORDS = {
+    "school", "public", "catholic", "separate", "elementary", "community",
+    "junior", "senior", "middle", "the", "of", "and", "la", "de",
+    "st", "st.", "saint", "sainte", "dr", "sir", "mr", "mrs",
+    "académie", "academie", "collège", "college", "prep", "preparatory",
+    "alternative", "immersion", "french", "français", "francais"
+}
 
 def name_score(a, b):
-    wa = set(a.lower().split()) - STOPWORDS
-    wb = set(b.lower().split()) - STOPWORDS
+    # Replace slashes, hyphens, and other punctuation with spaces
+    a_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', a.lower())
+    b_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', b.lower())
+    wa = set(a_clean.split()) - STOPWORDS
+    wb = set(b_clean.split()) - STOPWORDS
     if not wa or not wb:
         return 0.0
-    return len(wa & wb) / max(len(wa), len(wb))
+    # Use standard Jaccard score for direct matching
+    return len(wa & wb) / len(wa | wb)
 
 def find_school_details(osm_name):
     best_score = 0.0
@@ -318,37 +326,38 @@ def find_school_details(osm_name):
             best_score = score
             best_row = row
             
-    if best_score >= 0.4 and best_row is not None:
+    if best_score >= 0.5 and best_row is not None:
         school_type = str(best_row.get("School Type", ""))
         board_type = str(best_row.get("Board Type", ""))
         school_lang = str(best_row.get("School Language", ""))
         school_name = str(best_row.get("School Name", ""))
+        city = str(best_row.get("City", ""))
         
         is_public = (school_type == "Public") and ("Pub" in board_type)
         
         name_lower = school_name.lower()
         is_french_immersion = (school_lang == "French") or \
-                              ("immersion" in name_lower) or \
-                              ("français" in name_lower) or \
-                              ("francais" in name_lower)
+                               ("immersion" in name_lower) or \
+                               ("français" in name_lower) or \
+                               ("francais" in name_lower)
                               
-        return best_row.get("Grade Range", "JK-8"), is_public, is_french_immersion
+        return best_row.get("Grade Range", "JK-8"), is_public, is_french_immersion, city, school_name
 
     # Fallback parsing on OSM school name if not matched in contact list
     name_lower = osm_name.lower()
-    is_pub = ("catholic" not in name_lower) and \
-             ("separate" not in name_lower) and \
-             ("académie" not in name_lower) and \
-             ("academie" not in name_lower) and \
-             ("collège" not in name_lower) and \
-             ("college" not in name_lower)
+    is_pub = not any(k in name_lower for k in [
+        "catholic", "separate", "académie", "academie", "collège", "college",
+        "private", "religious", "prep", "preparatory", "christian", "khalsa",
+        "islamic", "muslim", "jewish", "hebrew", "adventist", "lutheran",
+        "mennonite", "anglican", "protestant", "academy", "seminary"
+    ])
              
     is_french = ("immersion" in name_lower) or \
                 ("français" in name_lower) or \
                 ("francais" in name_lower) or \
                 ("french" in name_lower)
                 
-    return "JK-8", is_pub, is_french
+    return "JK-8", is_pub, is_french, None, osm_name
 
 def covers_5_to_8(grade_range):
     if not isinstance(grade_range, str) or '-' not in grade_range:
@@ -374,22 +383,57 @@ def covers_5_to_8(grade_range):
 def match_fraser(osm_schools, house_lat, house_lng):
     results = []
     for s in osm_schools:
-        best_score, best_rating = 0.0, None
+        grade_range, is_public, is_french_immersion, official_city, official_name = find_school_details(s["name"])
+        
+        best_score, best_rating, best_rating_5yr = 0.0, None, None
         if FRASER_DF is not None:
             for _, row in FRASER_DF.iterrows():
-                sc = name_score(s["name"], str(row.get("name", "")))
-                if sc > best_score:
-                    best_score = sc
+                fraser_city = str(row.get("city", ""))
+                fraser_name = str(row.get("name", ""))
+                
+                # Normalize names for containment check
+                a_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', s["name"].lower())
+                b_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', fraser_name.lower())
+                wa = set(a_clean.split()) - STOPWORDS
+                wb = set(b_clean.split()) - STOPWORDS
+                
+                if not wa or not wb:
+                    continue
+                    
+                intersection = len(wa & wb)
+                jaccard = intersection / len(wa | wb)
+                containment = intersection / min(len(wa), len(wb))
+                
+                score = 0.0
+                if jaccard >= 0.55:
+                    score = jaccard
+                elif containment >= 0.8 and official_city and fraser_city:
+                    fc_norm = re.sub(r'[^a-z]', '', fraser_city.lower())
+                    oc_norm = re.sub(r'[^a-z]', '', official_city.lower())
+                    toronto_sub = {"toronto", "northyork", "scarborough", "etobicoke", "eastyork", "york"}
+                    if fc_norm == oc_norm or (fc_norm in toronto_sub and oc_norm in toronto_sub):
+                        score = containment * 0.9  # penalize subset slightly
+                        
+                if score > best_score:
+                    best_score = score
                     best_rating = row.get("rating")
+                    best_rating_5yr = row.get("rating_5yr")
                     
         dist = haversine_km(house_lat, house_lng, s["lat"], s["lng"])
-        rating = float(best_rating) if best_score >= 0.3 and best_rating is not None and not pd.isna(best_rating) else None
-        
-        grade_range, is_public, is_french_immersion = find_school_details(s["name"])
+        rating = float(best_rating) if best_score >= 0.5 and best_rating is not None and not pd.isna(best_rating) else None
+        rating_5yr = str(best_rating_5yr) if best_score >= 0.5 and best_rating_5yr is not None and not pd.isna(best_rating_5yr) else None
+        if rating_5yr == "n/a":
+            rating_5yr = None
+        else:
+            try:
+                rating_5yr = float(rating_5yr)
+            except (ValueError, TypeError):
+                rating_5yr = None
         
         results.append({
             "school": s["name"],
             "rating": rating,
+            "rating_5yr": rating_5yr,
             "dist_km": round(dist, 2),
             "grade_range": grade_range,
             "is_public": is_public,
@@ -405,6 +449,7 @@ def sort_by_rating(schools_list):
     rated = sorted([s for s in schools_list if s["rating"] is not None], key=lambda x: -x["rating"])
     unrated = sorted([s for s in schools_list if s["rating"] is None], key=lambda x: x["dist_km"])
     return rated + unrated
+
 
 
 # ── Routes ────────────────────────────────────────────────────────────────────
@@ -435,24 +480,17 @@ def index():
                     osm_schools = overpass_schools(lat, lng)
                     schools_all = match_fraser(osm_schools, lat, lng)
                     
-                    # Section 2: Best Schools Nearby (sorted by rating)
-                    schools = sort_by_rating(schools_all)[:8]
-                    
-                    # Section 3: Public Schools (5-8 Span) Nearby (sorted by rating)
-                    # Filter: Must be public, must cover 5-8 span, must not be French Immersion
-                    schools_middle_all = [
-                        s for s in schools_all 
-                        if covers_5_to_8(s["grade_range"]) and s["is_public"] and not s["is_french_immersion"]
-                    ]
-                    schools_middle = sort_by_rating(schools_middle_all)[:8]
+                    # Section 2: Public Schools Nearby (excluding private/religious)
+                    # We only keep standard secular public schools (is_public=True)
+                    schools_public_all = [s for s in schools_all if s["is_public"]]
+                    schools_public = sort_by_rating(schools_public_all)[:8]
 
                     result = {
                         "address": address,
                         "commute_day": commute_day,
                         "commute_time": commute_time,
                         "google_route": google_route,
-                        "schools": schools,
-                        "schools_middle": schools_middle,
+                        "schools_public": schools_public,
                         "fraser_loaded": FRASER_DF is not None,
                     }
             except Exception as e:

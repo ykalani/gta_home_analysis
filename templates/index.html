@@ -243,7 +243,7 @@
     /* Results layout (Asymmetrical architectural split grid) */
     .results-layout {
       display: grid;
-      grid-template-columns: 1fr 1px 1fr 1px 1fr;
+      grid-template-columns: 1fr 1px 1fr;
       gap: 2.5rem;
       margin-top: 2rem;
       border-top: 1px solid var(--border);
@@ -862,53 +862,13 @@
       <!-- Divider Line -->
       <div class="vertical-divider"></div>
  
-      <!-- Column Middle: Nearby elementary schools -->
-      <div class="column-middle">
-        <h2 class="section-title">Best Schools</h2>
-        
-        {% if result.schools %}
-          <div class="school-list">
-            {% for s in result.schools %}
-              <div class="school-item">
-                {% if s.rating is not none %}
-                  {% if s.rating >= 7.0 %}
-                    <div class="school-rating high">{{ "%.1f"|format(s.rating) }}</div>
-                  {% elif s.rating >= 5.0 %}
-                    <div class="school-rating mid">{{ "%.1f"|format(s.rating) }}</div>
-                  {% else %}
-                    <div class="school-rating low">{{ "%.1f"|format(s.rating) }}</div>
-                  {% endif %}
-                {% else %}
-                  <div class="school-rating none">N/A</div>
-                {% endif %}
-                
-                <div class="school-details">
-                  <div class="school-name">{{ s.school }}</div>
-                  <div class="school-meta">
-                    <span class="school-range">{{ s.grade_range }}</span>
-                    <span class="school-bullet">&bull;</span>
-                    <span class="school-distance">{{ s.dist_km }} km</span>
-                  </div>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-          <p class="note">Showing up to 8 schools sorted by Fraser Institute ratings (highest to lowest), followed by unrated schools closest by distance.</p>
-        {% else %}
-          <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No schools found within 3 km via OpenStreetMap query.</p>
-        {% endif %}
-      </div>
- 
-      <!-- Divider Line -->
-      <div class="vertical-divider"></div>
- 
-      <!-- Column Right: Middle & Elementary (5-8 Span) -->
+      <!-- Column Right: Public Schools (excluding private/religious) -->
       <div class="column-right">
         <h2 class="section-title">Public Schools</h2>
         
-        {% if result.schools_middle %}
+        {% if result.schools_public %}
           <div class="school-list">
-            {% for s in result.schools_middle %}
+            {% for s in result.schools_public %}
               <div class="school-item">
                 {% if s.rating is not none %}
                   {% if s.rating >= 7.0 %}
@@ -928,14 +888,16 @@
                     <span class="school-range">{{ s.grade_range }}</span>
                     <span class="school-bullet">&bull;</span>
                     <span class="school-distance">{{ s.dist_km }} km</span>
+                    <span class="school-bullet">&bull;</span>
+                    <span>5-Yr Avg: {% if s.rating_5yr is not none %}{{ "%.1f"|format(s.rating_5yr) }}{% else %}N/A{% endif %}</span>
                   </div>
                 </div>
               </div>
             {% endfor %}
           </div>
-          <p class="note">Showing up to 8 schools covering the grade 5-8 span (such as 4-8, 5-8, JK-8), sorted by Fraser Institute ratings (highest to lowest), followed by unrated schools closest by distance.</p>
+          <p class="note">Showing up to 8 public schools (excluding private & religious schools), sorted by Fraser Institute ratings (highest to lowest), followed by unrated schools closest by distance.</p>
         {% else %}
-          <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No schools covering the 5-8 span found within 3 km.</p>
+          <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; padding: 3rem 0;">No public schools found within 3 km.</p>
         {% endif %}
       </div>
  
